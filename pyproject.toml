@@ -1,0 +1,23 @@
+
+[project]
+authors = [
+  {name = "paintoxic", email = "andres.lopez@y.uno"},
+]
+dependencies = [
+  "fastapi>=0.98.0",
+  "uvicorn>=0.22.0",
+  "yunopyutils>=1.0.0a2",
+]
+description = ""
+license = {text = "MIT"}
+name = ""
+requires-python = ">=3.9"
+version = ""
+
+[tool.pdm.dev-dependencies]
+dev = [
+  "autopep8>=2.0.2",
+]
+
+[tool.pdm.scripts]
+export = {cmd = "pdm export -f requirements -o requirements.txt --without-hashes --prod", help = "Generate requirements file"}

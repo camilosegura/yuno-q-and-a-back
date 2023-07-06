@@ -1,0 +1,16 @@
+version: "3.4"
+
+services:
+  app:
+    image: app:local
+    build:
+      context: .
+      target: debugger
+    environment:
+      PY_ENV: development
+      ASGI_ENV: docker
+      PORT: "8000"
+      HOST: "0.0.0.0"
+    ports:
+      - 8000:8000
+      - 5678:5678
