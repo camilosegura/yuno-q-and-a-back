@@ -41,7 +41,7 @@ def _launch_asgi_server(app: FastAPI):
 
 
 def main():
-    from posts.routes import routes
+    from routes import routes
 
     _SVC = getenv("APP_ID", "fastapi")
 

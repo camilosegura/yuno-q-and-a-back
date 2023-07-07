@@ -1,4 +1,4 @@
-from ..functions.example.use_cases import hello_use_case
+from functions.example.use_cases import hello_use_case
 
 
 class ExampleController(object):

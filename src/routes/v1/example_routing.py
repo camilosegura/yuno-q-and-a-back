@@ -1,6 +1,6 @@
-from ...controllers import example_controller
+from controllers import example_controller
 from fastapi import APIRouter
-from ...handlers.errors import has_errors
+from handlers.errors import has_errors
 
 example_router = APIRouter()
 
