@@ -1,4 +1,5 @@
 
+from yunopyutils import build_logger
 from logging import getLogger
 from os import getenv
 from fastapi import FastAPI
@@ -8,6 +9,7 @@ from uvicorn import run, config
 _DEVELOPMENT_ENV = 'development'
 _ASGI_ENV = getenv('ASGI_ENV', _DEVELOPMENT_ENV)
 _PREFIX_PATH = getenv("PREFIX_PATH", "/prefix")
+_LOGGER = build_logger(__file__)
 
 
 class Unless():
@@ -60,3 +62,8 @@ def main():
     if (_ASGI_ENV != _DEVELOPMENT_ENV):
         _launch_asgi_server(app)
     return app
+
+
+if __name__ == '__main__':
+    _LOGGER.debug("Starting FastAPI")
+    main()
