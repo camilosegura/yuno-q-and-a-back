@@ -6,19 +6,11 @@ Template de servicio web construido usando [Fast API](https://fastapi.tiangolo.c
 
 Las variables de entorno que usa el proyecto estan contenidas en el archivo [.env.example](.env.example)
 
-## Estructura de codigo
-
-Para la construccion de esta API se uso la arquitectura limpia, para estructurarse, algunos conceptos que se deberian conocer son :
-
-- Polimorfismo
-- Herencia
-- Abstraccion
-
 ## Flujo de los datos
 
 Los datos siguen el siguiente flujo :
 
-routes -> controller -> use cases -> repository -> implementation
+routes -> controller -> use_cases
 
 [routes](src/posts/routes/__init__.py) : Describe los endpoints de la aplicacion
 
@@ -31,12 +23,15 @@ routes -> controller -> use cases -> repository -> implementation
 Puedes encontrar informacion de PDM en el siguiente link [PDM DOCS](https://pdm.fming.dev/latest/usage/dependency/)
 
 - Para agregar paquetes
+
   - `pdm add <PACKAGE>`
 
 - Para agregar paquetes como una dependencia de desarrollo
+
   - `pdm add -dG dev <PACKAGE>`
 
 - Para instalar los paquetes presentes en el proyecto
+
   - `pdm install`
 
 - Para generar el archivo `requirements.txt`, a partir de las dependencias del proyecto
