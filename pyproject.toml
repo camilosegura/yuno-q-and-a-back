@@ -20,4 +20,6 @@ dev = [
 ]
 
 [tool.pdm.scripts]
+_.env_file = ".env"
+dev    = {cmd = "pdm run uvicorn --app-dir=src main:start_app --port 3000 --reload --factory"}
 export = {cmd = "pdm export -f requirements -o requirements.txt --without-hashes --prod", help = "Generate requirements file"}
