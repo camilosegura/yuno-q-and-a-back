@@ -8,7 +8,7 @@ Las variables de entorno que usa el proyecto estan contenidas en el archivo [.en
 
 ## Flujo de los datos
 
-Los datos siguen el siguiente flujo :
+Los datos siguen el siguiente flujo:
 
 routes -> controller -> use_cases
 
@@ -34,5 +34,11 @@ Puedes encontrar informacion de PDM en el siguiente link [PDM DOCS](https://pdm.
 
   - `pdm install`
 
+- Para iniciar el servidor de desarrollo
+
+  - `pdm run dev`
+
 - Para generar el archivo `requirements.txt`, a partir de las dependencias del proyecto
   - `pdm run export`
+
+El archivo `pyproject.toml` dispone la información respecto del proyecto, autores, dependencias, y scripts.
