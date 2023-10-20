@@ -1,0 +1,391 @@
+Nuvei - SPEI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov2.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACCieloCredibancoDatafastFiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedebanTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeCredixDaviPlatadLocalEbanxFirst Atlantic Commerce (FAC)KushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PayRedeSafetyPayStoneSTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CityNuvei - SPEISuggest EditsThis page presents all information related to the Nuvei connection using Bank Transfer as payment. Use the following buttons to navigate to the desired section.
+
+
+
+
+
+General Information
+
+
+
+
+
+
+
+Testing Guidelines
+
+
+
+
+
+
+
+Integration Configuration
+
+
+
+
+
+
+
+Production environment
+
+
+
+
+
+
+
+
+Connecting with Yuno
+
+
+
+
+
+Mandatory fields when integrating via Yuno:
+
+             first_name  last_name  email  telephone  country
+          
+
+
+
+
+
+General information
+
+
+
+
+
+Countries:
+
+
+
+
+
+Mexico
+
+
+
+
+Currencies:
+
+            MXN
+          
+
+
+Minimum amount:
+
+            1 MXN
+          
+
+
+Type of integration:
+
+            Redirect
+          
+
+
+
+
+
+Testing guidelines for sandbox environment
+
+
+
+
+
+Necessary fields for testing:
+
+
+Merchant ID: necessary to authenticate your request.
+Site ID: necessary to authenticate your request.
+Secret key: Use for the creation of the Authorization.
+
+
+
+
+
+
+
+
+
+Integration configuration
+
+
+
+
+
+Credentials and steps to obtain them:
+
+
+Log in to Nuvei dashboard.
+Navigate to Settings.
+Select My Integration Settings.
+Copy your Merchant ID and Site ID.
+Select Reveal and get your Secret Key.
+
+
+
+
+Dashboard configuration:
+
+
+Log in to dashboard.y.uno.
+Click Connections and then select Nuvei.
+Click Connect.
+Introduce Name, Merchant ID, Site ID and Secret Key.
+Click Connect.
+
+
+
+
+
+
+
+Production environment
+
+
+
+
+
+Specific procedure for a merchant to go live:
+
+           Yes, there is a flow, channels, SLA, Data Entry required to make the integration. 
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Send feedback
+      
+
+
+
+Updated 24 days ago Table of Contents
+Connecting with Yuno
+General information
+Testing guidelines for sandbox environment
+Integration configuration
+Production environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

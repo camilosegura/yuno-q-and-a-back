@@ -1,0 +1,1128 @@
+Stripe - Cards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov2.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACCieloCredibancoDatafastFiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedebanTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeCredixDaviPlatadLocalEbanxFirst Atlantic Commerce (FAC)KushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PayRedeSafetyPayStoneSTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CityStripe - CardsSuggest EditsThis page presents all information related to the Stripe connection using Cards as payment. Use the following buttons to navigate to the desired section.
+
+
+
+
+
+General Information
+
+
+
+
+
+
+
+Captures
+
+
+
+
+
+
+
+Refunds
+
+
+
+
+
+
+
+Voids
+
+
+
+
+
+
+
+Installments
+
+
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+Testing Guidelines
+
+
+
+
+
+
+
+Integration Configuration
+
+
+
+
+
+
+
+Production Environment
+
+
+
+
+
+
+
+
+Connecting with Yuno
+
+
+
+
+
+Mandatory fields when integrating via Yuno:
+
+             - 
+          
+
+
+
+
+
+General information
+
+
+
+
+
+Countries:
+
+
+
+
+
+Australia
+
+
+
+
+
+Austria
+
+
+
+
+
+Belgium
+
+
+
+
+
+Brazil
+
+
+
+
+
+Bulgaria
+
+
+
+
+
+Canada
+
+
+
+
+
+Croatia
+
+
+
+
+
+Cyprus
+
+
+
+
+
+Czechia
+
+
+
+
+
+Denmark
+
+
+
+
+
+Finland
+
+
+
+
+
+France
+
+
+
+
+
+Germany
+
+
+
+
+
+Gibraltar
+
+
+
+
+
+Greece
+
+
+
+
+
+Hong Kong
+
+
+
+
+
+Hungary
+
+
+
+
+
+India
+
+
+
+
+
+Indonesia
+
+
+
+
+
+Ireland
+
+
+
+
+
+Italy
+
+
+
+
+
+Japan
+
+
+
+
+
+Latvia
+
+
+
+
+
+Liechtenstein
+
+
+
+
+
+Lithuania
+
+
+
+
+
+Luxembourg
+
+
+
+
+
+Malaysia
+
+
+
+
+
+Malta
+
+
+
+
+
+Mexico
+
+
+
+
+
+Netherlands
+
+
+
+
+
+New Zealand
+
+
+
+
+
+Norway
+
+
+
+
+
+Philippines
+
+
+
+
+
+Poland
+
+
+
+
+
+Portugal
+
+
+
+
+
+Romania
+
+
+
+
+
+Singapore
+
+
+
+
+
+Slovakia
+
+
+
+
+
+Slovenia
+
+
+
+
+
+Spain
+
+
+
+
+
+Sweden
+
+
+
+
+
+Switzerland
+
+
+
+
+
+Thailand
+
+
+
+
+
+United Arab Emirates
+
+
+
+
+
+United Kingdom
+
+
+
+
+
+United States
+
+
+
+
+Currencies:
+
+            USD, AED, AFN*, ALL, AMD, ANG, AOA*, ARS*, AUD, AWG, AZN, BAM, BBD, BDT, BGN, BIF, BMD, BND, BOB*,
+            BRL*, BSD, BWP BYN, BZD, CAD, CDF, CHF, CLP*, CNY, COP*, CRC*, CVE*, CZK, DJF*, DKK, DOP, DZD, EGP,
+            ETB, EUR, FJD, FKP*, GBP, GEL, GIP, GMD, GNF*, GTQ*, GYD, HKD, HNL*, HTG, HUF, IDR, ILS, INR, ISK,
+            JMD, JPY, KES, KGS, KHR, KMF, KRW, KYD, KZT, LAK*, LBP, LKR, LRD, LSL, MAD, MDL, MGA, MKD, MMK, MNT,
+            MOP, MRO, MUR*, MVR, MWK, MXN, MYR, MZN, NAD, NGN, NIO*, NOK, NPR, NZD, PAB*, PEN* ,PGK, PHP, PKR, PLN,
+            PYG*, QAR, RON, RSD, RUB, RWF, SAR, SBD, SCR, SEK, SGD, SHP*, SLE, SLL, SOS, SRD*, STD*, SZL, THB, TJS,
+            TOP, TRY, TTD, TWD, TZS, UAH, UGX, UYU*, UZS, VND, VUV, WST, XAF, XCD, XOF*, XPF*, YER, ZAR, ZMW 
+Note: American Express doesn't accept the currencies marked with *
+
+
+
+Payment methods:
+
+
+
+
+
+Credit card
+
+
+
+
+
+Debit card
+
+
+
+
+
+Prepaid card
+
+
+
+
+Minimum amount:
+
+            The minimum amount is $0.50 US or equivalent in charge currency.
+          
+
+
+Maximum amount:
+
+            The amount value supports up to eight digits (e.g., a value of 99999999 for a USD charge of $999,999.99).
+          
+
+
+TRX limit:
+
+            For most APIs, Stripe allows up to 100 read operations per second and 100 write operations per second in
+            live mode, and 25 operations per second for each in test mode.
+          
+
+
+Support of international BIN:
+
+            Yes
+          
+
+
+
+TRX without CVV:
+
+            Yes
+          
+
+
+Purchase TRX in 1-Step:
+
+            Yes
+          
+
+
+Purchase TRX in 2-Step:
+
+            Yes
+          
+
+
+Support for recurrency:
+
+            Yes
+          
+
+
+Particularities:
+
+            Subscriptions require you to retain more information about your customers than one-time purchases do because
+            you need to charge customers in the future.
+          
+
+
+Webhooks:
+
+            Yes
+          
+
+
+
+
+
+Captures
+
+
+
+
+
+Partial capture:
+
+            Yes
+          
+
+
+
+Maximum time to capture an authorization:
+
+            7 by default. 
+          
+
+
+Captures over the amount of authorization:
+
+            No
+          
+
+
+
+
+
+Refunds
+
+
+
+
+
+Refund support:
+
+           Yes  
+          
+
+
+Partial refunds:
+
+           Yes 
+          
+
+
+Multiple refunds:
+
+           Yes
+          
+
+
+
+Time to process refund:
+
+           Stripe submits refunds to your customer’s bank immediately. Depending on the bank's processing time, it can take anywhere from 5-10 business days to show up on your customer’s bank account.
+          
+
+
+
+
+
+Voids
+
+
+
+
+
+Void support:
+
+            Yes
+          
+
+
+Void to authorization:
+
+            Yes
+          
+
+
+Void to refund:
+
+            No
+          
+
+
+
+
+
+Installments
+
+
+
+
+
+Note:
+
+Installments available in Mexico.
+
+
+
+Capability to define the installments when creating the payment:
+
+             Yes
+            
+
+
+GET endpoint available for retrieving the permitted BIN for the installments:
+
+              Yes
+            
+
+
+Possibility to choose who will be responsible for financing installments:
+
+              No
+            
+
+
+Additional considerations of installments:
+
+
+Meses sin intereses only works with payment mode.
+Stripe only supports installments for Stripe Mexico accounts.
+The payment method must be a credit card issued in Mexico.
+The card must be a consumer card – installments don’t support corporate cards.
+The card must be issued by one of Stripe's supported issuers. The currency value must be MXN (pesos).
+The total payment amount must be above a minimum transaction amount. Stripe provides a minimum transaction amount based on the number of months in the plan selected. You can specify which installment plans you want to enable and define your own custom minimum and maximum transaction amounts by configuring custom installment settings in the Dashboard.
+
+
+
+
+Number of installments (#months):
+
+              3, 6, 9, 12, 18, and 24 installment plans available
+            
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+Notifications of chargebacks:
+
+            Yes
+          
+
+
+Defined period to make a chargeback:
+
+            Card networks typically allow cardholders to initiate disputes within 120 days of the original payment, but their rules allow more time in some situations.  
+          
+
+
+Endpoint for disputes:
+
+            Yes
+          
+
+
+Maximum time to dispute a chargeback (provide evidence):
+
+            Usually 7-21 days, depending on the card network.
+          
+
+
+
+
+
+Security
+
+
+
+
+
+Address verification service:
+
+            Yes
+          
+
+
+Support for 0Auth:
+
+            Yes
+          
+
+
+E3DS v2:
+
+            Yes
+          
+
+
+
+
+
+Testing guidelines for sandbox environment
+
+
+
+
+
+Necessary fields for testing:
+
+            Secret key.
+          
+
+
+Test cards:
+
+
+
+Brand
+Number
+CVC
+Date
+
+
+Visa
+4242424242424242
+Any 3 digits
+Any future date
+
+
+Visa (debit)
+4000056655665556
+Any 3 digits
+Any future date
+
+
+Mastercard
+5555555555554444
+Any 3 digits
+Any future date
+
+
+Mastercard (2-series)
+2223003122003222
+Any 3 digits
+Any future date
+
+
+Mastercard (debit)
+5200828282828210
+Any 3 digits
+Any future date
+
+
+Mastercard (prepaid)
+5105105105105100
+Any 3 digits
+Any future date
+
+
+American Express
+378282246310005
+Any 4 digits
+Any future date
+
+
+American Express
+371449635398431
+Any 4 digits
+Any future date
+
+
+Discover
+6011111111111117
+Any 3 digits
+Any future date
+
+
+Discover
+6011000990139424
+Any 3 digits
+Any future date
+
+
+Discover (debit)
+6011981111111113
+Any 3 digits
+Any future date
+
+
+Diners Club
+3056930009020004
+Any 3 digits
+Any future date
+
+
+Diners Club (14-digit card)
+36227206271667
+Any 3 digits
+Any future date
+
+
+JCB
+3566002020360505
+Any 3 digits
+Any future date
+
+
+UnionPay
+6200000000000005
+Any 3 digits
+Any future date
+
+
+
+Testing installments Mexico:
+
+
+
+Number
+Brand
+CVC
+Date
+
+
+4000002500001001
+Cartes Bancaires / Visa
+Any 3 digits
+Any future date
+
+
+5555552500001001
+Cartes Bancaires / Mastercard
+Any 3 digits
+Any future date
+
+
+
+
+
+Limitations/ Specifications for testing:
+
+            For test cards by country, declined payments, fraud prevention, invalid data, disputes, refunds, 3ds and
+            available balance see https://stripe.com/docs/testing
+
+
+
+
+
+
+
+Integration configuration
+
+
+
+
+
+Credentials and steps to obtain them:
+
+Secret key:
+            
+Log in into Stripe dashboard.
+Validate it is in the right environment (Test Mode ON/OFF).
+Go to Developers section.
+Go to API keys on the left menu.
+Copy the content of the column TOKEN for Secret key (Reveal key option) and copy.
+Set it on the Secret key field on the Yuno dashboard.
+
+
+
+
+
+Configuration of webhooks in partner:
+
+            Stripe supports two endpoint types, Account and Connect. Create an endpoint for Account unless you’ve created a Connect application. Use the following steps to register a webhook endpoint in the Developers Dashboard.
+           
+Open the Webhooks page.
+Click Add endpoint.
+Add your webhook endpoint’s HTTPS URL in Endpoint URL.
+If you have a Stripe Connect account, enter a description and select Listen to events on Connected accounts.
+Select the event types you’re currently receiving in your local webhook endpoint in Select events.
+Click Add endpoint.
+
+
+
+
+
+
+
+Production environment
+
+
+
+
+
+Specific procedure for a merchant to go live:
+
+           -
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Send feedback
+      
+
+
+
+Updated 24 days ago Table of Contents
+Connecting with Yuno
+General information
+Captures
+Refunds
+Voids
+Installments
+Chargebacks
+Security
+Testing guidelines for sandbox environment
+Integration configuration
+Production environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,287 @@
+The Checkout Session Object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov2.0HomeGuidesAPI ReferenceDashboardStatus PageSearchJUMP TOOverviewIntroductionAuthenticationHTTP Response CodesReferenceAirline informationCountry referenceECI indicators listIndustry categoryItems categoryPayment typePurposes listTransaction categoryCustomersManage CustomersThe Customer ObjectCreate CustomerpostRetrieve CustomergetRetrieve Customer by External IDgetUpdate CustomerpatchEnrollmentStatusCustomer SessionsThe Customer Session ObjectCreate Customer SessionpostPayment Methods (Checkout)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Payment Method By IDgetRetrieve Payment Method by Customer SessiongetUnenroll Payment MethodpostPayment Methods (Direct Workflow)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Enrolled Payment MethodsgetRetrieve Enrolled Payment Method by IdgetUnenroll Payment MethodpostCheckoutCheckout SessionsThe Checkout Session ObjectCreate Checkout SessionpostRetrieve Payment Methods for CheckoutgetPaymentsStatus and Response CodesPaymentsTransactionsManage PaymentsThe Payment ObjectCreate PaymentpostRetrieve Payment by IDgetRetrieve Payment by Merchant Order IDgetRefund PaymentpostCancel PaymentpostAuthorize PaymentpostCapture Authorizationpost3DS (Direct Workflow)SetuppostPayments with 3DS SplitCreate PaymentpostComplete PaymentpostPayments ExamplesBank TransferBNPLCardsPayment LinkTicketWalletPAYOUTSStatusManage PayoutsThe Payout ObjectCreate PayoutpostRetrieve Payout by IDgetRetrieve Payout by Merchant ReferencegetRelease PayoutpostCancel PayoutpostReportsStatusManage ReportsThe Reports ObjectReports FieldsCreate a ReportpostRetrieve a ReportgetDownload a ReportgetList All ReportsgetJUMP TOOverviewIntroductionAuthenticationHTTP Response CodesReferenceAirline informationCountry referenceECI indicators listIndustry categoryItems categoryPayment typePurposes listTransaction categoryCustomersManage CustomersThe Customer ObjectCreate CustomerpostRetrieve CustomergetRetrieve Customer by External IDgetUpdate CustomerpatchEnrollmentStatusCustomer SessionsThe Customer Session ObjectCreate Customer SessionpostPayment Methods (Checkout)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Payment Method By IDgetRetrieve Payment Method by Customer SessiongetUnenroll Payment MethodpostPayment Methods (Direct Workflow)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Enrolled Payment MethodsgetRetrieve Enrolled Payment Method by IdgetUnenroll Payment MethodpostCheckoutCheckout SessionsThe Checkout Session ObjectCreate Checkout SessionpostRetrieve Payment Methods for CheckoutgetPaymentsStatus and Response CodesPaymentsTransactionsManage PaymentsThe Payment ObjectCreate PaymentpostRetrieve Payment by IDgetRetrieve Payment by Merchant Order IDgetRefund PaymentpostCancel PaymentpostAuthorize PaymentpostCapture Authorizationpost3DS (Direct Workflow)SetuppostPayments with 3DS SplitCreate PaymentpostComplete PaymentpostPayments ExamplesBank TransferBNPLCardsPayment LinkTicketWalletPAYOUTSStatusManage PayoutsThe Payout ObjectCreate PayoutpostRetrieve Payout by IDgetRetrieve Payout by Merchant ReferencegetRelease PayoutpostCancel PayoutpostReportsStatusManage ReportsThe Reports ObjectReports FieldsCreate a ReportpostRetrieve a ReportgetDownload a ReportgetList All ReportsgetThe Checkout Session ObjectThis object represents a checkout session that can be created to make a payment. You can Create a Checkout Session using the id generated when the Customer resource was created.
+
+
+
+
+Notes
+
+
+Create a checkout session in only required for flow SDK_CHECKOUT
+Only one payment is supported per each checkout session
+The checkout session expires 2 hours after its creation
+
+
+
+
+
+Attributes
+
+
+checkout_session string
+The unique identifier of the checkout session (MAX 64 ; MIN 36).
+       Example: 9104911d-5df9-429e-8488-ad41abea1a4b 
+
+
+
+customer_id string
+The unique identifier of the customer (MAX 64 ; MIN 36).
+       Example: 9104911d-5df9-429e-8488-ad41abea1a4b 
+
+
+
+merchant_order_id string
+The unique identifier of the customer's order (MAX 255; MIN 3).
+       Example: 1234 
+
+
+
+payment_description string
+The description of the payment (MAX 255; MIN 3).
+       Example: Purchase in Pepito market 
+
+
+
+callback_url string
+The URL where to redirect the customer after the payment (MAX 526; MIN 3).
+       Example: https://www.company.com/customer_1231324 
+
+
+
+country enum
+Country where the transaction must be processed (MAX 2; MIN 2; ISO 3166-1).
+       Possible enum values: Check the Country reference. 
+
+
+
+created_at timestamp
+Checkout Session creation date and time (MAX 27; MIN 27; ISO 8601).
+       Example: 2022-05-09T20:46:54.786342Z 
+
+
+
+amount object
+Specifies the payment amount object, with the value and currency.
+
+
+currency enum
+The currency used to make the payment (MAX 3; MIN 3; ISO 4217).
+         Possible enum values: Check the Country reference. 
+
+value float
+The payment amount (multiple of 0.0001).
+         Example: 23.5676 
+
+
+
+
+metadata array of objects
+
+Specifies a list of metadata objects. You can add up to 50 metadata objects.
+
+
+
+metadata object object
+
+Specifies a metadata key and the respective value.
+
+
+key string
+Specifies one metadata key.
+             Example: age 
+
+value string
+Specifies the value for the defined metadata key.
+             Example: 28 
+
+
+
+
+
+
+Table of Contents
+Attributes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,800 @@
+Payvalida - Payment Link
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov2.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACCieloCredibancoDatafastFiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedebanTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeCredixDaviPlatadLocalEbanxFirst Atlantic Commerce (FAC)KushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PayRedeSafetyPayStoneSTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CityPayvalida - Payment LinkSuggest EditsThis page presents all information related to the Payvalida connection using Payment Link as payment. Use the following buttons to navigate to the desired section.
+
+
+
+
+
+General Information
+
+
+
+
+
+
+
+Captures
+
+
+
+
+
+
+
+Refunds
+
+
+
+
+
+
+
+Voids
+
+
+
+
+
+
+
+Installments
+
+
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+Testing Guidelines
+
+
+
+
+
+
+
+Integration Configuration
+
+
+
+
+
+
+
+Production Environment
+
+
+
+
+
+
+
+
+Connecting with Yuno
+
+
+
+
+
+Mandatory fields when integrating via Yuno:
+
+            email  
+            payment_description  
+            tax_amount  
+            tax_percentage
+          
+
+
+
+
+
+General information
+
+
+
+
+
+Countries:
+
+
+
+
+
+Colombia
+
+
+
+
+
+Costa Rica
+
+
+
+
+
+Ecuador
+
+
+
+
+
+Guatemala
+
+
+
+
+
+Peru
+
+
+
+
+Currencies:
+
+            COP, CRC, GTQ, PEN, USD
+          
+
+
+Payment methods:
+
+
+
+
+
+Credit card
+
+
+
+
+
+Debit card
+
+
+
+
+
+Prepaid card
+
+
+
+
+
+Bank Transfer
+
+
+
+
+
+Wallet
+
+
+
+
+
+Cash
+
+
+
+
+Minimum amount:
+
+              The amount depends on the networks.
+          
+
+
+Maximum amount:
+
+              The amount depends on the networks.
+          
+
+
+TRX limit:
+
+            For cards, the amount depends on the networks.
+          
+
+
+Support of international BIN:
+
+            No
+          
+
+
+TRX without CVV:
+
+           Yes, for MasterCard.
+          
+
+
+Purchase TRX in 1-Step:
+
+           Yes
+          
+
+
+Purchase TRX in 2-Step:
+
+           No
+          
+
+
+Support for recurrency:
+
+            Yes
+          
+
+
+Particularities:
+
+            If the order is recurrent it doesn't expire and can be payed multiple times from the user. Recurrency only applies for cash payments.
+          
+
+
+Webhooks:
+
+            Yes
+          
+
+
+
+
+
+Refunds
+
+
+
+
+
+Refund support:
+
+           Yes  
+          
+
+
+Partial refunds:
+
+           In process. 
+          
+
+
+Multiple refunds:
+
+           In process.
+          
+
+
+Time to request refund:
+
+						15 working days from the specific causes defined by Payvalida. In any case can a refund be requested of transactions processed in more than 6 months before the request date.
+          
+
+
+Time to process refund:
+
+           15 working days.
+          
+
+
+
+
+
+Cancellation
+
+
+
+
+
+Cancellation support:
+
+            Yes. Order goes from pending to cancelled.
+          
+
+
+
+
+
+Voids
+
+
+
+
+
+Voids support:
+
+            No
+          
+
+
+
+
+
+Installments
+
+
+
+
+
+Installments support:
+
+              Yes
+            
+
+
+Capability to define the installments when creating the payment:
+
+              No
+            
+
+
+GET endpoint available for retrieving the permitted BIN for the installments:
+
+              Managed by the issuing bank and the user. Payvalida doesn't participate. 
+            
+
+
+Possibility to choose who will be responsible for financing installments:
+
+              Managed by the issuing bank and the user. Payvalida doesn't participate. 
+            
+
+
+Conditions or restrictions:
+
+              Managed by the issuing bank and the user. Payvalida doesn't participate. 
+            
+
+
+Deferral date availability:
+
+              Managed by the issuing bank and the user. Payvalida doesn't participate. 
+            
+
+
+Grace period:
+
+              Managed by the issuing bank and the user. Payvalida doesn't participate. 
+            
+
+
+Minimum number of installments (#months):
+
+              Managed by the issuing bank and the user. Payvalida doesn't participate. 
+            
+
+
+Maximum number of installments (#months):
+
+              Managed by the issuing bank and the user. Payvalida doesn't participate. 
+            
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+Notifications of chargebacks:
+
+            Yes
+          
+
+
+Defined period to make a chargeback:
+
+            15 working days from the specific causes defined by Payvalida. In any case can a chargeback be requested of transactions processed in more than 6 months before the request date.
+          
+
+
+Endpoint for disputes:
+
+            No, an email request should be sent.
+          
+
+
+Maximum time to dispute a chargeback (provide evidence):
+
+            5 working days.
+          
+
+
+
+
+
+Security
+
+
+
+
+
+Address verification service:
+
+            No
+          
+
+
+Support for 0Auth:
+
+            No
+          
+
+
+3DS V2:
+
+            Yes
+          
+
+
+
+
+
+Testing guidelines for sandbox environment
+
+
+
+
+
+Necessary fields:
+
+            Merchant ID, Client Secret and Notification Secret.
+          
+
+
+Test cards:
+
+
+
+Number
+Verification Code
+Expiration Date
+Franchise
+Notes
+
+
+377813402429063
+3551
+07/26
+AmEx
+
+
+5303710409428783
+355
+05/26
+MasterCard
+
+
+4513076106055348
+159
+06/26
+VISA
+
+
+36032429319768
+9052
+12/26
+DinersClub
+
+
+5529030604551745
+124
+11/26
+MasterCard
+Insufficient Funds
+
+
+
+
+
+
+
+
+Integration configuration
+
+
+
+
+
+Credentials and steps to obtain them:
+
+
+Go to Payvalida's developer dashboard (Sandbox and Production). 
+Go to the section API.
+Get your keys.
+
+
+
+
+Dashboard configuration:
+
+
+Log in to dashboard.y.uno.
+Click Connections and then select PayValida.
+Click Connect.
+Introduce Merchant ID,Client Secret, and Notification Secret.
+Click Connect
+
+
+
+
+Configuration of webhooks in partner:
+
+
+Go to Payvalida's developer dashboard (Sandbox and Production). 
+Go to the section Configure.
+Go to Account Profile.
+Set the webhook url in the field Notification URL.
+
+
+
+
+
+
+
+Production environment
+
+
+
+
+
+Specific procedure for a merchant to go live:
+
+            No, the conditions are administrative. The comercial agent facilitates the access to production after finalizing the implementation. 
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Send feedback
+      
+
+
+
+Updated 24 days ago Table of Contents
+Connecting with Yuno
+General information
+Refunds
+Cancellation
+Voids
+Installments
+Chargebacks
+Security
+Testing guidelines for sandbox environment
+Integration configuration
+Production environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

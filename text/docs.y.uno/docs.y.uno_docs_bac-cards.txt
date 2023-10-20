@@ -1,0 +1,595 @@
+BAC - Cards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov1.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACBBVA OpenpayCieloCredibancoDatafastFirst Atlantic Commerce (FAC)FiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedeRedebanStoneTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeBBVA OpenpayCredixDaviPlatadLocalEbanxKushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PaySafetyPaySTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CityBAC - CardsSuggest EditsThis page presents all information related to the BAC connection using Cards as payment. Use the following buttons to navigate to the desired section.
+
+
+
+
+
+General Information
+
+
+
+
+
+
+
+Captures
+
+
+
+
+
+
+
+Refunds
+
+
+
+
+
+
+
+Voids
+
+
+
+
+
+
+
+Installments
+
+
+
+
+
+
+
+Testing Guidelines
+
+
+
+
+
+
+
+Integration Configuration
+
+
+
+
+
+
+
+
+Connecting with Yuno
+
+
+
+
+
+Mandatory fields when integrating via Yuno:
+
+             No mandatory fields are required. However, the provider may request additional fields according to the merchant or to improve the approval rate.
+          
+
+
+
+
+
+
+General information
+
+
+
+
+
+Countries:
+
+
+
+
+
+Costa Rica
+
+
+
+
+
+El Salvador
+
+
+
+
+
+Guatemala
+
+
+
+
+
+Honduras
+
+
+
+
+
+Nicaragua
+
+
+
+
+
+Panama
+
+
+
+
+Currencies:
+
+            CRC, USD, GTQ, HNL, NIO 
+
+
+
+
+Purchase TRX in 2-Step:
+
+            Yes
+          
+
+
+Support for recurrency:
+
+            Yes
+          
+
+
+Webhooks:
+
+            No
+          
+
+
+
+
+
+Captures
+
+
+
+
+
+Partial capture:
+
+            Yes
+          
+
+
+Multiple captures:
+
+            No
+          
+
+
+Maximum time to capture an authorization:
+
+            7 days.
+          
+
+
+
+
+
+Refunds
+
+
+
+
+
+Refund support:
+
+           Yes  
+          
+
+
+Partial refunds:
+
+           Yes 
+          
+
+
+Multiple refunds:
+
+           Yes
+          
+
+
+
+
+
+
+Voids
+
+
+
+
+
+Void support:
+
+            Yes
+          
+
+
+Void to authorization:
+
+            Yes
+          
+
+
+Void to refund:
+
+            No
+          
+
+
+
+
+
+Installments
+
+
+
+
+
+Installments:
+
+              Supported (see conditions or restrictions).
+            
+
+
+Capability to define the installments when creating the payment:
+
+              No
+            
+
+
+GET endpoint available for retrieving the permitted BIN for the installments:
+
+              No
+            
+
+
+Possibility to choose who will be responsible for financing the installments:
+
+              No
+            
+
+
+Conditions or restrictions:
+
+              BAC supports installments, but it is not sent by API, it is done by terminal.
+            
+
+
+Deferral date availability:
+
+                No
+            
+
+
+Grace period:
+
+              No
+            
+
+
+
+
+
+Testing guidelines for sandbox environment
+
+
+
+
+
+Necessary fields for testing:
+
+            Terminal ID
+          
+
+
+Test cards:
+
+
+
+Card
+Number
+Exp Date
+CVV
+
+
+Visa
+4111111111111110
+may-25
+123
+
+
+Mastercard
+5431111111111110
+may-25
+123
+
+
+Discover
+6011601160116610
+may-25
+123
+
+
+Amex
+341111111111111 
+may-25
+1234
+
+
+
+
+
+
+
+
+Integration configuration
+
+
+
+
+
+Credentials and steps to obtain them:
+
+            Email your BAC Credomatic TAM and ask for your credentials.
+          
+
+
+Dashboard configuration:
+
+
+Log in to dashboard.y.uno.
+Click Connections and then select BAC.
+Click Connect.
+Introduce Name, Country and Terminal ID.
+Click Connect
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Send feedback
+      
+
+
+
+Updated 24 days ago Table of Contents
+Connecting with Yuno
+General information
+Captures
+Refunds
+Voids
+Installments
+Testing guidelines for sandbox environment
+Integration configuration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

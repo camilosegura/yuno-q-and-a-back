@@ -1,0 +1,292 @@
+Secure Fields
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov1.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACBBVA OpenpayCieloCredibancoDatafastFirst Atlantic Commerce (FAC)FiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedeRedebanStoneTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeBBVA OpenpayCredixDaviPlatadLocalEbanxKushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PaySafetyPaySTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CitySecure FieldsSuggest EditsSecure Fields creates a seamless and secure checkout flow on your website or app. With a set of prebuilt UI components available for Web, Android, and iOS, Secure Fields simplifies the process of collecting and tokenizing sensitive payment details.
+Streamlined payment process
+
+Secure Fields provides prebuilt UI components for collecting client card information.
+The optimized payment form includes fields with automatic formatting and validation as customers type.
+
+
+Customization and branding
+
+Secure Fields allows you to customize the UI to match your website or app's design.
+Custom styling rules give you complete control over the visual appearance.
+Maintaining a consistent visual identity reinforces your brand presence and provides a cohesive user interface.
+
+
+Tailored checkout experience
+
+You can choose which fields to present to customers, creating a tailored payment experience.
+Incomplete fields and potential filling errors are highlighted to ensure efficient information submission.
+
+
+Integration
+The integration workflow for the secure fields implementation of the SDK is the same as in the Lite SDK implementation. The only difference is that instead of listing cards as another payment method option in a list, before generating the one_time_token, you should display the credit card form with the secure fields for the customer to insert the credit card data. 
+Payment Security
+
+Secure Fields strictly adheres to PCI security standards, eliminating your need to handle sensitive data.
+Payment details are tokenized, preventing card information from touching your server.
+Tokenization protects against potential data breaches and ensures the security of customers' payment information.
+
+Secure Fields and Yuno UI Components can elevate your checkout experience. Simplify payment collection, enhance security, and create a seamless process that delights your customers.
+Choose a platform below to start building your integration
+
+
+
+
+
+
+
+        Web
+      
+
+
+
+
+
+
+
+        iOS
+      
+
+
+
+
+
+
+        Android
+      
+
+
+
+For more detailed information on initiating Yuno's Secure Fields please refer to our step-by-step guide according to the intengration required, Payment or Enrollment.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Send feedback
+      
+
+
+
+Updated 21 days ago Table of Contents
+Streamlined payment process
+Customization and branding
+Tailored checkout experience
+Integration
+Payment Security
+Choose a platform below to start building your integration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

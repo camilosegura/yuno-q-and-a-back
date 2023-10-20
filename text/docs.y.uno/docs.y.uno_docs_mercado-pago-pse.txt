@@ -1,0 +1,533 @@
+Mercado Pago - PSE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov1.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACBBVA OpenpayCieloCredibancoDatafastFirst Atlantic Commerce (FAC)FiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedeRedebanStoneTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeBBVA OpenpayCredixDaviPlatadLocalEbanxKushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PaySafetyPaySTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CityMercado Pago - PSESuggest EditsThis page presents all information related to the Mercado Pago connection using the PSE as payment. Use the following buttons to navigate to the desired section.
+
+
+
+
+
+General Information
+
+
+
+
+
+
+
+Refunds
+
+
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+
+
+Testing Guidelines
+
+
+
+
+
+
+
+Integration Configuration
+
+
+
+
+
+
+
+Production Environment
+
+
+
+
+
+
+
+
+Connecting with Yuno
+
+
+
+
+
+Mandatory fields when integrating via Yuno:
+
+            email  document_type  document_number  IP 
+    			
+
+
+
+
+
+General information
+
+
+
+
+
+Countries:
+
+
+
+
+
+Colombia
+
+
+
+
+Currencies:
+
+            COP
+          
+
+
+Minimum amount:
+
+            1600 COP
+          
+
+
+Maximum amount:
+
+           Defined by bank
+          
+
+
+TRX limit:
+
+           No, but it is important to inform the estimated volumes of a new integration in order to warn about the dimensioning to the tech teams, if necessary. 
+          
+
+
+Purchase TRX:
+
+            Allows your customers to pay with PSE using the savings or checking account from any Colombian bank.
+          
+
+
+Purchase TRX in 2-Step:
+
+            No
+          
+
+
+Support for recurrency:
+
+            No
+          
+
+
+Webhooks:
+
+            Yes
+          
+
+
+
+
+
+Refunds
+
+
+
+
+
+Refund support:
+
+            Yes
+          
+
+
+Partial sefunds:
+
+            Yes
+          
+
+
+Multiple refunds:
+
+            Yes
+          
+
+
+Time to request refund:
+
+            Within 180 days of its approval date.
+          
+
+
+Time to process refund:
+
+            10 - 13 working days.
+          
+
+
+
+
+
+Cancellation
+
+
+
+
+
+Cancellation support:
+
+            Yes
+          
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+Notifications of chargebacks:
+
+            No
+          
+
+
+
+
+
+Testing guidelines for sandbox environment
+
+
+
+
+
+
+Necessary fields for testing:
+
+            Public Key and Access Token
+          
+
+
+Requirements to create a sandbox payment:
+
+            To create a payment on the sandbox environment you need to use an email ending with @test.user.com, such as [email protected].
+          
+
+
+
+
+
+Integration configuration
+
+
+
+
+
+
+Credentials and steps to obtain them:
+
+            They can be found on the Dashboard or in your Mercado Pago account by accessing Your Business > Settings > Management and Administration > Credentials.
+            
+            Test credentials: Public Key, Access Token
+
+            Production credentials: Public Key, Access Token, Client ID, Client Secret
+
+
+
+
+Configuration of webhooks in partner:
+
+Via dashboard:
+            
+Create an application on the homepage of your Dashboard.
+With the application created, go to the Webhooks Notifications tab in your Dashboard and configure the
+                URLs of production and test from which notifications will be received.
+You will also be able to experiment and test if the indicated URL is receiving notifications
+                correctly, being able to verify the request, the response given by the server and the description of the
+                event.
+If you need to identify multiple accounts, at the end of the indicated URL you can indicate the
+                parameter ?customer=(sellername) endpoint to identify the sellers.
+Next, select the events from which you will receive notifications in json format via an HTTP POST to
+                the URL specified above. An event is any type of update to the reported object, including status or
+                attribute changes. See the events that can be configured in the table below.
+
+Setup while creating payments:
+            
+In the notification_url field, indicate the URL from which notifications will be received.
+Implement the notifications receiver.
+
+If you want to receive notifications only from Webhook and not from IPN, you can add in the
+              notification_url the parameter source_news=webhook. For example: 
+                https://www.yourserver.com/notifications?source_news=webhooks
+
+
+Note: When you receive a notification on your platform, Mercado Pago waits for a response to validate
+            that you received it correctly. For that, you must return an HTTP STATUS 200 (OK) or 201
+              (CREATED). If this response is not sent, it will be understood that you have not received the
+            notification and a further attempt to send it will be made until you submit the response.
+          
+
+
+
+
+
+Production environment
+
+
+
+
+
+Specific procedure for a merchant to go live:
+
+            If the merchant is part of a group of corporations that Mercado Pago follows-up punctually, a call to
+            validate the integration should be made, the test payments in Mercado Pago's system should ve revised,
+            thinking on a progressive roll-out method, etc.
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Send feedback
+      
+
+
+
+Updated 20 days ago Table of Contents
+Connecting with Yuno
+General information
+Refunds
+Cancellation
+Chargebacks
+Testing guidelines for sandbox environment
+Integration configuration
+Production environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

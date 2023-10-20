@@ -1,0 +1,1280 @@
+PayU - Cards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov2.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACCieloCredibancoDatafastFiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedebanTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeCredixDaviPlatadLocalEbanxFirst Atlantic Commerce (FAC)KushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PayRedeSafetyPayStoneSTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CityPayU - CardsSuggest EditsThis page presents all information about the PayU connection using Cards as payment. Use the following buttons to navigate to the desired section.
+
+
+
+
+
+General Information
+
+
+
+
+
+
+
+Captures
+
+
+
+
+
+
+
+Refunds
+
+
+
+
+
+
+
+Voids
+
+
+
+
+
+
+
+Installments
+
+
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+Testing Guidelines
+
+
+
+
+
+
+
+Integration Configuration
+
+
+
+
+
+
+
+Production Environment
+
+
+
+
+
+
+
+
+Connecting with Yuno
+
+
+
+
+
+Mandatory fields when integrating via Yuno:
+
+						nationality 
+            telephone_number 
+            country (transaction) 
+            cards.soft_descriptor 
+            tax_amount
+            tax_percentage
+          
+
+
+
+
+
+General information
+
+
+
+
+
+Countries:
+
+
+
+
+
+Argentina 
+
+
+
+
+
+Brazil
+
+
+
+
+
+Chile
+
+
+
+
+
+Costa Rica
+
+
+
+
+
+Colombia
+
+
+
+
+
+El Salvador
+
+
+
+
+
+Guatemala
+
+
+
+
+
+Honduras
+
+
+
+
+
+Mexico
+
+
+
+
+
+Panama
+
+
+
+
+
+Peru
+
+
+
+
+
+South Africa
+
+
+
+
+Currencies:
+
+            ARS, BRL, CRC, CLP, COP, GTQ, HNL, MXN, NIO, PAB, PEN, USD, ZAR
+          
+
+
+Payment methods:
+
+
+
+
+
+Credit card
+
+
+
+
+
+Debit card
+
+
+
+
+
+Prepaid card
+
+
+
+
+Minimum amount:
+
+            Generally defined by issuer bank, if an specific amount is required the configuration would be validated by
+            PayU.
+          
+
+
+Maximum amount:
+
+            Generally defined by issuer bank, if an specific amount is required the configuration would be validated by
+            PayU.
+          
+
+
+TRX limit:
+
+            No
+          
+
+
+Support of international BIN:
+
+            Yes, accepted in all countries.
+          
+
+
+Activation of functionality:
+
+            Yes, must be set up in Pay U's side.
+          
+
+
+TRX without CVV:
+
+            Supported for all countries except Panama. By default, processing credit cards without security code is not
+            enabled, available under customized commercial agreements.
+          
+
+
+Purchase TRX in 1-Step:
+
+            Supported in all countries.
+          
+
+
+Purchase TRX in 2-Step:
+
+            Argentina: Supported 
+            Brazil: Supported 
+            Chile: Supported, under request only 
+            Colombia: Supported, under request only 
+            Mexico: Supported 
+            Panama: Not supported 
+            Peru: Supported 
+
+
+
+Support for recurrency:
+
+            Yes
+          
+
+
+Particularities:
+
+            Tokenization, feature is available under customized commercial agreements.
+          
+
+
+Webhooks:
+
+            Yes
+          
+
+
+Supported businesses:
+
+            PayU doesn’t support crypto businesses.
+          
+
+
+
+
+
+Captures
+
+
+
+
+
+Partial capture:
+
+            Supported for all countries except Panama.
+          
+
+
+Multiple captures:
+
+            Argentina: Supported for local currency, must be enabled in your provider configuration.
+            
+            Brazil: Supported for local currency, must be enabled in your provider configuration.
+            
+            Chile: Supported.
+            
+            Colombia: Not supported.
+            
+            Mexico: Supported for local currency, must be enabled in your provider configuration.
+            
+            Panama: Not supported.
+            
+            Peru: Supported for local currency, must be enabled in your provider configuration.
+          
+
+
+Maximum time to capture an authorization:
+
+            Argentina: 14 days.
+            
+            Brazil: 7 days.
+            
+            Chile: 7 days.
+            
+            Colombia: 10 days.
+            
+            Mexico: 30 days.
+            
+            Peru: 7 days.
+          
+
+
+Captures over the amount of authorization:
+
+            No
+          
+
+
+
+
+
+Refunds
+
+
+
+
+
+Refund support:
+
+            Yes, supported for all countries.
+          
+
+
+Partial refunds:
+
+            Argentina: Supported for the following payment methods: VISA, MASTERCARD, AMEX, DINERS, Argencard.
+            
+            Brazil: Supported for the following payment methods: VISA, MASTERCARD, AMEX, DINERS.
+            
+            Chile: Supported.
+            
+            Colombia: Supported.
+            
+            Mexico: Supported for the following payment methods: VISA, MASTERCARD.
+            
+            Panama: Not supported.
+            
+            Peru: Not supported.
+          
+
+
+Multiple refunds:
+
+            Yes, not supported for Colombia or Panama.
+          
+
+
+Time to request refund:
+
+            Argentina: 10 min - 365 days (180 days for partial refunds)
+            
+            Brazil: 10 min (1 day for partial refunds) - 90 or 120 days*
+            
+            Chile: 10 min - 90 days
+            
+            Colombia: 10 min - 2 years
+            
+            Mexico: 10 min - 45 or 180 days*
+            
+            Panama: 10 min - 180 days
+            
+            Peru: 10 min -180 days
+            
+*Depending on the network
+
+
+
+Time to process refund:
+
+            Argentina: 1-30 working days
+            
+            Brazil: 1-15 working days
+            
+            Chile: 8-20 working days
+            
+            Colombia: 1-30 working days
+            
+            Mexico: 1-30 working days
+            
+            Panama: 1-8 working days
+            
+            Peru: 15-25 working days
+          
+
+
+
+
+
+Voids
+
+
+
+
+
+
+Void support:
+
+            Argentina: Supported (to support multiple and partial voids, you must enable multiple captures in your
+            provider configuration).
+            
+            Brazil: Supported (to support multiple and partial voids, you must enable multiple captures in your provider
+            configuration).
+            
+            Chile: Supported (multiple and partial voids not applicable).
+            
+            Colombia: Not supported.
+            
+            Mexico: Supported (to support multiple and partial voids, you must enable multiple captures in your provider
+            configuration).
+            
+            Panama: Not supported.
+            
+            Peru: Supported (to support multiple and partial voids, you must enable multiple captures in your provider
+            configuration).
+          
+
+
+Void to authorization:
+
+            Yes
+          
+
+
+Void to refund:
+
+            No
+          
+
+
+
+
+
+Installments
+
+
+
+
+
+
+Capability to define the installments when creating the payment:
+
+              Installments are supported for credit cards, not supported for Panama and Mexico. For Mexico, if
+              installments are required, commercial team should set the months without interests configuration or
+              integrate PayU's promotions API.
+            
+
+
+GET endpoint available for retrieving the permitted BIN for the installments:
+
+              No
+            
+
+
+Possibility to choose who will be responsible for financing installments:
+
+              Supported in Argentina and Mexico.
+            
+
+
+Conditions or restrictions:
+
+              Installments are managed per country.
+            
+
+
+Deferral date availability:
+
+              No
+            
+
+
+Grace period:
+
+              No
+            
+
+
+Minimum number of installments (#months):
+
+
+Argentina: 1
+Chile: 1
+Colombia: 1
+Brazil: 1
+Peru: 0, 2
+
+
+
+
+Maximum number of Installments (#months):
+
+
+Argentina: 24 (except for Naranja that supports up to 12).
+Chile: 48
+Colombia: 36
+Brazil: 12
+Peru: 36
+
+
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+
+Notifications of chargebacks:
+
+            Yes
+          
+
+
+Defined period to make a chargeback:
+
+            Up to 120 days after the transaction date for local cards and 180 days for international cards.
+          
+
+
+Endpoint for disputes:
+
+            No, there is an option to check them through the control panel.
+          
+
+
+Maximum time to dispute a chargeback (provide evidence):
+
+            Argentina: 5 working days.
+            
+            Brazil: 12 working days.
+            
+            Chile: 5 working days.
+            
+            Colombia: 2 working days.
+            
+            Mexico: 12 calendar days.
+            
+            Panama: 8 working days.
+            
+            Peru: 6 working days.
+          
+
+
+
+
+
+Security
+
+
+
+
+
+
+E3DS v2:
+
+            External 3DS 2.0 available for Brazil and Colombia supported for Visa and Mastercard.
+          
+
+
+
+
+
+Testing guidelines for sandbox environment
+
+
+
+
+
+
+Necessary fields for testing:
+
+            If you want to perform tests through PayU, you need to use the following credentials in the request,
+              depending on the country of your account:
+            
+
+Merchant ID
+508029
+
+
+API Login
+pRRXKOl8ikMmt9u
+
+
+API Key
+4Vj8eK4rloUd272L48hsrarnUA
+
+
+Public Key
+PKaC6H4cEDJD919n705L544kSU
+
+
+Account ID
+
+
+Argentina: 512322 
+Brazil: 512327
+Chile: 512325
+ Colombia: 512321
+Mexico: 512324
+Panama: 512326
+Peru: 512323 
+
+
+
+
+
+
+
+
+Test cards Argentina:
+
+
+
+Card
+Number
+
+
+AMEX Credit Card
+376414000000009
+
+
+ARGENCARD Credit Card
+5011050000000001
+
+
+CABAL Credit Card
+5896570000000008
+
+
+CENCOSUD Credit Card
+6034930000000005 - 5197670000000002
+
+
+DINERS Credit Card
+36481400000006 
+
+
+MASTERCARD Credit Card
+5399090000000009
+
+
+NARANJA Credit Card
+5895620000000002
+
+
+SHOPPING Credit Card
+6034880000000051
+
+
+VISA Credit Card
+4850110000000000 - 4036820000000001
+
+
+VISA Debit Card
+4517730000000000
+
+
+
+Test cards Brazil:
+
+
+
+Card
+Number
+
+
+AMEX Credit Card
+36213800000009
+
+
+DINERS Credit Card
+36213800000009
+
+ELO Credit Card
+5067310000000002
+
+
+HIPERCARD Credit Card
+6062825624254001
+
+
+MASTERCARD Credit Card
+5123740000000002
+
+
+VISA Credit Card
+4422120000000008 - 4984460000000008
+
+
+
+Test cards Chile:
+
+
+
+Card
+Number
+Cardholder
+CVV
+Expiration date
+
+
+AMEX Credit Card
+377825000000005
+Follow the testing values according to the expected result
+
+
+DINERS Credit Card
+36525200000002
+Follow the testing values according to the expected result
+
+
+MASTERCARD Credit Card
+5457210001000019
+BKN_DMC_001
+300
+12/25
+
+
+MASTERCARD Debit Card
+5204730000001003
+BKN_MCS_001
+100
+12/25
+
+
+MASTERCARD Prepaid Card
+5185540320000012
+BKN_DMC_001
+001
+12/25
+
+
+VISA Credit Card
+4761340000000035
+VISA_GLOBAL_3
+846
+12/27
+
+
+VISA International Card
+4005520000000129
+VISA_ECOMMERCE_03
+921
+12/27
+
+
+VISA Dedit Card
+4761340000000050
+VISA_GLOBAL_5
+846
+12/27
+
+
+
+Test cards Colombia:
+
+
+
+Card
+Number
+
+
+AMEX Credit Card
+377813000000001 - 377847626810864 - 376402004977124 - 376414000000009
+
+
+CODENSA Credit Card
+5907120000000009
+
+
+CRM Credit Card
+5282096712463427
+
+
+DAVIVIENDA Credit Card
+5247081012761500
+
+
+DINERS Credit Card
+36032400000007 - 36032404150519 - 36032440201896
+
+
+MASTERCARD Credit Card
+5471300000000003 - 5120697176068275
+
+
+NEQUI Credit Card
+4093551018099251
+
+
+VISA Credit Card
+4097440000000004 - 4037997623271984 - 4111111111111111
+
+
+VISA Debit Card
+4509420000000008
+
+
+
+Test cards Mexico:
+
+
+
+Card
+Number
+
+
+AMEX Credit Card
+376675000000005
+
+
+MASTERCARD Credit Card
+5491380000000001
+
+
+MASTERCARD Debit Card
+5256780000000007
+
+
+VISA Credit Card
+4268070000000002
+
+
+VISA Debit Card
+4415490000000004
+
+
+
+Test cards Panama:
+
+
+
+Card
+Number
+
+
+MASTERCARD Credit Card
+5455040000000005
+
+
+VISA Credit Card
+4723030000000005
+
+
+
+
+Test cards Peru:
+
+
+
+Card
+Number
+
+
+AMEX Credit Card
+377753000000009
+
+
+DINERS Credit Card
+36239200000000
+
+
+MASTERCARD Credit Card
+5491610000000001
+
+
+MASTERCARD Debit Card
+5236930000000003
+
+
+VISA Credit Card
+4907840000000005 - 4634010000000005
+
+
+VISA Debit Card
+4557880000000004
+
+
+
+
+
+Limitations/ Specifications for testing:
+
+To get approved transactions: 
+            Send APPROVED in the name of the cardholder. 
+            Send 777 in the CVV of the card (for AMEX, use 7777). 
+            The test parameter and the description also define the state. If it doesn't work with test set as false,
+            change its value to true. 
+            Send the month of the expiration date of the card less than 6 and the year must be 2023 or higher.
+            Example:
+            05/2025.
+
+To get declined transactions: 
+            Send REJECTED in the name of the cardholder.
+            Send 666 in the CVV of the card (for AMEX, use 6666).
+            The test parameter and the description also define the state. If it doesn’t work with test set as false,
+            change its value to true.
+            Send the month of the expiration date of the card higher than 6 and the year must be 2023 or higher.
+            Example: 07/2027.
+
+Aditional information: 
+            For the card number you must enter a valid number, corresponding to the franchise sent in the request. You
+            can use an online card generator for testing purposes or use one of the cards available for your country
+            mentioned before.
+            To test cards in Chile, use the cardholder name, CVV and expiration date displayed in the example cards.
+          
+
+
+
+
+
+Integration configuration
+
+
+
+
+
+Credentials and steps to obtain them:
+
+            There are two dashboards to obtain PayU credentials. PayU Latam to obtain the administrative module
+            credentials and PayU Hub/PaymentsOS where Latam credentials are configured and users can follow-up payments:
+            
+
+PayU Latam's module: 
+
+Log in to https://merchants.payulatam.com/.
+Click Settings and then select Technical configuration.
+In this window, you find the Public Key, API key and API Login which allows you to
+              authenticate your commerce during the integration procedure.
+
+
+PayU Hub/PaymentsOS:
+
+Log in to https://control.paymentsos.com/.
+Navigate to Accounts and Business Units.
+Select your created Business Unit and get your App ID, Public Key and Private
+                  Key.
+
+
+
+
+Dashboard configuration:
+
+
+Log in to dashboard.y.uno.
+Click Connections and then select PayU.
+Click Connect.
+Introduce Name and credentials: App ID, Public Key and Private Key.
+Click Connect.
+
+
+
+
+Configuration of webhooks in partner:
+
+PayU Hub/PaymentsOS
+
+Login to the PaymentsOS Control Center and
+                open the Webhooks configuration page (Accounts > Webhooks).
+              
+Select the test or live relevant environment.
+Enter an endpoint (the HTTPS URL), that Webhooks notifications should be sent to.
+Select the events to track from the Payment Event Alerts list.
+Select the business units to associate with the endpoint from the Associated Business Units list.
+
+
+              *Maximum Number of Webhooks: For each business unit in the live environment, you can configure maximum 10
+              webhooks per event. In the test environment, this is limited to 5 webhooks per event.
+            
+
+
+
+
+
+
+Production environment
+
+
+
+
+
+
+Specific procedure for a merchant to go live:
+
+            No
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Send feedback
+      
+
+
+
+Updated 23 days ago Table of Contents
+Connecting with Yuno
+General information
+Captures
+Refunds
+Voids
+Installments
+Chargebacks
+Security
+Testing guidelines for sandbox environment
+Integration configuration
+Production environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

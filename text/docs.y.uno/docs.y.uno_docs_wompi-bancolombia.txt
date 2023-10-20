@@ -1,0 +1,582 @@
+Wompi - Bancolombia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov1.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACBBVA OpenpayCieloCredibancoDatafastFirst Atlantic Commerce (FAC)FiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedeRedebanStoneTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeBBVA OpenpayCredixDaviPlatadLocalEbanxKushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PaySafetyPaySTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CityWompi - BancolombiaSuggest EditsThis page presents all information related to the Wompi connection using the Bancolombia as payment. Use the following buttons to navigate to the desired section.
+
+
+
+
+
+General Information
+
+
+
+
+
+
+
+Refunds
+
+
+
+
+
+
+
+Voids
+
+
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+Testing Guidelines
+
+
+
+
+
+
+
+Integration Configuration
+
+
+
+
+
+
+
+Production Environment
+
+
+
+
+
+
+
+
+Connecting with Yuno
+
+
+
+
+
+Mandatory fields when integrating via Yuno:
+
+						first_name  last_name  email  country(transaction)
+          
+
+
+
+
+
+General Information
+
+
+
+
+
+
+Countries:
+
+
+
+
+
+Colombia
+
+
+
+
+Currencies:
+
+            COP
+          
+
+
+Minimum amount:
+
+            1.500 COP
+          
+
+
+Maximum amount:
+
+            15.000.000 COP daily per client.
+
+
+
+TRX Limit:
+
+            150 transactions per second.
+          
+
+
+Purchase TRX:
+
+            Allows your customers to pay using their savings or checking account from Bancolombia.
+          
+
+
+Purchase TRX in 2-Step:
+
+            No
+          
+
+
+Support for recurrency:
+
+            No
+          
+
+
+Particularities:
+
+            No
+          
+
+
+Webhooks:
+
+            Yes
+          
+
+
+
+
+
+Refunds
+
+
+
+
+
+Refund Support:
+
+            No, in case of requiring a refund, the merchant must make a new transfer from its account to the shopper's.
+          
+
+
+
+
+
+Voids
+
+
+
+
+
+Void support:
+
+            No
+          
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+Notifications of chargebacks:
+
+            No
+          
+
+
+
+
+
+Security
+
+
+
+
+
+E3DS v2:
+
+            No
+          
+
+
+
+
+
+Testing guidelines for sandbox environment
+
+
+
+
+
+Necessary fields for testing:
+
+            Public key, private key and Eventos.
+          
+
+
+Limitations/ Specifications for testing:
+
+            For button Bancolombia payments, in the case of API integrations, you must send a sandbox_status within payment_method, when creating a transaction (using POST/ transactions endpoint).  
+            In the Widget, the following options will be available: 
+
+
+Transacción APROBADA:
+For approved transactions.
+
+
+Transacción DECLINADA:
+For declined transactions.
+
+
+Transacción con ERROR:
+For transactions with an error.
+
+
+
+
+
+
+
+
+Testing steps
+
+Bancolombia Transfer does not have a sandbox environment to interact with the end user. The payment is directly approved after sending the request to the provider in the first instance.
+In order to make a payment using Bancolombia Transfer, you should complete the following steps:
+
+Create Customer
+Create Checkout Session
+Create One Time Token / Get the token from SDK. The total amount should be bigger than COP 1500.
+Create Payment 
+
+Integration configuration
+
+
+
+
+
+Credentials and steps to obtain them:
+
+
+Log in to Wompi dashboard.
+Navigate to Developers.
+Get your API keys (public key and private key) and Secrets (Eventos and Integridad) for technical integration.
+
+            There are a pair of keys for each execution environment one for Sandbox and another for Production, the keys shown correspond to the activated environment: 
+            - For Sandbox the keys have a prefix pub_test_ and prv_test_ 
+            - For Production the keys have a prefix pub_prod_ and prv_prod_
+          
+
+
+Dashboard configuration:
+
+
+Log in to dashboard.y.uno.
+Click Connections and then select Wompi.
+Click Connect.
+Introduce Name, Public Key, Private Key, Eventos and the company's NIT
+Click Connect
+
+
+
+
+Configuration of webhooks in partner:
+
+Via dashboard:
+            
+Log in to Wompi dashboard.
+Navigate to Developers.
+Set up your Event URL.
+
+
+
+
+
+
+
+Production environment
+
+
+
+
+
+Specific procedure for a merchant to go live:
+
+            No
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Send feedback
+      
+
+
+
+Updated 24 days ago Table of Contents
+
+Connecting with Yuno
+
+
+General Information
+
+
+Refunds
+
+
+Voids
+
+
+Chargebacks
+
+
+Security
+
+
+Testing guidelines for sandbox environment
+
+Testing steps
+
+
+
+Integration configuration
+
+
+Production environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

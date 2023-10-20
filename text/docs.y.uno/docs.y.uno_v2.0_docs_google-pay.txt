@@ -1,0 +1,289 @@
+Google Pay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov2.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACCieloCredibancoDatafastFiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedebanTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeCredixDaviPlatadLocalEbanxFirst Atlantic Commerce (FAC)KushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PayRedeSafetyPayStoneSTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CityGoogle PaySuggest EditsGoogle Pay, a cutting-edge digital wallet and online payment system, revolutionizes how users make payments by securely storing credit card information. Unlike conventional payment methods, Google Pay ensures enhanced security and privacy throughout the payment process.
+When utilizing Google Pay, your confidential credit or debit card details are never directly shared with the merchant. Instead, a unique token is generated, serving as a representation of your payment information. This token is utilized for processing the payment, providing an extra layer of protection, and preventing unauthorized access to your personal data.
+Considering the distinct mechanism of Google Pay, it is essential to grasp its working principles before seamlessly integrating it with Yuno. 
+
+Familiarizing yourself with how Google Pay operates and understanding the process of creating tokens is vital to ensure a successful and secure integration with the Yuno platform. By harnessing the power of Google Pay and its advanced security features, you can elevate your payment experience and provide your customers with a safe and efficient payment solution.
+Requirements
+Before start looking how to integrate Google Pay into you system, it is essemtial to be sure that this payment method is available on your country. Use the Google Pay suport page to check if it is supports the countries where you operate.
+After, it is time to look which processors are available. Check the participating processors on Google's page.
+Providers
+To incorporate Google Pay into your system using Yuno, first, select one provider supporting this payment method. On Yuno, you have the following option:
+
+
+
+
+
+
+
+
+
+
+
+
+Adyen
+
+
+
+
+
+
+
+Cielo
+
+
+
+
+
+You must have credentials to connect to the selected provider using Yuno dashboard before integrating Google Pay.
+Integration
+You need to cover some steps to integrate Google Pay into your system using Yuno.
+
+First, you will review Google’s approval process for Android devices or Google Pay on the Web. 
+
+Start by checking the Terms of Service and Acceptable Use Policy. 
+Complete the tutorials and integration checklist. 
+Complete the integration checklist for Android or Web before requesting production credentials from Google.
+Finally, you will request your production access.
+
+
+Get the developer credentials from the provider you choose to start using with Yuno.
+
+
+
+
+
+Adyen connection
+
+
+				For Adyen, merchants need to create a testing account and get a MerchantAccount and a x-api-key.
+        
+
+
+
+
+
+Within the Yuno dashboard, select the Connections tab. Find the provider you choose and click Connect. Fulfill the side panel fields with your credentials. Below you will find examples of connecting panels for Adyen and Cielo.
+
+
+
+Create a route in Yuno's dashboard using the gateway you have connected. Access the Configure dynamic routing guide page for further information on creating routes.
+
+Enable and test Google Pay with Yuno
+After performing the integration on Yuno, you can enable Google Pay with Yuno and perform integration tests using the following steps:
+
+First, integrate Yuno's SDK into your app to ensure a smooth connection between your application and Yuno's platform.
+Create a Google Wallet Test Account:
+
+Visit the Google Wallet Test Account Sign-In page.
+If you don't have a Google account, you'll need to create one to proceed.
+Once signed in, you'll be redirected to the Google Wallet business console.
+
+
+Access the Google Wallet API Section:
+
+In the Google Wallet business console, navigate to the section related to API management or integration. It is found in the developer or integration settings.
+
+
+Select Create a Pass to Enable Demo Mode:
+
+Within the Google Wallet API section, locate the option labeled  Create a Pass.
+Click on this option to enable Demo mode. This mode allows you to simulate and test pass creation and interactions without making real transactions.
+
+
+
+
+
+Download the Google Wallet App from the Play Store.
+Navigate through the payment flow to test the integration.
+
+
+Following these steps you can ensure that Google Pay is integrated into your app and functioning perfectly.Updated 27 days ago Table of Contents
+Requirements
+Providers
+Integration
+Enable and test Google Pay with Yuno
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,599 @@
+PayPal - Smart Button
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov2.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACCieloCredibancoDatafastFiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedebanTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeCredixDaviPlatadLocalEbanxFirst Atlantic Commerce (FAC)KushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PayRedeSafetyPayStoneSTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CityPayPal - Smart ButtonSuggest EditsThis page presents all information related to the PayPal connection using Smart Button as payment. Use the following buttons to navigate to the desired section.
+
+
+
+
+
+General Information
+
+
+
+
+
+
+
+Captures
+
+
+
+
+
+
+
+Refunds
+
+
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+
+
+Testing Guidelines
+
+
+
+
+
+
+
+Integration Configuration
+
+
+
+
+
+
+
+Production Environment
+
+
+
+
+
+
+
+
+General information
+
+
+
+
+
+Countries:
+
+
+
+
+
+Available in over 200 countries  
+
+
+
+
+
+Currencies:
+
+            AUD, BRL, CAD, CNY, CZK, DKK, EUR, HKD, HUF, ILS, JPY, MYR, MXN, TWD, NZD, NOK, PHP, PLN, GBP, RUB, SGD, SEK, CHF, THB, USD.
+          
+
+
+Minimum amount:
+
+            Debit 1 USD.  
+          
+
+
+Maximum amount:
+
+					Debit 5000 USD          
+          
+
+
+Payment methods:
+
+
+
+
+
+Credit card
+
+
+
+
+
+Debit card
+
+
+
+
+
+BNPL
+
+
+
+
+
+TRX without CVV:
+
+            No 
+          
+
+
+Purchase TRX in 1-Step:
+
+           Yes
+          
+
+
+Purchase TRX in 2-Step:
+
+           Yes
+          
+
+
+Support for recurrency:
+
+            No
+          
+
+
+Webhooks:
+
+            Yes
+          
+
+
+
+
+
+Captures
+
+
+
+
+
+Partial capture:
+
+            Yes
+          
+
+
+Multiple captures:
+
+            Yes, you can complete partial captures during a single authorization period. For PayPal payment authorizations, you must enable this feature on your PayPal account.
+          
+
+
+Maximum time to capture an authorization:
+
+            While an authorization places a hold on the funds and is valid for 29 days, we recommend that you capture the funds within the three-day honor period. 
+          
+
+
+Captures over the amount of authorization:
+
+            Yes
+          
+
+
+Maximum amount:
+
+            You can reauthorize it for up to 115% of the originally authorized amount or an increase of $75 USD (whichever is the lesser amount).
+          
+
+
+
+
+
+Refunds
+
+
+
+
+
+Refund support:
+
+           Yes  
+          
+
+
+Partial refunds:
+
+           Yes
+          
+
+
+Multiple refunds:
+
+           No 
+          
+
+
+Time to request refund:
+
+					180 days after transaction date. 
+          
+
+
+Time to process refund:
+
+           5 business days.  
+          
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+Notifications of chargebacks:
+
+            Yes
+          
+
+
+Defined period to make a chargeback:
+
+            180 days or more after an order’s been placed.
+          
+
+
+Endpoint for disputes:
+
+            Yes
+          
+
+
+Maximum time to dispute a chargeback (provide evidence):
+
+            10 days.
+          
+
+
+
+
+
+Testing guidelines for sandbox environment
+
+
+
+
+
+Necessary fields for testing:
+
+            Client ID, Secret.
+          
+
+
+Test cards:
+
+             For testing cards in PayPal Sandbox use the Credit Card Generator for Testing. 
+          
+
+
+Limitations/ Specifications for testing:
+
+
+To simulate a successful credit card capture, you can test using a test card number.
+To simulate credit card failures, pass a rejection trigger in the First Name or Name on Card field in your existing advanced credit and debit card payment integration. You must use a Visa test card number. All failure test simulations show that the card is globally unavailable (AVS) and not processed (CVV), but the response-code value changes based on the test trigger you use. See For testing cards in PayPal Sandbox use the rejection triggers.
+
+            To ensure you handle errors correctly, use negative testing to force flows through specific error conditions. The sandbox is a positive test environment by default, to use negative testing, you must enable it. 
+          
+
+
+
+
+
+Integration configuration
+
+
+
+
+
+Credentials and steps to obtain them:
+
+
+Log in to the PayPal Developer Portal using the same credentials you use for PayPal.
+Select Dashboard.
+Click Create App under REST API apps. Any previously created REST API apps will appear in the table under the Create App button.
+Enter the name of your REST API app in the App Name field, and select a Sandbox developer account to associate with your account.
+Once your Live and Sandbox REST API credentials are created, including Client ID and Secret, click the Sandbox and Live buttons to switch between each set of credentials.
+
+
+
+
+Dashboard configuration:
+
+
+Log in to dashboard.y.uno.
+Click Connections and then select PayPal.
+Click Connect.
+Select Cash in Payment Methods.
+Introduce Name, Secret ID and Client ID.
+Click Connect.
+
+
+
+
+Configuration of webhooks in partner:
+
+
+Log in to the PayPal Developer Portal using the same credentials you use for PayPal.
+Select Dashboard.
+Select the application of your choice.
+In the bottom of the page, you can view the Webhooks section. Click in “Add Webhook”. 
+Enter the webhook url.
+Specify the events.
+Save
+
+
+
+
+
+
+
+Production environment
+
+
+
+
+
+Specific procedure for a merchant to go live:
+
+           -
+          
+
+
+Conciliation configuration:
+
+            SFTP   
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Send feedback
+      
+
+
+
+Updated 24 days ago Table of Contents
+General information
+Captures
+Refunds
+Chargebacks
+Testing guidelines for sandbox environment
+Integration configuration
+Production environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

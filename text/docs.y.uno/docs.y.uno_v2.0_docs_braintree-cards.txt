@@ -1,0 +1,1194 @@
+Braintree - Cards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov2.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACCieloCredibancoDatafastFiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedebanTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeCredixDaviPlatadLocalEbanxFirst Atlantic Commerce (FAC)KushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PayRedeSafetyPayStoneSTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CityBraintree - CardsSuggest EditsThis page presents all information related to the Braintree connection using Cards as payment. Use the following buttons to navigate to the desired section.
+
+
+
+
+
+General Information
+
+
+
+
+
+
+
+Captures
+
+
+
+
+
+
+
+Refunds
+
+
+
+
+
+
+
+Voids
+
+
+
+
+
+
+
+Installments
+
+
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+Testing Guidelines
+
+
+
+
+
+
+
+Integration Configuration
+
+
+
+
+
+
+
+Production Environment
+
+
+
+
+
+
+
+
+Connecting with Yuno
+
+
+
+
+
+Mandatory fields when integrating via Yuno:
+
+             No mandatory fields are required. However, the provider may request additional fields according to the merchant or to improve the approval rate.
+          
+
+
+
+
+
+General information
+
+
+
+
+
+Countries:
+
+
+
+
+
+Andorra
+
+
+
+
+
+Australia
+
+
+
+
+
+Austria
+
+
+
+
+
+Belgium
+
+
+
+
+
+Brazil
+
+
+
+
+
+Bulgaria
+
+
+
+
+
+Canada
+
+
+
+
+
+China
+
+
+
+
+
+Croatia
+
+
+
+
+
+Cyprus
+
+
+
+
+
+Czech Republic
+
+
+
+
+
+Denmark
+
+
+
+
+
+Estonia
+
+
+
+
+
+Finland
+
+
+
+
+
+France
+
+
+
+
+
+Germany
+
+
+
+
+
+Greece
+
+
+
+
+
+Guernsey
+
+
+
+
+
+Hong Kong SAR
+
+
+
+
+
+Hungary
+
+
+
+
+
+Iceland
+
+
+
+
+
+Ireland
+
+
+
+
+
+Isle of Man
+
+
+
+
+
+Italy
+
+
+
+
+
+Jersey
+
+
+
+
+
+Latvia
+
+
+
+
+
+Liechtenstein
+
+
+
+
+
+Lithuania
+
+
+
+
+
+Luxembourg
+
+
+
+
+
+Malaysia
+
+
+
+
+
+Malta
+
+
+
+
+
+Monaco
+
+
+
+
+
+Netherlands
+
+
+
+
+
+New Zealand
+
+
+
+
+
+Norway
+
+
+
+
+
+Poland
+
+
+
+
+
+Portugal
+
+
+
+
+
+Romania
+
+
+
+
+
+San Marino
+
+
+
+
+
+Singapore
+
+
+
+
+
+Slovakia
+
+
+
+
+
+Slovenia
+
+
+
+
+
+Spain
+
+
+
+
+
+Sweden
+
+
+
+
+
+Switzerland
+
+
+
+
+
+United Kingdom
+
+
+
+
+
+United States
+
+
+
+
+Currencies:
+
+            AED, AMD, ANG, AOA, ARS, AUD, AWG, AZN, BAM, BBD, BDT, BGN, BIF, BMD, BND, BOB, BRL, BSD, BWP, BYN, BZD, CAD, CHF, CLP, CNY, COP, CRC, CVE, CZK, DJF, DKK, DOP, DZD, EEK, EGP, ETB, EUR, FJD, FKP, GBP, GEL, GHS, GIP, GMD, GNF, GTQ, GYD, HKD, HNL, HRK, HTG, HUF, IDR, ILS, INR, ISK, JMD, JOY, KES, KGS, KHR, KYD, KMF, KRW, KZT, LAK, LBP, LKR, LRD, LSL, LTL, LVL, MAD, MDL, MKD, MNT, MOP, MUR, MVR, MWK, MXN, MYR, MZN, NAD, NGN, NIO, NOK, NPR, NZD, PAB, PEN, PGK, PHP, PKR, PLN, PYG, QAR, RON, RDS, RUB, RWF, SAR, SBD, SCR, SEK, SGD, SHP, SLL, SOS, SRD, STD, SVC, SZL, THB, TJS, TOP, TRY, TTD, TWD, TZS, UAH, UGX, USD, UYU, UZS, VEF, VND, VUV, WST, XAF, XCD, XOF, XPF, YER, ZAR, ZMK, ZWD.
+
+
+
+Payment methods:
+
+
+
+
+
+Credit card
+
+
+
+
+
+Debit card
+
+
+
+
+
+Prepaid card
+
+
+
+
+
+Apple Pay
+
+
+
+
+
+Google Pay
+
+
+
+
+Minimum amount:
+
+            No minimum amount.
+          
+
+
+Maximum amount:
+
+            No limit, it will depend on buyers credit card availability.
+          
+
+
+TRX limit:
+
+            There isn't a specified transaction limit.
+          
+
+
+Support of international BIN:
+
+            Yes.
+          
+
+
+Activation of functionality:
+
+            No need to activate it, if there is any limitations, it should be reported for Braintree team to analyze the bin.
+          
+
+
+TRX without CVV:
+
+            Yes.
+          
+
+
+Purchase TRX in 1-Step:
+
+            Yes
+          
+
+
+Purchase TRX in 2-Step:
+
+            Yes
+          
+
+
+Support for recurrency:
+
+            Yes
+          
+
+
+Webhooks:
+
+            Braintree offers webhook notifications for a specific set of trigger events that occur in your gateway. Such events can include subscription changes and opened disputes.
+          
+
+
+
+
+
+Captures
+
+
+
+
+
+Partial capture:
+
+            Yes
+          
+
+
+Multiple captures:
+
+            Multiple partial settlements are supported for most credit and debit card transactions – including those processed via Google Pay and Apple Pay. This feature can't be used with American Express or Discover card transactions (Multiple partial settlements are currently in a limited release and are only available to select merchants).
+          
+
+
+Maximum time to capture an authorization:
+
+            3 days.
+          
+
+
+Captures over the amount of authorization:
+
+            You can't settle more than the authorized amount unless your industry and processor support settlement adjustment (settling a certain percentage over the authorized amount). Contact braintree for details.
+          
+
+
+
+
+
+Refunds
+
+
+
+
+
+Refund support:
+
+           Yes  
+          
+
+
+Partial refunds:
+
+           Yes 
+          
+
+
+Multiple refunds:
+
+           Yes
+          
+
+
+Time to request refund:
+
+					No limit.
+          
+
+
+Time to process refund:
+
+           Refunds are settled immediately.
+          
+
+
+
+
+
+Voids
+
+
+
+
+
+Void support:
+
+            Yes
+          
+
+
+Void to authorization:
+
+            Yes
+          
+
+
+Void to refund:
+
+            Yes
+          
+
+
+
+
+
+Installments
+
+
+
+
+
+Capability to define the installments when creating the payment:
+
+              Yes
+            
+
+
+GET endpoint available for retrieving the permitted BIN for the installments:
+
+              No
+            
+
+
+Possibility to choose who will be responsible for financing the installments:
+
+              No
+            
+
+
+Conditions or restrictions:
+
+             For Brazil: Minimum amount suggested is 5,00 BRL.
+            
+
+
+
+
+Minimum number of Installments (#months):
+
+              Brazil: 1 
+            
+
+
+Maximum number of Installments (#months):
+
+              Brazil: 12
+            
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+Notifications of chargebacks:
+
+            There is a webhook service for disputes opened.
+          
+
+
+Defined period to make a chargeback:
+
+            Varies by bank.  
+          
+
+
+Endpoint for disputes:
+
+            No
+          
+
+
+Maximum time to dispute a chargeback (provide evidence):
+
+            Every dispute has a reply-by date listed in the Control Panel.
+          
+
+
+
+
+
+Security
+
+
+
+
+
+
+3DS v2:
+
+            Yes
+          
+
+
+
+
+
+Testing guidelines for sandbox environment
+
+
+
+
+
+Necessary fields for testing:
+
+            Merchant ID, Public Key, Private Key and Merchant Account ID.
+          
+
+
+Test cards:
+
+
+
+Card Brand
+PAN
+CVV
+
+
+American Express
+3782.8224.6310.005
+random
+
+
+American Express
+371449635398431
+random
+
+
+Diners Club*
+36259600000004
+random
+
+
+Discover
+6011000991300009
+random
+
+
+JCB
+3530111333300000
+random
+
+
+Maestro
+6304000000000000
+random
+
+
+Mastercard
+5555555555554444
+random
+
+
+Mastercard
+2223000048400011
+random
+
+
+Visa
+4111111111111111
+random
+
+
+Visa
+4005519200000004
+random
+
+
+Visa
+4009348888881881
+random
+
+
+Visa
+4012000033330026
+random
+
+
+Visa
+4012000077777777
+random
+
+
+Visa
+4012888888881881
+random
+
+
+Visa
+4217651111111119
+random
+
+
+Visa
+4500600000000061
+random
+
+
+UnionPay
+6243030000000001
+random
+
+
+UnionPay
+6221261111117766
+random
+
+
+UnionPay
+6223164991230014
+random
+
+
+
+
+
+Limitations/Specifications for testing:
+
+Transaction amounts
+When working with transactions, you can pass specific amounts to simulate different processor responses. Each test amount below will trigger the associated authorization response, regardless of the processing currency.
+
+
+Amount
+Authorization Response
+Settlement Response
+
+
+0.01 - 1999.99
+Authorized
+Settled
+
+
+2000.00 - 2999.99 
+Processor Declined with a processor response equal to the amount
+n/a
+
+
+3000.00 - 3000.99
+Failed with a 3000 processor response
+n/a
+
+
+3001.00 - 4000.99
+Authorized
+Settled
+
+
+4001.00 - 4001.99
+Authorized
+Settlement Declined on certain transaction types with a processor response equal to the amount; Settled on all others
+
+
+4002.00 - 4002.99
+Authorized
+Settlement Pending on PayPal transactions with a processor response equal to the amount; Settled on all others
+
+
+4003.00 - 5000.99
+Authorized
+Settlement Declined on certain transaction types with a processor response equal to the amount; Settled on all others
+
+
+5001.00
+Gateway Rejected with a reason of Application Incomplete
+n/a
+
+
+5001.01
+Processor Declined on PayPal transactions in the Mocked PayPal flow with a 2038 processor response. Authorized on all others
+n/a on PayPal transactions; Settled on all others
+
+
+5001.02
+Authorized
+Processor Unavailable on certain transaction types with a processor response of 3000; Settled on all others
+
+
+5002.00 and up
+Authorized
+Settled
+
+
+
+
+
+
+
+
+Integration configuration
+
+
+
+
+
+Credentials and steps to obtain them:
+
+
+Log in to Braintree dashboard.
+Navigate to Bussiness and get the Merchant ID.
+Navigate to API and get the other keys.
+
+
+
+
+Dashboard configuration:
+
+
+Log in to dashboard.y.uno.
+Click Connections and then select Braintree.
+Click Connect.
+Introduce Name, Merchant ID, Public Key, Private Key and Merchant Account ID.
+Click Connect
+
+
+
+
+Configuration of webhooks in partner:
+
+
+Log in to Braintree dashboard.
+Navigate to API and then Webhooks.
+Create a new Webhook and set them up with the redirectiong URL and relevant notifications.
+Save your changes.
+
+
+
+
+
+
+
+Production environment
+
+
+
+
+
+Specific procedure for a merchant to go live:
+
+            Going live must be conducted by a relationship manager from PayPal's Side.
+          
+
+
+Observations on the implementation:
+
+            Payments in other currencies must be configured on the account, this is one of the attribution of the parameter MerchantAccountID (not to be confused wit MerchantID), for every business rule, it needs another MerchantAccountID.
+          	
+
+
+Log in to Braintree dashboard.
+Navigate to Options and then Business.
+Create a new MerchantAccountID setting up the specific business rules.
+Save your changes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Send feedback
+      
+
+
+
+Updated 24 days ago Table of Contents
+Connecting with Yuno
+General information
+Captures
+Refunds
+Voids
+Installments
+Chargebacks
+Security
+Testing guidelines for sandbox environment
+Integration configuration
+Production environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

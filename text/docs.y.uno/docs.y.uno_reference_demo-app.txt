@@ -1,0 +1,217 @@
+Demo App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov1.0HomeGuidesAPI ReferenceDashboardStatus PageSearchJUMP TOOverviewIntroductionAuthenticationHTTP Response CodesReferenceAirline informationCountry referenceECI indicators listIndustry categoryItems categoryPayment typePurposes listTransaction categoryCustomersManage CustomersThe Customer ObjectCreate CustomerpostRetrieve CustomergetRetrieve Customer by External IDgetUpdate CustomerpatchEnrollmentStatusCustomer SessionsThe Customer Session ObjectCreate Customer SessionpostPayment Methods (Checkout)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Payment Method By IDgetRetrieve Payment Method by Customer SessiongetUnenroll Payment MethodpostPayment Methods (Direct Workflow)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Enrolled Payment MethodsgetRetrieve Enrolled Payment Method by IdgetUnenroll Payment MethodpostCheckoutCheckout SessionsThe Checkout Session ObjectCreate Checkout SessionpostRetrieve Payment Methods for CheckoutgetPaymentsStatus and Response CodesPaymentsTransactionsManage PaymentsThe Payment ObjectCreate PaymentpostRetrieve Payment by IDgetRetrieve Payment by Merchant Order IDgetRefund PaymentpostCancel PaymentpostAuthorize PaymentpostCapture Authorizationpost3DS (Direct Workflow)SetuppostPayments with 3DS SplitCreate PaymentpostComplete PaymentpostPayments ExamplesBank TransferBNPLCardsPayment LinkTicketWalletPayment LinksStatusManage Payment LinksThe Payment Link ObjectCreate Payment LinkpostRetrieve Payment LinkgetCancel Payment LinkpostPAYOUTSStatusManage PayoutsThe Payout ObjectCreate PayoutpostRetrieve Payout by IDgetRetrieve Payout by Merchant ReferencegetRelease PayoutpostCancel PayoutpostReportsStatusManage ReportsThe Reports ObjectReports FieldsCreate a ReportpostRetrieve a ReportgetDownload a ReportgetList All ReportsgetJUMP TOOverviewIntroductionAuthenticationHTTP Response CodesReferenceAirline informationCountry referenceECI indicators listIndustry categoryItems categoryPayment typePurposes listTransaction categoryCustomersManage CustomersThe Customer ObjectCreate CustomerpostRetrieve CustomergetRetrieve Customer by External IDgetUpdate CustomerpatchEnrollmentStatusCustomer SessionsThe Customer Session ObjectCreate Customer SessionpostPayment Methods (Checkout)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Payment Method By IDgetRetrieve Payment Method by Customer SessiongetUnenroll Payment MethodpostPayment Methods (Direct Workflow)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Enrolled Payment MethodsgetRetrieve Enrolled Payment Method by IdgetUnenroll Payment MethodpostCheckoutCheckout SessionsThe Checkout Session ObjectCreate Checkout SessionpostRetrieve Payment Methods for CheckoutgetPaymentsStatus and Response CodesPaymentsTransactionsManage PaymentsThe Payment ObjectCreate PaymentpostRetrieve Payment by IDgetRetrieve Payment by Merchant Order IDgetRefund PaymentpostCancel PaymentpostAuthorize PaymentpostCapture Authorizationpost3DS (Direct Workflow)SetuppostPayments with 3DS SplitCreate PaymentpostComplete PaymentpostPayments ExamplesBank TransferBNPLCardsPayment LinkTicketWalletPayment LinksStatusManage Payment LinksThe Payment Link ObjectCreate Payment LinkpostRetrieve Payment LinkgetCancel Payment LinkpostPAYOUTSStatusManage PayoutsThe Payout ObjectCreate PayoutpostRetrieve Payout by IDgetRetrieve Payout by Merchant ReferencegetRelease PayoutpostCancel PayoutpostReportsStatusManage ReportsThe Reports ObjectReports FieldsCreate a ReportpostRetrieve a ReportgetDownload a ReportgetList All ReportsgetDemo AppTo help you understand and check how the Yuno SDKs work, the Yuno team provides the Demo App. It provides implementation examples for all Yuno SDKs. Therefore, if you are having trouble running some SDK on your platform, you can check the working examples from the Demo App.
+Step 1: Clone the repository
+All files from the Demo App are available on a GitHub repository. To start using it, open your terminal, clone the repository, and change to the cloned directory:
+Shell> git clone https://github.com/yuno-payments/yuno-sdk-web.git
+> cd yuno-sdk-web
+
+Step 2: Update the environment variables
+First, you need to provide some information to run the application properly. Create a .env file in the root folder and define the following variables with your information:
+PORT=8080
+YUNO_X_ACCOUNT_CODE=your_account_code
+YUNO_PUBLIC_API_KEY=your_public_api_key
+YUNO_PRIVATE_SECRET_KEY=your_private_secret_key
+YUNO_API_URL=yuno-environment-url
+YUNO_CUSTOMER_ID=the_customer_id
+
+You can find account_code, public_apy_key, and private_secrete_key in Yuno Merchant Dashboard. Choose the Yuno_API_URL based on the current environment you are working on. You can choose between the sandbox and production URLs. Use the Create Customer endpoint to get the YUNO_CUSTOMER_ID.
+Step 3: Start the Demo App
+After defining the .env file, install all dependencies:
+Shell> npm install
+
+Now you are ready to run the application using the following command:
+Shell> npm start
+
+To access the running application, open your browser and go to:
+Shellhttp://localhost:YOUR-PORT
+
+Replace the Your-Port by the value defined in the .env file. Additionally, you can change the country by adding a query parameter named country to the URL with one of the country codes CO, BR, CL, PE, EC, UR, MX. The following example defines the URL to access an application running on the 8080 port and with Colombia as the country selected:
+Shellhttp://localhost:8080?country=CO
+
+You will find a panel, as presented below, with all Yuno SDKs available by accessing the URL. Select the desired SDK to check its appearance and how it works.
+
+
+Table of Contents
+Step 1: Clone the repository
+Step 2: Update the environment variables
+Step 3: Start the Demo App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

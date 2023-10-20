@@ -1,0 +1,1187 @@
+Place to Pay - Cards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov2.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACCieloCredibancoDatafastFiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedebanTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeCredixDaviPlatadLocalEbanxFirst Atlantic Commerce (FAC)KushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PayRedeSafetyPayStoneSTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CityPlace to Pay - CardsSuggest EditsThis page presents all information related to the Place To Pay connection using Cards as payment. Use the following buttons to navigate to the desired section.
+
+
+
+
+
+General Information
+
+
+
+
+
+
+
+Captures
+
+
+
+
+
+
+
+Refunds
+
+
+
+
+
+
+
+Voids
+
+
+
+
+
+
+
+Installments
+
+
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+Testing Guidelines
+
+
+
+
+
+
+
+Integration Configuration
+
+
+
+
+
+
+
+Production Environment
+
+
+
+
+
+
+
+
+Connecting with Yuno
+
+
+
+
+
+Mandatory fields when integrating via Yuno:
+
+            first_name  last_name  document_number 
+*The provider may request additional fields according to the merchant or to improve the approval rate.
+
+
+
+
+
+
+General information
+
+
+
+
+
+Countries:
+
+
+
+
+
+Belize
+
+
+
+
+
+Chile
+
+
+
+
+
+Colombia
+
+
+
+
+
+Costa Rica
+
+
+
+
+
+Ecuador
+
+
+
+
+
+Honduras
+
+
+
+
+
+Mexico
+
+
+
+
+
+Panamá
+
+
+
+
+
+Peru
+
+
+
+
+
+Puerto Rico
+
+
+
+
+
+Uruguay
+
+
+
+
+Currencies:
+
+            BZD, CLP, COP, CRC, HNL, MXN, PEN, USD, UYU
+          
+
+
+Payment methods:
+
+
+
+
+
+Credit card
+
+
+
+
+
+Debit card
+
+
+
+
+
+Prepaid card
+
+
+
+
+Minimum amount:
+
+            Placetopay adjusts to the maximum of the processor and, at the same time, to the maximum of the country. 
+          
+
+
+Maximum amount:
+
+            Placetopay adjusts to the maximum of the processor and, at the same time, to the maximum of the country. 
+
+
+
+TRX limit:
+
+            No
+          
+
+
+Support of international BIN:
+
+            Yes
+          
+
+
+Activation of functionality:
+
+            Yes, the functionality must be activated merchant-level.
+          
+
+
+TRX without CVV:
+
+            Yes 
+          
+
+
+Purchase TRX in 1-Step:
+
+           Yes
+          
+
+
+Purchase TRX in 2-Step:
+
+           Yes
+          
+
+
+Support for recurrency:
+
+            Yes
+          
+
+
+Webhooks:
+
+            Yes, notification URLs are supported for WebCheckout connection. Nevertheless, a consultation Gateway API process is supported.
+          
+
+
+
+
+
+Captures
+
+
+
+
+
+Partial capture:
+
+            No
+          
+
+
+Multiple captures:
+
+            No
+          
+
+
+Maximum time to capture an authorization:
+
+            1 month.
+          
+
+
+Captures over the amount of authorization:
+
+            Yes, depends on the processor.
+          
+
+
+Maximum amount:
+
+            Depends on the limits established by merchants and the processor.
+          
+
+
+
+
+
+Refunds
+
+
+
+
+
+Refund support:
+
+           Yes  
+          
+
+
+Partial refunds:
+
+           No 
+          
+
+
+Multiple refunds:
+
+           No 
+          
+
+
+Time to request refund:
+
+					Must be made the same day that the transaction is processed and before the cut of each processor network.  
+          
+
+
+Time to process refund:
+
+           Depends on the processor, generally 6 months.  
+          
+
+
+
+
+
+Voids
+
+
+
+
+
+Void support:
+
+            Yes
+          
+
+
+Void to authorization:
+
+            Yes
+          
+
+
+Void to refund:
+
+            No
+          
+
+
+
+
+
+Installments
+
+
+
+
+
+Capability to define the installments when creating the payment:
+
+              Yes
+            
+
+
+GET endpoint available for retrieving the permitted BIN for the installments:
+
+              Yes, informationRequest method via API returns permitted installments.
+            
+
+
+Possibility to choose who will be responsible for financing installments:
+
+              No
+            
+
+
+Deferral date availability:
+
+              Yes
+            
+
+
+Grace period:
+
+              Yes
+            
+
+
+Minimum number of Installments (#months):
+
+              Depends on each processor network, limited by the bank, BIN and country.
+            
+
+
+Maximum number of Installments (#months):
+
+              Depends on each processor network, limited by the bank, BIN and country.
+            
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+Notifications of chargebacks:
+
+            No
+          
+
+
+Defined period to make a chargeback:
+
+            There is not a limit, Placetopay adjusts to each country's regulation. 
+          
+
+
+Endpoint for disputes:
+
+            No
+          
+
+
+Maximum time to dispute a chargeback (provide evidence):
+
+            Depends on the secutiry configuration of each merchant and the management of the issuing banks.
+          
+
+
+
+
+
+Security
+
+
+
+
+
+
+E3DS v2:
+
+            Yes
+          
+
+
+
+
+
+Testing guidelines for sandbox environment
+
+
+
+
+
+Necessary fields for testing:
+
+            Login and secretKey.
+          
+
+
+Test cards Diners:
+
+
+
+Number
+Response
+
+
+36545400000008
+Approves
+
+
+36545400000248
+Rejects
+
+
+36545400000701
+Leaves transaction in manual processing and if it is processed it is approved
+
+
+36545407030701
+Leaves transaction in pending state and resolves to rejection
+
+
+36545407032814
+Throws an exception in the process
+
+
+36545400000438
+Takes 180 seconds to respond and is approved
+
+
+36545407032780
+Leaves transaction in manual processing and if it is processed it is approved 
+
+
+36545407032806
+Leaves transaction in pending state and resolves to approved 
+
+
+36545407032848
+Approves 
+
+
+
+Test cards Visa:
+
+
+
+Number
+Response
+
+
+4110760000000008
+Approves 3DS-C 
+
+
+4110760000000016
+Rejects 
+
+
+4110760000000032
+Leaves transaction in pending state and resolves to approved 3DS-C 
+
+
+4110760000000040
+Leaves transaction in pending state and resolves to rejection 3DS-A 
+
+
+4048370000000037
+Leaves transaction in pending state and resolves to rejection 
+
+
+4110760000000073
+Leaves transaction in pending state and resolves to approved  
+
+
+4110760000000065
+Throws an exception in the process 3DS-N  
+
+
+4110760000000024
+Takes 180 seconds to respond and is approved  
+
+
+4110760000000115
+Takes 180 seconds to respond and is rejected   
+
+
+4110760000000057
+Approves if the amount is inferior to 200USD, if not rejects    
+
+
+4110760000000081
+Approves   
+
+
+4012888888881881
+Approves if the expiraction is 11/28 and cvv 917, if not rejects
+
+
+4381080000000003
+Leaves transaction in pending state and resolves to rejection
+
+
+4005580000000040
+Rejects
+
+
+4110770010002837
+Approves
+
+
+4111111111111111
+Approves 3DS-Y
+
+
+4509564638437551
+Leaves transaction in pending state and resolves to approved
+
+
+4864921336824366
+Leaves transaction in pending state and resolves to rejection  
+
+
+4931974429847108
+Leaves transaction in pending state and resolves to rejection  
+
+
+4716375184092180
+Rejects  
+
+
+4532034637206853
+Leaves transaction in manual processing and if it is processed it is rejected  
+
+
+4212121212121214
+Leaves transaction in manual processing and if it is processed it is approved   
+
+
+4666666666666669
+Takes 180 seconds to respond and is approved    
+
+
+4381080000000029
+Approves      
+
+
+4381080000000011
+Rejects      
+
+
+
+Test cards Mastercard:
+
+
+
+Number
+Response
+
+
+5180300000000005
+Approves 3DS-Y    
+
+
+5180300000000039
+Rechaza 3DS-N    
+
+
+5180300000000047
+Leaves transaction in pending state and resolves to approved 3DS-C    
+
+
+5180300000000054
+Leaves transaction in pending state and resolves to rejection 3DS-A    
+
+
+5292594382060745
+Approves 3DS-C    
+
+
+5367680000000005
+Approves      
+
+
+5367680000000013
+Rejects      
+
+
+
+Test cards American Express:
+
+
+
+Number
+Response
+
+
+376651001281274
+Approves if the expiraction is 06/22 and cvv 4637, if not rejects    
+
+
+
+Test cards Discover:
+
+
+
+Number
+Response
+
+
+6550590000000001
+Approves    
+
+
+6550590000000019
+Rejects    
+
+
+6550590000000027
+Leaves transaction in pending state and resolves to approved     
+
+
+6550590000000035
+Leaves transaction in pending state and resolves to rejection      
+
+
+6557351234543156
+Approves      
+
+
+6557351234543164
+Rejects      
+
+
+
+Test cards Maestro:
+
+
+
+Number
+Response
+
+
+6759649826438453
+Approves      
+
+
+
+Test cards Somos:
+
+
+
+Number
+Response
+
+
+8810060001592705
+Approves      
+
+
+
+Test cards Exito:
+
+
+
+Number
+Response
+
+
+5903090000000000
+Approves      
+
+
+
+Test cards Alkosto:
+
+
+
+Number
+Response
+
+
+5903120000000000
+Approves      
+
+
+
+Test cards Comfandi:
+
+
+
+Number
+Response
+
+
+9391111111111111
+Approves      
+
+
+9395555555555555
+Rejects      
+
+
+
+Test cards Mefia:
+
+
+
+Number
+Response
+
+
+6377470102391155
+Approves if expiration is 12/24      
+
+
+6377470107014851
+Rejects      
+
+
+6377470106963215
+Approves      
+
+
+6377470100506457
+Approves      
+
+
+6377470105684614
+Leaves transaction in pending state and resolves to approved      
+
+
+6377470106813436
+ Leaves transaction in pending state and resolves to rejection      
+
+
+6377470106672139
+Rejects      
+
+
+
+Test cards Tarjeta ATH:
+
+
+
+Number
+Response
+
+
+0215020177972730
+Approves      
+
+
+2215714777972730
+Approves      
+
+
+0215025888083941
+Leaves transaction in pending state and resolves to rejection      
+
+
+2215716999194052
+Leaves transaction in pending state and resolves to approved       
+
+
+0215027111105163
+Leaves transaction in pending state and resolves to rejection        
+
+
+2215719446775653
+Throws an exception in the process        
+
+
+0215026116775785
+Rejects        
+
+
+
+
+
+Limitations/ Specifications for testing:
+
+ZIP codes for AVS test:
+
+
+ZIP code
+Response
+
+
+55555
+Approved transaction with succesful AVS (Y)
+
+
+44444
+Approved transaction with failed AVS (A) and reverses transaction
+
+
+33333
+Approved transaction with failed AVS (A) and rejects reverse. When consulted the reverse is succesful
+
+
+OTP for test cases (Ecuador):
+            For the OTP to be succesful, any other code is rejected.
+
+123456
+000000
+
+OTP in 3DS (Ecuador):
+            When the auhentication in 3DS requires challenge (OTP) the accepted code is 12345.
+          
+
+
+
+
+Integration configuration
+
+
+
+
+
+Credentials and steps to obtain them:
+
+            Sandbox and Production credentials are obtained via email from PlaceToPay's team. 
+          
+
+
+Dashboard configuration:
+
+
+Log in to dashboard.y.uno.
+Click Connections and then select PlaceToPay.
+Click Connect.
+Introduce Name, Login and Secret Key.
+Click Connect
+
+
+
+
+Configuration of webhooks in partner:
+
+           The merchant shares the notification URL to PlaceToPay and this is configured in PlaceToPay's system. 
+          
+
+
+
+
+
+Production environment
+
+
+
+
+
+Specific procedure for a merchant to go live:
+
+            Yes, each merchant should make a test for an amount not greater than 1USD, credentials are enabled and the merchant must confirm via email. If more attention is required, a space with specialist is reserved to take evidence of the test, nevertheless, this citation is dependent of the merchant, who must confirm the conciliation process the next day.
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Send feedback
+      
+
+
+
+Updated 24 days ago Table of Contents
+Connecting with Yuno
+General information
+Captures
+Refunds
+Voids
+Installments
+Chargebacks
+Security
+Testing guidelines for sandbox environment
+Integration configuration
+Production environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

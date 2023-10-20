@@ -1,0 +1,334 @@
+Full SDK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov1.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACBBVA OpenpayCieloCredibancoDatafastFirst Atlantic Commerce (FAC)FiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedeRedebanStoneTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeBBVA OpenpayCredixDaviPlatadLocalEbanxKushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PaySafetyPaySTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CityFull SDKSuggest EditsStep 1: Include the library in your project.
+Ensure the Yuno SDK file is included in your project through Gradle. First, add the repository source using the following code line:
+Kotlinmaven { url "https://yunopayments.jfrog.io/artifactory/snapshots-libs-release" }
+
+After, include the code below in the file build.gradle to add the Yuno SDK dependency to the application.
+Kotlindependencies {
+    implementation 'com.yuno.payments:android-sdk:{last_version}'
+}
+
+
+
+Permissions
+
+
+Yuno SDK includes by default INTERNET permission, once it is required to make network requests.
+XML<uses-permission android:name="android.permission.INTERNET"/>
+
+Step 2: Initialize SDK with the public key
+2.1. To initialize the Yuno SDK, first, you need to get your public API keys from the Yuno dashboard. Then, if you have not implemented a custom application yet, you will need to create one and call the initialize function in the method onCreate() of your application class.
+The following code snippet includes an example of a custom application:
+Kotlinclass CustomApplication : Application() {
+    override fun onCreate() {
+        super.onCreate()
+        Yuno.initialize(
+        this, 
+        "your api key",
+        config: YunoConfig, // This is a data class to use custom configs in the SDK.
+        )
+    }
+}
+
+2.2. Please use the data class YunoConfig  as presented below:
+Kotlindata class YunoConfig(
+    val cardFlow: CardFormType = CardFormType.ONE_STEP, // This is optional, CardFormType.ONE_STEP by default, this is to choose Payment and Enrollment Card flow.
+    val saveCardEnabled: Boolean = false, // This is to choose if show save card checkbox on cards flows.
+)
+
+2.3. In addition, you need to update your manifest to use your application:
+XML<application
+    android:name=".CustomApplication">
+</application>
+
+Step 3: Start the checkout process
+To start a new payment process with the Full SDK, you need to call the following method on the method  onCreate of activity that calls the SDK:
+KotlinstartCheckout(
+    checkoutSession: "checkout_session",
+    countryCode: "country_code_iso",
+    callbackOTT: (String?) -> Unit,
+    callbackPaymentState: ((String?) -> Unit)?,
+)
+
+Below you find a description of the required parameters to start the checkout.
+ParameterDescriptioncheckoutSessionThe checkout session is related to the payment.countryCodeCountry code where the payment is performed. Check the Country reference for a complete list of country codes.callbackOTTThis parameter is a function that returns a one-time token (OTT) needed to complete the payment back to back. This function is mandatory.callbackPaymentStateThis parameter is a function that returns the current payment process. Sending this function is not mandatory if you do not need the result.
+
+The possible states returned by the callbackPaymentState are presented below:
+
+Kotlinconst val PAYMENT_STATE_SUCCEEDED = "SUCCEEDED"
+const val PAYMENT_STATE_FAIL = "FAIL"
+const val PAYMENT_STATE_PROCESSING = "PROCESSING"
+const val PAYMENT_STATE_REJECT = "REJECT"
+const val PAYMENT_STATE_INTERNAL_ERROR = "INTERNAL_ERROR"
+const val PAYMENT_STATE_STATE_CANCELED_BY_USER = "CANCELED"
+
+Step 4: Add the SDK view to the checkout
+When implementing the Full SDK version, ensure you incorporate the following view by instantiating our PaymentMethodListView class in your layout to display available payment methods. Additionally, add the .setOnSelectedEvent method—a lambda function—to allow the merchant to know when to enable or disable the pay button.
+XML<com.yuno.payments.features.payment.ui.views.PaymentMethodListView
+        android:id="@+id/list_payment_methods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+Step 5: Initiate the payment process
+To start a payment process, you have to call the method startPayment ().
+KotlinstartPayment(
+callbackOTT: (String?) -> Unit, //Optional - Default null
+)
+
+Step 6: Get the OTT (One Time Token)
+Once the customer fills out the requested data in Yuno's payment forms, you will obtain the OTT, which is a required parameter to create a payment via the Payments API POST/payments. You can obtain this data from to onActivityResult explained in the callback section.
+
+
+
+
+Important
+
+
+				The merchant is responsible for handling the loader. Yuno offers an option to use our loader; 
+        however, the merchant can use their own loader and must make the corresponding configurations.
+        
+
+
+
+
+Step 7: Create the Payment
+Once you have completed the steps described before, you can create a payment. The back-to-back payment creation must be carried out using the Create Payment endpoint. The merchant should call their backend to create the payment within Yuno, using the OTT (One Time Token) and the checkout session. 
+
+Continue: We recommend integrating the continuePayment method of the SDK after the payment is created because certain asynchronous payment methods require additional action from the customer to complete it. The create_payment API will inform you of this scenario via the sdk_action_required field of the response, which will be returned as true. The yuno.continuePayment() function will display the additional screens to the customers, where they can carry out the necessary actions to complete the payment. Otherwise, this step is not necessary. You need to call the following method:
+
+KotlincontinuePayment(
+    showPaymentStatus: Boolean, //Optional - Default true
+    callbackPaymentState: ((String?) -> Unit)?, //Optional - Default null
+)
+
+To show your own payment status screens, you should send false in the showPaymentStatus parameter and then get the payment state by callback.
+Complementary Features
+Yuno Android SDK provides additional services and configurations you can use to improve customers' experience. Use the SDK Customizations to change the SDK appearance to match your brand or to configure the loader.
+
+Loader: Control the use of the loader.
+Save card for future payments: In addition, you can display a checkbox for save or enroll cards using cardSaveEnable: true. Below you can find examples of the checkbox for both card form renders.
+
+
+
+
+
+You also can choose one of the render options for the card form. Below you find screenshots presenting the difference between the cardFormType ONE_STEP and STEP_BY_STEP.
+
+
+
+
+
+
+
+
+Step by step
+
+
+
+
+
+One step
+
+
+
+
+SDK Customizations: Change the SDK appearance to match your brand.
+Updated 26 days ago Table of Contents
+
+
+Step 1: Include the library in your project.
+Step 2: Initialize SDK with the public key
+Step 3: Start the checkout process
+Step 4: Add the SDK view to the checkout
+Step 5: Initiate the payment process
+Step 6: Get the OTT (One Time Token)
+Step 7: Create the Payment
+
+
+
+Complementary Features
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

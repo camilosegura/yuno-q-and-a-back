@@ -1,0 +1,815 @@
+Acquirers Advanced Information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov1.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACBBVA OpenpayCieloCredibancoDatafastFirst Atlantic Commerce (FAC)FiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedeRedebanStoneTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeBBVA OpenpayCredixDaviPlatadLocalEbanxKushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PaySafetyPaySTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CityAcquirers Advanced InformationSuggest EditsThis page presents all information related to Acquirers' connections using Cards as payment. Use the following buttons to navigate to the desired section.
+
+
+
+
+
+General Information
+
+
+
+
+
+
+
+Captures
+
+
+
+
+
+
+
+Refunds
+
+
+
+
+
+
+
+Voids
+
+
+
+
+
+
+
+Installments
+
+
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+Integration Configuration
+
+
+
+
+
+
+
+Production Environment
+
+
+
+
+
+
+
+
+Connecting with Yuno
+
+
+
+
+
+
+Mandatory fields when integrating via Yuno:
+
+            No mandatory fields are required. However, the provider may request additional fields according to the merchant or to improve the approval rate.
+          
+
+
+
+
+
+
+General information
+
+
+
+
+
+Countries:
+Depends on acquirer
+
+
+
+
+
+
+Argentina 
+
+
+
+
+
+Brazil
+
+
+
+
+
+Chile
+
+
+
+
+
+Colombia
+
+
+
+
+
+Costa Rica
+
+
+
+
+
+Ecuador
+
+
+
+
+
+El Salvador
+
+
+
+
+
+Guatemala
+
+
+
+
+
+Honduras
+
+
+
+
+
+Mexico
+
+
+
+
+
+Nicaragua
+
+
+
+
+
+Panama
+
+
+
+
+
+Peru
+
+
+
+
+
+Uruguay
+
+
+
+
+Currencies:
+Depends on acquirer
+
+            ARS, BRL, CLP, COP, CRC, USD, GTQ, HNL, MXN, NIO, PEN, UYU
+          
+
+
+Payment methods:
+
+
+
+
+
+Credit card
+
+
+
+
+
+Debit card
+
+
+
+
+
+Prepaid card
+
+
+
+
+Minimum amount:
+
+            Can be configured. 
+          
+
+
+Maximum amount:
+
+           In order to create a fraud filter a maximum amount can be stablished.
+          
+
+
+TRX limit:
+
+            No
+          
+
+
+International BIN:
+
+            Yes
+          
+
+
+Activation of functionality:
+
+            The acceptance of these BINS depends if the card is enabled for international purchases. 
+          
+
+
+TRX without CVV:
+
+            Yes (depends on affiliation).
+          
+
+
+
+Purchase TRX in 1-Step:
+
+           Yes
+          
+
+
+Purchase TRX in 2-Step:
+
+           Only for Cielo (BRL), Prosa (MXN) Procesos and Visanet (PEN)
+          
+
+
+Support for recurrency:
+
+            Yes
+          
+
+
+Particularities:
+
+            Tokenization.
+          
+
+
+Webhooks:
+
+            Yes
+          
+
+
+
+
+
+Captures
+
+
+
+
+
+Capture availability:
+
+            Only for Cielo (BRL), Prosa (MXN) Procesos and Visanet (PEN).
+          
+
+
+Partial capture:
+
+            Yes.
+          
+
+
+Multiple captures:
+
+            No
+          
+
+
+Maximum time to capture a Pre-Auth:
+
+            10 days
+          
+
+
+Captures over the amount of Auth:
+
+            Yes, only supported by Prosa (MXN).
+          
+
+
+Maximum Amount:
+
+            No limit
+          
+
+
+
+
+
+Refunds
+
+
+
+
+
+Refund support:
+
+           Yes
+          
+
+
+Partial refunds:
+
+           Yes, supported by Cielo (BRL), Prosa (MXN), Credibanco and Redeban (COP).
+          
+
+
+Multiple refunds:
+
+           No
+          
+
+
+Time to send refund:
+
+Argentina: 6 months.
+Chile: 6 months.
+Colombia: 1 year. 
+Ecuador: Same day. 
+Mexico: 6 months. 
+Peru: 6 months. 
+
+
+
+Time to process refund:
+
+           Depends on the country, the origin of the refund (anullment, adjustment, cancelation), if it is partial or total and the compensation periods. 
+          
+
+
+
+
+
+Voids
+
+
+
+
+
+Void support:
+
+            Only supported for Prosa (MXN).
+          
+
+
+Void to Pre-Auth:
+
+            No
+          
+
+
+Void to Refund:
+
+            No
+          
+
+
+
+
+
+Installments
+
+
+
+
+
+Installments sent directly in request:
+
+            Supported for Colombia, Mexico, Brazil, Peru, Chile and Ecuador.
+          
+
+
+GET to obtain permitted BIN installments:
+
+            No
+          
+
+
+Ability to choose responsable for the financiation of installments:
+
+            Depends on the affiliation between the bank and the merchant. 
+          
+
+
+Conditions or restrictions of financing installments:
+
+            No
+          
+
+
+Deferral date:
+
+            Supported for Ecuador and Mexico.
+          
+
+
+Grace:
+
+            Supported for Ecuador (Medianet) and Mexico. Established by the bank and the merchant.
+          
+
+
+Grace:
+
+            Supported for Ecuador (Medianet) and Mexico. Established by the bank and the merchant. 
+          
+
+
+Minimum Amount of Installments (#months):
+
+            1 for Colombia, Peru, Brazil, Chile and Mexico.
+          
+
+
+Maximum Amount of Installments (#months):
+
+            It is an agreement between the merchant and the acquiring bank, but generally: 
+Chile: 12. 
+Colombia: 36. 
+Brazil: 12. 
+Ecuador: 36 
+Mexico: Generally 24, can go up to 36 in certain cases. 
+Peru: Izipay: 36, Visanet/Niubiz: 12. 
+
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+Notifications of chargebacks:
+
+            Yes
+          
+
+
+Defined period to make a chargeback:
+
+            180 days since the purchase. 
+          
+
+
+Endpoint for disputes:
+
+            No
+          
+
+
+Maximum time to dispute a chargeback:
+
+Colombia: 2 working days. 
+Peru: 2 working days. 
+Brazil: 5 working days. 
+Chile: 5 working days. 
+Mexico: 3 working days.  
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+3DS v2:
+
+            Yes
+          
+
+
+
+
+
+Integration configuration
+
+
+
+
+
+Obtainment of credentials:
+
+            Configured by Yuno.
+          
+
+
+Dashboard configuration:
+
+
+Log in to dashboard.y.uno.
+Click Connections and then select Acquirer.
+Click Connect.
+Introduce Name, Specific Fields.
+Click Connect
+
+
+
+
+Configuration of webhooks in partner:
+
+           	Provide the URL to Yuno.
+          
+
+
+
+
+
+Production environment
+
+
+
+
+
+Specific procedure for a merchant to go live:
+
+           Yes, there is a flow, channels, SLA, Data Entry required to make the integration. 
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Send feedback
+      
+
+
+
+Updated 25 days ago Table of Contents
+Connecting with Yuno
+General information
+Captures
+Refunds
+Voids
+Installments
+Chargebacks
+Security
+Integration configuration
+Production environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

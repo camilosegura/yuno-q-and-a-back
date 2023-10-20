@@ -1,0 +1,2131 @@
+Worldpay - Cards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov1.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACBBVA OpenpayCieloCredibancoDatafastFirst Atlantic Commerce (FAC)FiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedeRedebanStoneTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeBBVA OpenpayCredixDaviPlatadLocalEbanxKushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PaySafetyPaySTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CityWorldpay - CardsSuggest EditsThis page presents all information related to the Worldpay connection using Cards as payment. Use the following buttons to navigate to the desired section.
+
+
+
+
+
+General Information
+
+
+
+
+
+
+
+Captures
+
+
+
+
+
+
+
+Refunds
+
+
+
+
+
+
+
+Voids
+
+
+
+
+
+
+
+Installments
+
+
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+Testing Guidelines
+
+
+
+
+
+
+
+Integration Configuration
+
+
+
+
+
+
+
+
+Connecting with Yuno
+
+
+
+
+
+Mandatory fields when integrating via Yuno:
+
+card_holder_name 
+ip_address 
+*However, the provider may request additional fields according to the merchant or to improve the approval rate.
+
+
+
+
+
+
+General information
+
+
+
+
+
+Countries:
+
+
+
+
+
+Albania
+
+
+
+
+
+Åland Islands
+
+
+
+
+
+Algeria
+
+
+
+
+
+American Samoa 
+
+
+
+
+
+Andorra
+
+
+
+
+
+Angola
+
+
+
+
+
+Anguilla
+
+
+
+
+
+Antigua and Barbuda
+
+
+
+
+
+Argentina
+
+
+
+
+
+Armenia
+
+
+
+
+
+Aruba
+
+
+
+
+
+Australia
+
+
+
+
+
+Austria
+
+
+
+
+
+Azerbaijan
+
+
+
+
+
+Bahamas
+
+
+
+
+
+Bahrain
+
+
+
+
+
+Bangladesh
+
+
+
+
+
+Barbados
+
+
+
+
+
+Belarus
+
+
+
+
+
+Belgium
+
+
+
+
+
+Belize
+
+
+
+
+
+Benin
+
+
+
+
+
+Bermuda
+
+
+
+
+
+Bhutan
+
+
+
+
+
+Bolivia
+
+
+
+
+
+Bosnia and Herzegovina
+
+
+
+
+
+Botswana
+
+
+
+
+
+Brazil
+
+
+
+
+
+British Indian Ocean Territory
+
+
+
+
+
+Brunei Darussalam
+
+
+
+
+
+Bulgaria
+
+
+
+
+
+Burkina Faso
+
+
+
+
+
+Burundi
+
+
+
+
+
+Cabo Verde
+
+
+
+
+
+Cameroon
+
+
+
+
+
+Canada
+
+
+
+
+
+Cayman Islands
+
+
+
+
+
+Central African Republic
+
+
+
+
+
+Chad
+
+
+
+
+
+Chile
+
+
+
+
+
+China
+
+
+
+
+
+Christmas Island
+
+
+
+
+
+Cocos Islands
+
+
+
+
+
+Colombia
+
+
+
+
+
+Comoros
+
+
+
+
+
+Cook Islands
+
+
+
+
+
+Costa Rica
+
+
+
+
+
+Croatia
+
+
+
+
+
+Cyprus
+
+
+
+
+
+Czechia
+
+
+
+
+
+Denmark
+
+
+
+
+
+Djibouti
+
+
+
+
+
+Dominican Republic
+
+
+
+
+
+Ecuador
+
+
+
+
+
+Egypt
+
+
+
+
+
+El Salvador
+
+
+
+
+
+Equatorial Guinea
+
+
+
+
+
+Estonia
+
+
+
+
+
+Ethiopia
+
+
+
+
+
+Falkland Islands
+
+
+
+
+
+Faroe Islands
+
+
+
+
+
+Fiji
+
+
+
+
+
+Finland
+
+
+
+
+
+France
+
+
+
+
+
+French Guiana
+
+
+
+
+
+French Polynesia
+
+
+
+
+
+French Southern Territories
+
+
+
+
+
+Gabon
+
+
+
+
+
+Gambia
+
+
+
+
+
+Georgia
+
+
+
+
+
+Germany
+
+
+
+
+
+Ghana
+
+
+
+
+
+Gibraltar
+
+
+
+
+
+Greece
+
+
+
+
+
+Greenland
+
+
+
+
+
+Grenada
+
+
+
+
+
+Guadeloupe
+
+
+
+
+
+Guam
+
+
+
+
+
+Guatemala
+
+
+
+
+
+Guernsey
+
+
+
+
+
+Guinea
+
+
+
+
+
+Guinea-Bissau
+
+
+
+
+
+Guyana
+
+
+
+
+
+Haiti
+
+
+
+
+
+Holy See
+
+
+
+
+
+Honduras
+
+
+
+
+
+Hong Kong
+
+
+
+
+
+Hungary
+
+
+
+
+
+Iceland
+
+
+
+
+
+India
+
+
+
+
+
+Indonesia
+
+
+
+
+
+Ireland
+
+
+
+
+
+Isle
+
+
+
+
+
+Israel
+
+
+
+
+
+Italy
+
+
+
+
+
+Jamaica
+
+
+
+
+
+Jordan
+
+
+
+
+
+Kazakhstan
+
+
+
+
+
+Kenya
+
+
+
+
+
+Kiribati
+
+
+
+
+
+Korea
+
+
+
+
+
+Kuwait
+
+
+
+
+
+Kyrgyzstan
+
+
+
+
+
+Laos
+
+
+
+
+
+Latvia
+
+
+
+
+
+Lesotho
+
+
+
+
+
+Liechtenstein
+
+
+
+
+
+Lithuania
+
+
+
+
+
+Luxembourg
+
+
+
+
+
+Macao
+
+
+
+
+
+Macedonia
+
+
+
+
+
+Madagascar
+
+
+
+
+
+Malawi
+
+
+
+
+
+Malaysia
+
+
+
+
+
+Maldives
+
+
+
+
+
+Mali
+
+
+
+
+
+Malta
+
+
+
+
+
+Marshall Islands
+
+
+
+
+
+Martinique
+
+
+
+
+
+Mauritania
+
+
+
+
+
+Mauritius
+
+
+
+
+
+Mayotte
+
+
+
+
+
+Mexico
+
+
+
+
+
+Micronesia
+
+
+
+
+
+Moldova
+
+
+
+
+
+Monaco
+
+
+
+
+
+Mongolia
+
+
+
+
+
+Montenegro
+
+
+
+
+
+Montserrat
+
+
+
+
+
+Morocco
+
+
+
+
+
+Mozambique
+
+
+
+
+
+Namibia
+
+
+
+
+
+Nauru
+
+
+
+
+
+Nepal
+
+
+
+
+
+Netherlands
+
+
+
+
+
+New Caledonia
+
+
+
+
+
+New Zealand
+
+
+
+
+
+Nicaragua
+
+
+
+
+
+Niger
+
+
+
+
+
+Nigeria
+
+
+
+
+
+Niue
+
+
+
+
+
+Norfolk Island
+
+
+
+
+
+Northern Mariana Islands
+
+
+
+
+
+Norway
+
+
+
+
+
+Oman
+
+
+
+
+
+Pakistan
+
+
+
+
+
+Palau
+
+
+
+
+
+Panama
+
+
+
+
+
+Paraguay
+
+
+
+
+
+Peru
+
+
+
+
+
+Philippines
+
+
+
+
+
+Pitcairn
+
+
+
+
+
+Poland
+
+
+
+
+
+Portugal
+
+
+
+
+
+Puerto Rico
+
+
+
+
+
+Qatar
+
+
+
+
+
+Romania
+
+
+
+
+
+Russian Federation
+
+
+
+
+
+Rwanda
+
+
+
+
+
+Réunion
+
+
+
+
+
+Saint Kitts and Nevis
+
+
+
+
+
+Saint Lucia
+
+
+
+
+
+Saint Vincent and the Grenadines
+
+
+
+
+
+Samoa
+
+
+
+
+
+San Marino
+
+
+
+
+
+Sao Tome and Principe
+
+
+
+
+
+Saudi Arabia
+
+
+
+
+
+Senegal
+
+
+
+
+
+Serbia
+
+
+
+
+
+Seychelles
+
+
+
+
+
+Sierra Leone
+
+
+
+
+
+Singapore
+
+
+
+
+
+Slovakia
+
+
+
+
+
+Slovenia
+
+
+
+
+
+Solomon Islands
+
+
+
+
+
+South Africa
+
+
+
+
+
+Spain
+
+
+
+
+
+Sri Lanka
+
+
+
+
+
+Swaziland
+
+
+
+
+
+Sweden
+
+
+
+
+
+Switzerland
+
+
+
+
+
+Tajikistan
+
+
+
+
+
+Tanzania
+
+
+
+
+
+Thailand
+
+
+
+
+
+Togo
+
+
+
+
+
+Tokelau
+
+
+
+
+
+Tonga
+
+
+
+
+
+Trinidad and Tobago
+
+
+
+
+
+Turkey
+
+
+
+
+
+Turkmenistan
+
+
+
+
+
+Turks and Caicos Islands
+
+
+
+
+
+Tuvalu
+
+
+
+
+
+Uganda
+
+
+
+
+
+Ukraine
+
+
+
+
+
+United Arab Emirates
+
+
+
+
+
+United Kingdom
+
+
+
+
+
+United States
+
+
+
+
+
+Uruguay
+
+
+
+
+
+Uzbekistan
+
+
+
+
+
+Vanuatu
+
+
+
+
+
+Venezuela
+
+
+
+
+
+Vietnam
+
+
+
+
+
+Virgin Islands
+
+
+
+
+
+Wallis and Futuna
+
+
+
+
+
+Western Sahara
+
+
+
+
+
+Yemen
+
+
+
+
+
+Zambia
+
+
+
+
+Currencies:
+
+        ARS, AUD, BRL, CAD, CHF, CLP, CNY, COP, CZK, DKK, EUR, GBP, HKD, HUF, IDR, ISK, JPY, KES, KRW, MXN, MYR,
+        NOK, NZD, PHP, PLN, SEK, SGD, THB, TWD, USD, VND, ZAR
+      
+
+
+Payment methods:
+
+
+
+
+
+Credit card
+
+
+
+
+
+Debit card
+
+
+
+
+
+Prepaid card
+
+
+
+
+
+TRX without CVV:
+
+        Yes
+      
+
+
+Purchase TRX in 1-Step:
+
+        Yes
+      
+
+
+Purchase TRX in 2-Step:
+
+        Yes
+      
+
+
+Support for recurrency:
+
+        Yes
+      
+
+
+Particularities:
+
+
+Can only be performed as a follow up from an original card on file payment when your customer was
+            authenticated and agreed to a standing instruction.
+You must declare the intent for all recurring payments, either: subscription, instalment or
+            unscheduled.
+
+
+
+Webhooks:
+
+        Yes
+      
+
+
+
+
+
+Captures
+
+
+
+
+
+Partial capture:
+
+            Yes
+          
+
+
+Multiple captures:
+
+            In general only one capture (partial or full) can be done for each authorised payment. You may have a special arrangement with Worldpay, which enables you to perform multiple partial captures on a single order.
+          
+
+
+Maximum time to capture an authorization:
+
+            14 days (a setting of no more than four days is highly recommended).
+          
+
+
+Captures over the amount of authorization:
+
+            No
+          
+
+
+
+
+
+Refunds
+
+
+
+
+
+Refund support:
+
+           Yes  
+          
+
+
+Partial refunds:
+
+           Yes 
+          
+
+
+Multiple refunds:
+
+           Yes
+          
+
+
+
+Time to process refund:
+
+           3-6 weeks to be processed depending on the acquirer.  
+          
+
+
+
+
+
+Voids
+
+
+
+
+
+Void support:
+
+            Yes
+          
+
+
+Void to authorization:
+
+            Yes
+          
+
+
+
+
+
+
+Installments
+
+
+
+
+
+Capability to define the installments when creating the payment:
+
+            Yes
+          
+
+
+
+Additional considerations of installments:
+
+           If you're allowing your shoppers to pay in installments, you can choose a different first installment amount. This is useful if you want to add a shipping or processing fee. This is not available with all acquirers in Latin America. Please consult your Implementation Manager before using this feature. 
+          
+
+
+
+Number of installments (#months):
+
+            Depends on agreement of merchant with acquirer. In LATAM: 
+            
+Brazil and Argentina: Up to 12 instalments.
+Mexico: Up to 18 sequential instalments: 3, 6, 9, 10, 12, 15, 18.
+Colombia: Up to 12 instalments without interest. Up to 48 instalments with interest. Sequential instalments: 3,6,9,10,12,18,24,36,48.
+Peru and Central America: Up to 48 sequential instalments: 3, 6, 9, 10, 12, 18, 24, 36, 48.
+
+
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+Notifications of chargebacks:
+
+            Yes
+          
+
+
+Defined period to make a chargeback:
+
+            A shopper can dispute a payment up to six months (sometimes longer) after the payment.
+          
+
+
+Endpoint for disputes:
+
+            Yes
+          
+
+
+Maximum time to dispute a chargeback (provide evidence):
+
+            Normally you have 12 days to defend the chargeback.
+          
+
+
+
+
+
+Security
+
+
+
+
+
+Address verification service:
+
+            Yes
+          
+
+
+Support for 0Auth:
+
+            Yes
+          
+
+
+E3DS v2:
+
+            Yes
+          
+
+
+
+
+
+Testing guidelines for sandbox environment
+
+
+
+
+
+Necessary fields for testing:
+
+            Merchant Code, Username and Password
+          
+
+
+Test cards:
+
+
+
+Card type 
+Test card number
+
+
+Airplus
+122000000000003
+
+
+American Express
+343434343434343
+
+
+Cartebleue
+5555555555554444
+
+
+China Union Pay
+6221260062379699
+
+
+Dankort
+5019717010103742
+
+
+Diners
+36700102000000  36148900647913
+
+
+Discover card
+6011000400000000
+
+
+JCB
+3528000700000000
+
+
+Maestro
+6759649826438453
+
+
+MasterCard
+5555555555554444  5454545454545454  2221000000000009
+
+
+MasterCard Debit
+5163613613613613
+
+
+Visa
+4444333322221111  4911830000000  4917610000000000
+
+
+Visa Debit
+4462030000000000  4917610000000000003
+
+
+Visa Electron (UK only)
+4917300800000000
+
+
+Visa Purchasing
+4484070000000000
+
+
+
+Brazil test cards:
+
+
+
+Card type 
+Test card number
+
+
+ELO
+4514 1600 0000 0003  6550 0000 0000 0001
+
+
+Hipercard
+3841 0011 1122 2233 334  6062 8288 8866 6688
+
+
+Aura
+As the Aura card is paired with Mastercard, and because it shares the same payment method mask, you will be able to submit Mastercard test card numbers to test your integration.
+
+
+
+Argentina test cards:
+
+
+
+Card type 
+Test card number
+
+
+Argencard
+5010 9100 0000 0007  5010 9500 0000 0006  5011 0500 0000 0009  5011 0800 0000 0005  5011 1000 0000 0009
+
+
+Cabal
+5896 5700 0000 0004  6035 2200 0000 0006  6042 0000 0000 0004  6043 0100 0000 0008
+
+
+Cencosud
+6034 9300 0000 0002
+
+
+Coope Plus
+6274 0100 0000 0007
+
+
+Credimas
+5045 2000 0000 0002
+
+
+Italcred
+5043 3800 0000 0005
+
+
+Naranja
+5895 6200 0000 0002
+
+
+Nativa
+4870 1700 0000 0004
+
+
+Nevada
+5043 6300 0000 0007
+
+
+Nexo
+6049 4000 0000 0003  6281 6100 0000 0008
+
+
+Tarjeta Shopping
+5894 0700 0000 0004
+
+
+
+
+
+Limitations/ Specifications for testing:
+
+            With these cards you can specify an expiry date up to seven years in the future. These cards do not have an issue number, a registered address or a card verification code (use the following CVC/CVV):
+Testing CVC/CVV:
+
+
+Magic value
+CVC/CVV result code
+CVC/CVV result description
+
+
+[Left blank]
+B - CVV/CVC not supplied by shopper/merchant
+NOT SUPPLIED BY SHOPPER
+
+
+111
+C - CVV/CVC not checked
+NOT SENT TO ACQUIRER
+
+
+222
+C - CVV/CVC not checked
+NO RESPONSE FROM ACQUIRER
+
+
+333
+C - CVV/CVC not checked
+NOT CHECKED BY ACQUIRER
+
+
+444
+D - CVV/CVC not matched
+FAILED
+
+
+555
+A - CVV/CVC matched
+APPROVED
+
+
+Testing CVC/CVV for American Express:
+
+
+Magic value
+CVC/CVV result code
+CVC/CVV result description
+
+
+[Left blank]
+B - CVV/CVC not supplied by shopper/merchant
+NOT SUPPLIED BY SHOPPER
+
+
+1111
+C - CVV/CVC not checked
+NOT SENT TO ACQUIRER
+
+
+2222
+C - CVV/CVC not checked
+NO RESPONSE FROM ACQUIRER
+
+
+3333
+C - CVV/CVC not checked
+NOT CHECKED BY ACQUIRER
+
+
+4444
+D - CVV/CVC not matched
+FAILED
+
+
+5555
+C - CVV/CVC not checked
+UNKNOWN
+
+
+6666
+A - CVV/CVC matched
+APPROVED
+
+
+
+
+
+
+
+
+Integration configuration
+
+
+
+
+
+Credentials and steps to obtain them:
+
+
+Merchant Code: Your Implementation Manager (or support contact) at Wordlpay should have given you a merchantCode. 
+Other credentials: 
+                  
+Log in to the Merchant Administration Interface (Sandbox and Production).
+Click ACCOUNT, then select Profile from the top menu.
+Note your New Username for the connection.
+Click the pencil icon next to XML Password.
+Enter your new password and click Save XML Password.
+  
+
+
+
+
+Configuration of webhooks in partner:
+
+
+Log in to the production Merchant Administration Interface (Production).
+*Note: To set up notifications in both the test and production environments, you need to log in to the production MAI.
+              Click INTEGRATION, then select Merchant Channel from the top menu.
+In the Merchant Channels (Production and Test) areas:
+                
+Activate the http channel and select xml under Content.
+Enter the Address to receive test and production notifications.
+ 
+In the Merchant Channel Events (Production and Test) areas, select the payment statuses you want to receive notifications on.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Send feedback
+      
+
+
+
+Updated 24 days ago Table of Contents
+Connecting with Yuno
+General information
+Captures
+Refunds
+Voids
+Installments
+Chargebacks
+Security
+Testing guidelines for sandbox environment
+Integration configuration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,581 @@
+Nupay - Wallet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov2.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACCieloCredibancoDatafastFiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedebanTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeCredixDaviPlatadLocalEbanxFirst Atlantic Commerce (FAC)KushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PayRedeSafetyPayStoneSTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CityNupay - WalletSuggest EditsThis page presents all information related to the Nupay connection using NuPay Wallet as payment. Use the following buttons to navigate to the desired section.
+
+
+
+
+
+General Information
+
+
+
+
+
+
+
+Refunds
+
+
+
+
+
+
+
+Voids
+
+
+
+
+
+
+
+Installments
+
+
+
+
+
+
+
+Testing Guidelines
+
+
+
+
+
+
+
+Integration Configuration
+
+
+
+
+
+
+
+Production Environment
+
+
+
+
+
+
+
+
+Connecting with Yuno
+
+
+
+
+
+Mandatory fields when integrating via Yuno:
+
+            -
+          
+
+
+
+
+
+General information
+
+
+
+
+
+
+Countries:
+
+
+
+
+
+Brazil
+
+
+
+
+Currencies:
+
+            BRL
+          
+
+
+Minimum amount:
+
+            No
+          
+
+
+Maximum amount:
+
+           The limit of the amount for purchases through NuPay for Business is equal to the account balance that the end customer of the partner store has with the Financial Institution chosen at the time of purchase.
+          
+
+
+
+TRX without CVV:
+
+           No
+          
+
+
+Purchase TRX in 1-Step:
+
+            Yes
+          
+
+
+
+Support for recurrency:
+
+            No
+          
+
+
+Webhooks:
+
+            Yes
+          
+
+
+
+
+
+Refunds
+
+
+
+
+
+Refund support:
+
+           Yes
+          
+
+
+Partial refunds:
+
+           Yes
+          
+
+
+Multiple refunds:
+
+           Yes
+          
+
+
+Time to request refund:
+
+					A refund can be sent at any moment, there is no maximum deadline.
+          
+
+
+Time to process refund:
+
+           If there are sufficient funds in the merchant account, the refund will be done instantly.
+          
+
+
+
+
+
+Voids
+
+
+
+
+
+Void support:
+
+            Yes
+          
+
+
+Void to refund:
+
+            No
+          
+
+
+
+
+
+Installments
+
+
+
+
+
+
+Conditions or restrictions:
+
+            For the installment plan with interest:
+            
+The fee for the merchant is fixed at the same value as the maximum interest-free fee.
+The minimum number of interest-free installments is the same as that offered by the Credit Card.
+Settlement always on D+1.
+No additional implementation effort.
+Interest rate customized to the customer's profile.
+
+
+
+
+
+Minimum number of installments:
+
+            1
+          
+
+
+Maximum number of installments :
+
+            The NuPay payment method allows the buyer to pay in up to 24 installments without interest. However, each store that offers the solution is free to limit the number of installments, in other words, the store can offer a number of installments below the maximum limit. 
+          	
+						With the installment plan with interest the customer will have to use the extra limit generated through NuPay and will be able to pay in installments up to 24 times with interest charges. This way the customer has the possibility to receive additional limits far beyond what is possible with a credit card, besides the debit option having zero cost for those who sell.
+          
+
+
+
+
+
+Chargebacks
+NuPay does not have chargebacks for fraud since the payment process occurs inside Nu's app, and the whole security is their responsibility. If the customer contacts Nu regarding commercial disagreements, we incentivize them to solve it directly with the store.
+Testing guidelines for sandbox environment
+
+
+
+
+
+Necessary fields for testing:
+
+            API key and API Token.
+          
+
+
+Limitations/Specifications for testing:
+
+						As the system processes requests asynchronously, all valid payment requests return the status PROCESSING. 
+            
+    	      In the sandbox environment, the order list gets an extra column called Simulation. 
+        		
+        		When the payment request is in WAITING_PAYMENT_METHOD status, an Approve button appears to simulate payment via QRCode reading, accessing AppLink or by Pix Copia e Cola.
+          
+
+
+
+
+
+Test steps
+
+To make a payment using NuPay Wallet, you should follow the steps:
+
+Create Customer
+Create Checkout Session
+Create One Time Token / Get the token from SDK 
+Create Payment 
+
+The Create Payment response provides a redirect URL (payment_method.payment_method_detail.bank_transfer.redirect_url), redirecting the user to a NuBank page that provides a QR code to complete the payment:
+
+After creating the order, you must complete and test the payment and access the NuPay sandbox dashboard with your Nubank credentials. Once logged in, you can approve the transaction in the 'Activities' section:
+
+After approving the payment, its status will change to "completo" on the NuPay sandbox dashboard. You can check the payment status using the Retrieve Payment by ID. If the payment were approved, the Retrieve Payment by ID response would provide the status SUCCEEDED, and sub_status APPROVED.
+Integration configuration
+
+
+
+
+
+Credentials and steps to obtain them:
+
+            These credentials will be provided during the onboarding process, once both parties are able to initiate integration and must be sent on all requests. Credentials are specific for each checkout environment. 
+          
+
+
+Dashboard configuration:
+
+
+Log in to dashboard.y.uno.
+Click Connections and then select NuPay.
+Click Connect.
+Introduce Name, Token and Key.
+Click Connect
+
+
+
+
+Configuration of webhooks in partner:
+
+           Through the field callbackUrl during the creation of the order or refund.
+          
+
+
+
+
+
+Production environment
+
+
+
+
+
+Specific procedure for a merchant to go live:
+
+           Nu has a tactical documentation that brings some scenarios that must be validated before going Live and also a test period where Nu's internal team helps to cover those scenarios to guarantee that everything works fine.
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Send feedback
+      
+
+
+
+Updated 24 days ago Table of Contents
+
+Connecting with Yuno
+
+
+General information
+
+
+Refunds
+
+
+Voids
+
+
+Installments
+
+
+Chargebacks
+
+
+Testing guidelines for sandbox environment
+
+Test steps
+
+
+
+Integration configuration
+
+
+Production environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

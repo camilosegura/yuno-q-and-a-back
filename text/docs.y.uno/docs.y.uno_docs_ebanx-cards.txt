@@ -1,0 +1,890 @@
+Ebanx - Cards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov1.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACBBVA OpenpayCieloCredibancoDatafastFirst Atlantic Commerce (FAC)FiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedeRedebanStoneTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeBBVA OpenpayCredixDaviPlatadLocalEbanxKushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PaySafetyPaySTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CityEbanx - CardsSuggest EditsThis page presents all information related to the Ebanx connection using Cards as payment. Use the following buttons to navigate to the desired section.
+
+
+
+
+
+General Information
+
+
+
+
+
+
+
+Captures
+
+
+
+
+
+
+
+Refunds
+
+
+
+
+
+
+
+Voids
+
+
+
+
+
+
+
+Installments
+
+
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+
+
+Security
+
+
+
+
+
+
+
+Testing Guidelines
+
+
+
+
+
+
+
+Integration Configuration
+
+
+
+
+
+
+
+Production Environment
+
+
+
+
+
+
+
+
+Connecting with Yuno
+
+
+
+
+
+Mandatory fields when integrating via Yuno:
+
+            first_name, last_name, email, document_number, address_line_1, country, state, city, zip_code, telephone_number
+          
+
+
+
+
+
+General information
+
+
+
+
+
+Countries:
+
+
+
+
+
+Argentina
+
+
+
+
+
+Brazil
+
+
+
+
+
+Colombia
+
+
+
+
+
+Chile
+
+
+
+
+
+Costa Rica
+
+
+
+
+
+El Salvador
+
+
+
+
+
+Guatemala
+
+
+
+
+
+Mexico
+
+
+
+
+
+Panama
+
+
+
+
+
+Paraguay
+
+
+
+
+
+Peru
+
+
+
+
+
+Uruguay
+
+
+
+
+Currencies:
+
+             ARS, BRL, COP, CLP, CRC, USD, GTQ, MXN, PYG, PEN, UYU.
+
+
+
+Payment methods:
+
+
+
+
+
+Credit card
+
+
+
+
+
+Debit card
+
+
+
+
+
+Prepaid card
+
+
+
+
+Minimum amount:
+
+
+Argentina: 5 ARS
+Brazil: 0.5 BRL
+Colombia: 1 COP
+Chile: 1 CLP
+Costa Rica: 10 CRC
+El Salvador: 1 USD
+Guatemala: 1 GTQ
+Mexico: 3 MXN
+Panama: 0.5 PAB/USD
+Paraguay: 1 PYG
+Peru: 1 PEN
+Uruguay: 15 UYU
+
+
+
+
+Maximum amount:
+
+            The standard is USD 10,000.00 but this can be configured by merchant.
+          
+
+
+TRX limit:
+
+            No limit.
+          
+
+
+Support of international BIN:
+
+            Not for CrossBorder operation. For Local Latam it is supported.
+          
+
+
+Activation of functionality:
+
+            For Local Latam the functionality must be activated in the merchant's account.
+          
+
+
+TRX without CVV:
+
+            Yes.
+          
+
+
+Purchase TRX in 1-Step:
+
+            Yes
+          
+
+
+Purchase TRX in 2-Step:
+
+            Yes
+          
+
+
+Support for recurrency:
+
+            Yes, but EBANX doesn't have the recurrent engine, merchants or partners have to handle the payment transactions.
+          
+
+
+Webhooks:
+
+            Yes
+          
+
+
+
+
+
+
+
+Captures
+
+
+
+
+
+Partial capture:
+
+            Yes. This feature is only available in Brazil. If you want to enable this feature, please contact Ebanx's Integration Team.
+          
+
+
+Multiple captures:
+
+            No
+          
+
+
+Maximum time to capture an authorization:
+
+            7 days for cards.
+          
+
+
+Captures over the amount of authorization:
+
+            No, only the total amount (except for the local fees or taxes - e.g.: IOF in Brazil)
+          
+
+
+
+
+
+Refunds
+
+
+
+
+
+Refund support:
+
+           Yes  
+          
+
+
+Partial refunds:
+
+           Yes 
+          
+
+
+Multiple refunds:
+
+           Yes
+          
+
+
+Time to request refund:
+
+					To use and receive in the same payment method, under 90 days. After that, the refund is available only via Bank Transfer.
+          
+
+
+Time to process refund:
+
+           Depends on the country and financial institution.
+          
+
+
+
+
+
+Voids
+
+
+
+
+
+Void support:
+
+            Yes
+          
+
+
+Void to authorization:
+
+            Yes
+          
+
+
+Void to refund:
+
+            Yes
+          
+
+
+
+
+
+Installments
+
+
+
+
+
+Capability to define the installments when creating the payment:
+
+              Yes
+            
+
+
+GET endpoint available for retrieving the permitted BIN for the installments:
+
+              Yes
+            
+
+
+Possibility to choose who will be responsible for financing the installments:
+
+              No
+            
+
+
+Conditions or restrictions:
+
+             There are fees to use installments and that comes from Banks and Card Brands, EBANX sets that up into our system. You can check the fees applied over each installment via GET Installments Plan. EBANX can set up to charge the merchant or charge the customer, this part is negotiated between EBANX and the Merchant.
+            
+
+
+Deferral date availability:
+
+                Not on payment context.
+            
+
+
+Grace period:
+
+                Not on payment context.
+            
+
+
+Minimum number of installments (#months):
+
+
+Brazil: 1 (depending on your contract).
+Mexico: 1 (depending on your contract).
+Colombia: 1 (depending on your contract).
+Argentina: 1 (depending on your contract).
+Peru: 1 (depending on your contract).
+
+
+
+
+Maximum number of installments (#months):
+
+
+Brazil: 12 (depending on your contract).
+Mexico: 12 (depending on your contract).
+Colombia: 36 (depending on your contract).
+Argentina: 12 (depending on your contract).
+Peru: 48 (depending on your contract).
+
+
+
+
+
+
+
+
+Chargebacks
+
+
+
+
+
+Notifications of chargebacks:
+
+            Yes, via EBANX dashboard.
+          
+
+
+Defined period to make a chargeback:
+
+            Under 180 days.
+          
+
+
+Endpoint for disputes:
+
+            No, the process is done via EBANX dashboard. 
+          
+
+
+Maximum time to dispute a chargeback (provide evidence):
+
+            5 days
+          
+
+
+
+
+
+Security
+
+
+
+
+
+
+3DS v2:
+
+            Yes
+          
+
+
+
+
+
+Testing guidelines for sandbox environment
+
+
+
+
+
+Necessary fields for testing:
+
+            Merchant ID, Public Key, Private Key and Merchant Account ID.
+          
+
+
+Test cards:
+
+
+
+Card Brand
+Name
+Code
+
+
+American Express
+amex
+378282246310005
+
+
+American Express
+amex
+378282749798722
+
+
+Aura
+aura
+5078601870000127985
+
+
+Diners Club
+diners
+30569309025904
+
+
+Discover
+discover
+6011111111111117
+
+
+Elo
+elo
+6362970000457013
+
+
+Elo
+elo
+6362971747129170
+
+
+Hipercard
+hipercard
+6062825624254001
+
+
+Hipercard
+hipercard
+6062823936268330
+
+
+Visa
+visa
+4111111111111111
+
+
+Visa
+visa
+4111115666052208
+
+
+MasterCard
+mastercard
+5555555555554444
+
+
+MasterCard
+mastercard
+5555556355564617
+
+
+CARNET (For Mexico only)
+carnet
+5062224607440872
+
+
+Credimas (For Argentina only)
+credimas
+5045201174402586
+
+
+Naranja (For Argentina only)
+naranja
+5895626292990446
+
+
+Cabal (For Argentina only)
+cabal
+5896578742026538
+
+
+Magna (For Chile only)
+magna
+5680095660610110
+
+
+
+
+
+Limitations/Specifications for testing:
+
+
+CVV: use any number with three digits, except American Express which CVV is four digits.
+Expiration date (due date): use any date in the future.
+
+
+
+
+
+
+
+Integration configuration
+
+
+
+
+
+Credentials and steps to obtain them:
+
+
+Log in to Ebanx dashboard.
+Navigate to Settings and Integrations.
+Get your keys.
+
+
+
+
+Dashboard configuration:
+
+
+Log in to dashboard.y.uno.
+Click Connections and then select Ebanx.
+Introduce Name, Integration key and Public Integration Key.
+Click Connect
+
+
+
+
+Configuration of webhooks in partner:
+
+
+Log in to Ebanx dashboard.
+Navigate to Settings and then Integrations.
+Enter the proper URLs to receive notifications with updates of a transaction.
+
+
+
+
+
+
+
+Production environment
+
+
+
+
+
+Specific procedure for a merchant to go live:
+
+            Merchant must go through Compliance and Legal steps in order to be ready for a production account. After that, Ebanx must align the necessary requirements to make each country and payment method available.
+          
+
+
+
+
+
+
+
+Updated 24 days ago Table of Contents
+Connecting with Yuno
+General information
+Captures
+Refunds
+Voids
+Installments
+Chargebacks
+Security
+Testing guidelines for sandbox environment
+Integration configuration
+Production environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

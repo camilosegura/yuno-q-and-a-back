@@ -1,0 +1,399 @@
+Wallet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov2.0HomeGuidesAPI ReferenceDashboardStatus PageSearchJUMP TOOverviewIntroductionAuthenticationHTTP Response CodesReferenceAirline informationCountry referenceECI indicators listIndustry categoryItems categoryPayment typePurposes listTransaction categoryCustomersManage CustomersThe Customer ObjectCreate CustomerpostRetrieve CustomergetRetrieve Customer by External IDgetUpdate CustomerpatchEnrollmentStatusCustomer SessionsThe Customer Session ObjectCreate Customer SessionpostPayment Methods (Checkout)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Payment Method By IDgetRetrieve Payment Method by Customer SessiongetUnenroll Payment MethodpostPayment Methods (Direct Workflow)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Enrolled Payment MethodsgetRetrieve Enrolled Payment Method by IdgetUnenroll Payment MethodpostCheckoutCheckout SessionsThe Checkout Session ObjectCreate Checkout SessionpostRetrieve Payment Methods for CheckoutgetPaymentsStatus and Response CodesPaymentsTransactionsManage PaymentsThe Payment ObjectCreate PaymentpostRetrieve Payment by IDgetRetrieve Payment by Merchant Order IDgetRefund PaymentpostCancel PaymentpostAuthorize PaymentpostCapture Authorizationpost3DS (Direct Workflow)SetuppostPayments with 3DS SplitCreate PaymentpostComplete PaymentpostPayments ExamplesBank TransferBNPLCardsPayment LinkTicketWalletPAYOUTSStatusManage PayoutsThe Payout ObjectCreate PayoutpostRetrieve Payout by IDgetRetrieve Payout by Merchant ReferencegetRelease PayoutpostCancel PayoutpostReportsStatusManage ReportsThe Reports ObjectReports FieldsCreate a ReportpostRetrieve a ReportgetDownload a ReportgetList All ReportsgetJUMP TOOverviewIntroductionAuthenticationHTTP Response CodesReferenceAirline informationCountry referenceECI indicators listIndustry categoryItems categoryPayment typePurposes listTransaction categoryCustomersManage CustomersThe Customer ObjectCreate CustomerpostRetrieve CustomergetRetrieve Customer by External IDgetUpdate CustomerpatchEnrollmentStatusCustomer SessionsThe Customer Session ObjectCreate Customer SessionpostPayment Methods (Checkout)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Payment Method By IDgetRetrieve Payment Method by Customer SessiongetUnenroll Payment MethodpostPayment Methods (Direct Workflow)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Enrolled Payment MethodsgetRetrieve Enrolled Payment Method by IdgetUnenroll Payment MethodpostCheckoutCheckout SessionsThe Checkout Session ObjectCreate Checkout SessionpostRetrieve Payment Methods for CheckoutgetPaymentsStatus and Response CodesPaymentsTransactionsManage PaymentsThe Payment ObjectCreate PaymentpostRetrieve Payment by IDgetRetrieve Payment by Merchant Order IDgetRefund PaymentpostCancel PaymentpostAuthorize PaymentpostCapture Authorizationpost3DS (Direct Workflow)SetuppostPayments with 3DS SplitCreate PaymentpostComplete PaymentpostPayments ExamplesBank TransferBNPLCardsPayment LinkTicketWalletPAYOUTSStatusManage PayoutsThe Payout ObjectCreate PayoutpostRetrieve Payout by IDgetRetrieve Payout by Merchant ReferencegetRelease PayoutpostCancel PayoutpostReportsStatusManage ReportsThe Reports ObjectReports FieldsCreate a ReportpostRetrieve a ReportgetDownload a ReportgetList All ReportsgetWalletThis page presents examples of requests and responses for creating payments using the Create Payment endpoint and Payment Link as payment method.
+To test the creation of each payment, you can copy the content from the request code and use it on your machine or paste it on the Create Payment endpoint to test using Readme.
+Payment Link available examples
+
+
+
+
+
+
+
+
+
+
+Mercado Pago Checkout Pro
+
+
+
+
+Mercado Pago Checkout Pro
+Example of a request for a Payment Link payment using Mercado Pago Checkout Pro. Below are examples of a request and the received response for successful payment creation. The request is presented using the cURL format, and the response is a JSON object.
+Request (cURL)Response (JSON)curl --request POST \
+     --url https://api-sandbox.y.uno/v1/payments \
+     --header 'X-Idempotency-Key: <Your idempotency-key>' \
+     --header 'accept: application/json' \
+     --header 'content-type: application/json' \
+     --header 'private-secret-key: <Your private-secret-key>' \
+     --header 'public-api-key: <Your public-api-key>' \
+     --data '
+{
+    "description": "Test MP Checkout pro",
+    "account_id": "{{account-code}}",
+    "merchant_order_id": "0000023",
+    "country": "CO",
+    "merchant_reference": "reference-{{$randomUUID}}",
+    "additional_data": {
+        "order": {
+            "items": [
+                {
+                    "id": "123AD",
+                    "name": "Skirt",
+                    "quantity": 1,
+                    "unit_amount": 3000
+                }
+            ]
+        }
+    },
+    "amount": {
+        "currency": "COP",
+        "value": 3000
+    },
+    "customer_payer": {
+        "email": "[email protected]",
+        "first_name": "Pepito",
+        "last_name": "Perez"
+    },
+    "payment_method": {
+        "type": "MERCADO_PAGO_CHECKOUT_PRO"
+    },
+    "workflow": "REDIRECT",
+    "callback_url":"www.y.uno"
+}
+'
+{
+    "id": "d0ff19c2-cf55-4015-a613-e35f22da0233",
+    "account_id": "493e9374-510a-4201-9e09-de669d75f256",
+    "description": "Test MP Checkout pro",
+    "country": "CO",
+    "status": "READY_TO_PAY",
+    "sub_status": "CREATED",
+    "merchant_order_id": "0000023",
+    "created_at": "2023-07-23T23:02:39.401790Z",
+    "updated_at": "2023-07-23T23:02:40.312593Z",
+    "amount": {
+        "captured": 0.00,
+        "currency": "COP",
+        "refunded": 0.00,
+        "value": 3000.00
+    },
+    "checkout": {
+        "session": "b7e15362-4ac0-4e23-886e-329695933ecb",
+        "sdk_action_required": true
+    },
+    "payment_method": {
+        "vaulted_token": "",
+        "type": "MERCADO_PAGO_CHECKOUT_PRO",
+        "vault_on_success": false,
+        "token": "",
+        "payment_method_detail": {
+            "wallet": {
+                "verify": false,
+                "capture": false,
+                "installments": null,
+                "payment_method_id": null,
+                "payment_method_detail": null,
+                "date_of_expiration": null,
+                "money_release_date": null,
+                "sponsor_id": null,
+                "authorization_code": null,
+                "customer_data": null,
+                "card_data": null,
+                "redirect_url": "https://checkout.sandbox.y.uno/payment?session=e93d8431-f55c-43a3-a4e4-0c7a4bcc7e27"
+            }
+        }
+    },
+    "customer_payer": {
+        "id": null,
+        "merchant_customer_id": null,
+        "first_name": "Pepito",
+        "last_name": "Perez",
+        "gender": null,
+        "date_of_birth": null,
+        "email": "[email protected]",
+        "nationality": null,
+        "ip_address": null,
+        "device_fingerprint": null,
+        "browser_info": {
+            "user_agent": "",
+            "accept_header": "",
+            "accept_content": null,
+            "accept_browser": null,
+            "color_depth": "",
+            "screen_height": "",
+            "screen_width": "",
+            "javascript_enabled": null,
+            "java_enabled": null,
+            "browser_time_difference": null,
+            "language": ""
+        },
+        "document": null,
+        "phone": null,
+        "billing_address": null,
+        "shipping_address": null
+    },
+    "additional_data": {
+        "airline": null,
+        "order": {
+            "fee_amount": null,
+            "shipping_amount": null,
+            "items": [
+                {
+                    "id": "123AD",
+                    "name": "Skirt",
+                    "quantity": 1,
+                    "unit_amount": 3000,
+                    "category": null,
+                    "brand": null,
+                    "sku_code": null,
+                    "manufacture_part_number": null
+                }
+            ]
+        },
+        "seller_details": null
+    },
+    "taxes": null,
+    "transactions": {
+        "id": "286ad833-7cbc-4e66-92f9-01019eb7d7a3",
+        "type": "PURCHASE",
+        "status": "CREATED",
+        "category": "WALLET",
+        "amount": 3000.00,
+        "provider_id": "MERCADO_PAGO",
+        "payment_method": {
+            "vaulted_token": "",
+            "type": "MERCADO_PAGO_CHECKOUT_PRO",
+            "vault_on_success": false,
+            "token": "",
+            "detail": {
+                "wallet": {
+                    "verify": false,
+                    "capture": false,
+                    "installments": null,
+                    "payment_method_id": null,
+                    "payment_method_detail": null,
+                    "date_of_expiration": null,
+                    "money_release_date": null,
+                    "sponsor_id": null,
+                    "authorization_code": null,
+                    "customer_data": null,
+                    "card_data": null,
+                    "redirect_url": "https://checkout.sandbox.y.uno/payment?session=e93d8431-f55c-43a3-a4e4-0c7a4bcc7e27"
+                }
+            }
+        },
+        "response_code": "SUCCEEDED",
+        "response_message": "Transaction successful",
+        "reason": null,
+        "description": "Test MP Checkout pro",
+        "merchant_reference": "reference-d2b08e8e-c87a-4806-b1ea-b35a19a36a6d",
+        "provider_data": {
+            "id": "MERCADO_PAGO",
+            "transaction_id": "",
+            "account_id": "",
+            "status": "",
+            "sub_status": "",
+            "status_detail": "",
+            "response_message": "",
+            "raw_response": {
+                "value":"{\"additional_info\":\"\",\"auto_return\":\"approved\",\"back_urls\":{\"failure\":\"http://www.y.uno\",\"pending\":\"http://www.y.uno\",\"success\":\"http://www.y.uno\"},\"binary_mode\":true,\"client_id\":\"3615163740385056\",\"collector_id\":1131498549,\"coupon_code\":null,\"coupon_labels\":null,\"date_created\":\"2023-07-23T19:02:40.082-04:00\",\"date_of_expiration\":null,\"expiration_date_from\":null,\"expiration_date_to\":null,\"expires\":false,\"external_reference\":\"286ad833-7cbc-4e66-92f9-01019eb7d7a3\",\"id\":\"1131498549-ef2fc547-72b3-4e19-acce-83f94c70609a\",\"init_point\":\"https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=1131498549-ef2fc547-72b3-4e19-acce-83f94c70609a\",\"internal_metadata\":null,\"items\":[{\"id\":\"123AD\",\"category_id\":\"others\",\"currency_id\":\"ARS\",\"description\":\"\",\"title\":\"Skirt\",\"quantity\":1,\"unit_price\":3000}],\"marketplace\":\"MP-MKT-3615163740385056\",\"marketplace_fee\":0,\"metadata\":{},\"notification_url\":\"https://sandbox.y.uno/mercadopago-webhook/v1/checkout-pro/events?source_news=webhooks\&transaction=286ad833-7cbc-4e66-92f9-01019eb7d7a3\",\"operation_type\":\"regular_payment\",\"payer\":{\"phone\":{\"area_code\":\"\",\"number\":\"\"},\"address\":{\"zip_code\":\"\",\"street_name\":\"\",\"street_number\":null},\"email\":\"[email protected]\",\"identification\":{\"number\":\"\",\"type\":\"\"},\"name\":\"Pepito\",\"surname\":\"Perez\",\"date_created\":null,\"last_purchase\":null},\"payment_methods\":{\"default_card_id\":null,\"default_payment_method_id\":null,\"excluded_payment_methods\":[{\"id\":\"\"}],\"excluded_payment_types\":[{\"id\":\"ticket\"},{\"id\":\"atm\"}],\"installments\":null,\"default_installments\":null},\"processing_modes\":null,\"product_id\":null,\"redirect_urls\":{\"failure\":\"\",\"pending\":\"\",\"success\":\"\"},\"sandbox_init_point\":\"https://sandbox.mercadopago.com.ar/checkout/v1/redirect?pref_id=1131498549-ef2fc547-72b3-4e19-acce-83f94c70609a\",\"site_id\":\"MLA\",\"shipments\":{\"mode\":\"not_specified\",\"default_shipping_method\":null,\"cost\":0,\"receiver_address\":{\"zip_code\":\"\",\"street_name\":\"\",\"street_number\":null,\"floor\":\"\",\"apartment\":\"\",\"city_name\":null,\"state_name\":null,\"country_name\":null}},\"total_amount\":null,\"last_updated\":null}"
+            },
+            "third_party_transaction_id": ""
+        },
+        "created_at": "2023-07-23T23:02:39.582570Z",
+        "updated_at": "2023-07-23T23:02:40.227158Z"
+    },
+    "split": [],
+    "callback_url": "www.y.uno",
+    "workflow": "REDIRECT",
+    "metadata": []
+}
+Table of Contents
+
+Payment Link available examples
+
+Mercado Pago Checkout Pro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

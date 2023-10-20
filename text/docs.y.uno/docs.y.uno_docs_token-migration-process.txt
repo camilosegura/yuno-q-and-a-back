@@ -1,0 +1,321 @@
+Token Migration Process
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov1.0HomeGuidesAPI ReferenceDashboardStatus PageSearchGet Started with YUNOOverviewSet Up Your AccountCreate Your First PaymentHow yuno worksWhat is Yuno?Basic ConceptsCustomersSessionsPaymentsTransactionsTokensPayment methodsWebhooksFraud prevention3DSPostman GuideBUILD YOUR INTEGRATIONChoose The Right Integration For YouStep by Step Integration ProcessFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure FieldsDirect FlowYour Payment Operative SystemEnvironmentsDashboard FunctionalitiesHomeDevelopers (Credentials)ConnectionsCheckout BuilderRoutingInsightsPaymentsExport DataAccounts ManagementTeams and RolesReconciliationsReportsPayment LinksSecurityUSE CASESCreate PaymentsRefund PaymentsCancel PaymentsCapture PaymentsBuild ReportsSDKsYuno SDKsWeb SDK IntegrationsFull SDKLite SDK (Payment)Lite SDK (Enrollment)Secure Fields (Payment)Secure Fields (Enrollment)LoaderPayment StatusSDK Customizations3DS Setup SDKDemo AppAndroid SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsiOS SDK IntegrationsRequirementsFull SDKLite SDK (Payment)Lite SDK (Enrollment)LoaderSDK CustomizationsPLUGINSVTEXRegistering Yuno affiliationConfiguring payment conditionsAdditional servicesWebhooksConfigure WebhooksExamplesEnroll Payment MethodsToken Migration ProcessBatch FileVia API3D SecureDirect WorkflowPCI CompliancePayoutsConnections by providerAcquirersAcquirers Advanced InformationAdyenBACBBVA OpenpayCieloCredibancoDatafastFirst Atlantic Commerce (FAC)FiservGetnetIzipayKlapMedianetNiubizPagSeguroProsaRedeRedebanStoneTransbankYuno Testing GatewayWorldpayFraud SolutionsClearSaleCyberSourceSignifydRiskifiedProcessorsaCuotazAddiAdyenArcusBradescoBraintreeBBVA OpenpayCredixDaviPlatadLocalEbanxKushkiMercado PagoNuPayNuveiPaymentezPayPalPayUPayvalidaPayzenPlace to PaySafetyPaySTPStripeT1PagosTransfeeraUnlimintWibondWompiWorldlineWorldpayPayment MethodsaCuotaz - BNPLAddi - BNPLAdyen - PIXAdyen - CardsArcus - CashBAC - CardsBradesco - PIXBraintree - CardsCielo - CardsCredix - CardsDaviPlata - BankTransferdLocal - CardsdLocal - Checkout RedirectdLocal - CODIdLocal - EfectydLocal - KhipudLocal - OXXOdLocal - Pago EfectivodLocal - PSEdLocal - SPEIdLocal - Tarjeta ClaveEbanx - CardsFAC - CardsGetnet - CardsGetnet - PIXKlap - CardsKushki - CardsMercado Pago - APIMercado Pago - Checkout ProMercado Pago - PSEMercado Pago - Wallet ConnectNupay - PIXNupay - WalletNuvei - OXXO PayNuvei - SPEIPaymentez - CardsPaymentez - DaviplataPaymentez - LinkToPayPaymentez - NequiPaymentez - PaycashPaymentez - PSEPaymentez - SencillitoPaymentez - WebpayPayPal - Smart ButtonPayU - CardsPayvalida - Payment LinkPayzen - PSEPlace to Pay - CardsRede - CardsSafetyPay - Payment LinkStone - CardsSTP - SPEISTP - CoDiStripe - CardsT1Pagos - CardsTransbank - CardsTransbank Mall - CardsTransbank - WebpayTransbank Mall - WebPayTransfeera - PIXUnlimint - CardsUnlimint - CheckoutWibond - BNPLWompi - BancolombiaWompi - CardsWompi - NequiWompi - PSEWompi - TokenBoxWorldpay - CardsWorldline - CardsWalletsApple PayGoogle PayConnections by CountryCoverageAfricaAlgeriaAngolaBeninBotswanaBurkina FasoBurundiCameroonCape VerdeCentral African RepublicChadComorosDemocratic Republic of the CongoDjiboutiEgyptEquatorial GuineaEritreaEthiopiaFrench Southern TerritoriesGabon RepublicGambiaGhanaGuinea-BissauGuineaHeard Island and McDonald IslandsIvory CoastKenyaLesothoLiberiaLibyanMadagascarMalawiMaliMauritaniaMauritiusMayotteMoroccoMozambiqueNamibiaNigerNigeriaRepublic of the CongoReunionRwandaSaint HelenaSao Tome and PrincipeSenegalSeychellesSierra LeoneSomaliaSouth AfricaSouth SudanSudanSwazilandTanzaniaTogoTunisiaUgandaWestern SaharaZambiaZimbabweAmericaAnguillaAntigua and BarbudaArgentinaArubaBahamasBarbadosBelizeBermudaBoliviaBrazilBritish Virgin IslandsCanadaCayman IslandsChileColombiaCosta RicaCubaCuracaoDominicaDominican RepublicEcuadorEl SalvadorFalkland Islands (Malvinas)French GuianaGrenadaGuadeloupeGuatemalaGuyanaHaitiHondurasJamaicaMartiniqueMexicoMontserratNicaraguaPanamaParaguayPeruPuerto RicoSaint Kitts and NevisSaint LuciaSaint MaartenSaint Pierre and MiquelonSaint Vincent and the GrenadinesSurinameTrinidad and TobagoTurks and CaicosUnited States of AmericaUruguayVenezuelaAsia PacificAfghanistanArmeniaAustraliaAzerbaijan RepublicBahrainBangladeshBhutanBruneiCambodiaChinaChristmas IslandCocos (Keeling) IslandsCook IslandsFijiFrench PolynesiaGuamHong KongIndiaIndonesiaIranIraqIsraelJapanJordanKazakhstanKiribatiKuwaitKyrgyztanLaosLebanonMacaoMalaysiaMaldivesMarshall IslandsMicronesiaMongoliaMyanmarNauruNepalNew CaledoniaNew ZealandNiueNorfolk IslandNorthern Mariana IslandsOmanPakistanPalauPalestinian TerritoryPapua New GuineaPhilippinesPitcairn IslandsQatarSamoaSaudi ArabiaSingaporeSolomon IslandsSouth KoreaSri LankaSyriaTaiwanTajikistanThailandTimor-LesteTokelauTongaTurkmenistanTuvaluUnited Arab EmiratesUzbekistanVanuatuVietnamWallis and FutunaYemenEuropeÅland IslandsAlbaniaAndorraAustriaBelarusBelgiumBosnia and HezergovinaBulgariaCroatiaCyprusCzechiaDenmarkEstoniaFaroe IslandsFinlandFranceGeorgiaGermanyGibraltarGreeceGreenlandGuernseyHungaryIcelandIrelandIsleItalyJerseyKosovoLatviaLiechtensteinLithuaniaLuxembourgMaltaMoldovaMonacoMontenegroNetherlandsNorth MacedoniaNorwayPolandPortugalRomaniaRussiaSan MarinoSerbiaSlovakiaSloveniaSpainSvalbard and Jan MayenSwedenSwitzerlandTurkeyUkraineUnited KingdomVatican CityToken Migration ProcessSuggest EditsToken migration is the process by which the card numbers stored in a provider are transferred to Yuno's vault. This process involves the generation of a new token for each card.
+
+
+
+
+First step
+
+
+					To initiate the token migration process, contact your business advisor at Yuno to assess the viability and schedule of the procedure.
+        
+
+
+
+
+Importing cards from a gateway account
+The token migration process deals with confidential information. Therefore, a secure procedure needs to be followed. To import card data to Yuno from an existing gateway, you need to follow these steps:
+
+First, you will communicate with your existing third-party vault/gateway, requesting an export of the payment method data. Follow their specified process and protocols.
+Review the data format received from the third-party vault/gateway. The data provided to Yuno must follow a specific data format to perform the migration successfully. 
+Submit a formal request to Yuno, providing the environment key where the data will be imported following Yuno's data transfer procedures. The gateway's process and response to the export request will determine the data transfer process.
+
+If the gateway requires SFTP setup for the transfer, our PGP key will be shared with them to obtain the necessary credentials. (Note: S/MIME encryption with an RSA key of at least 2048 bits will be used.)
+If Yuno's SFTP is preferred, we will request the public PGP key of the third-party vault/gateway. The key will encrypt credentials for a Yuno-created SFTP server, where the gateway can drop the exported payment methods for us to retrieve. Ideally, the public PGP key of the gateway should be hosted on a publicly accessible page.
+
+
+
+
+
+
+
+Your responsibilities when migrating tokens
+
+
+					You are responsible for managing communication with your gateway provider throughout the migration process. The Yuno team will support and collaborate directly with the third-party vault/gateway to facilitate the importing process. However, you need to manage the process.
+          
+          In addition, the customer subscription information, including amounts, dates, etc., must be obtained directly from the exporting entity, as Yuno will not extract this data from encrypted files.
+        
+
+
+
+
+The last step is to execute the migration. At this point, you will provide the user's data (the buyers) and their existing payment methods. Before continuing, you need to choose how to migrate the tokens to  Yuno. 
+Migration options
+You can choose between two options to execute the token migration process. 
+
+Via API: Use the Yuno API to add customers and enroll payment methods to them. 
+Via Batch File: Provide customers' data through CSV files to Yuno's team, which will add the customers and enroll payment methods to them. Yuno will provide a new CSV file with additional data for each customer created at the end of the process.
+
+Access the step-by-step guide for each option using the buttons below:
+
+
+
+
+
+
+Token migration via API
+
+
+
+
+
+
+
+Token migration via Batch File
+
+
+
+
+
+
+
+
+Data format
+Yuno defines a list of the required parameters for each customer and credit card to proceed with the migration process. The list of the required parameters is present below:
+
+Account ID
+Merchant customer ID
+First name
+Last name
+Email
+Country
+Document number
+Document type
+Payment method type
+Payment method ID
+Payment method token
+
+You can use the Customer Object and Payment Method Object to find all the possible parameters that can be used when importing/creating customers or enrolling payment objects.
+Different technical limitations associated with alternative payment methods may render them ineligible for migration between service providers. Contact the Yuno support team if you're contemplating the migration of alternative payment method tokens, such as Mercado Pago Wallet Connect, Bancolombia Tokenbox, etc., to the Yuno vault.
+
+
+
+
+Data transfer security
+
+
+					All data throughout the migration process is encripted and transfered using a safe method, such as SFTP.
+        
+
+
+
+
+Data validation
+To ensure efficient processing and prevent delays, please include the following information when communicating with Support:
+
+The external identifier name to be used for the import.
+An approximate count of the expected number of payment methods to be included (a rough estimate is acceptable).
+Any known data gaps, such as missing names or expiration dates.
+
+
+
+
+
+
+
+					Yuno does not validate expiration dates during credit card import.
+        
+
+
+
+
+Data protection
+When making payments through Yuno, the platform connects to payment processors. Yuno tokenizes and encrypts the data to ensure data security, simplifying the PCI compliance process. However, you remain responsible for managing and protecting your customer's (the buyer's) data. In addition, you are responsible for communicating any additional fees or other issues to your customer.Updated 24 days ago Table of Contents
+
+Importing cards from a gateway account
+
+Migration options
+
+
+
+Data format
+
+
+Data validation
+
+
+Data protection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

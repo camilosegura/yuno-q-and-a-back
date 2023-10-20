@@ -1,0 +1,241 @@
+Payments with 3DS Split
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov1.0HomeGuidesAPI ReferenceDashboardStatus PageSearchJUMP TOOverviewIntroductionAuthenticationHTTP Response CodesReferenceAirline informationCountry referenceECI indicators listIndustry categoryItems categoryPayment typePurposes listTransaction categoryCustomersManage CustomersThe Customer ObjectCreate CustomerpostRetrieve CustomergetRetrieve Customer by External IDgetUpdate CustomerpatchEnrollmentStatusCustomer SessionsThe Customer Session ObjectCreate Customer SessionpostPayment Methods (Checkout)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Payment Method By IDgetRetrieve Payment Method by Customer SessiongetUnenroll Payment MethodpostPayment Methods (Direct Workflow)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Enrolled Payment MethodsgetRetrieve Enrolled Payment Method by IdgetUnenroll Payment MethodpostCheckoutCheckout SessionsThe Checkout Session ObjectCreate Checkout SessionpostRetrieve Payment Methods for CheckoutgetPaymentsStatus and Response CodesPaymentsTransactionsManage PaymentsThe Payment ObjectCreate PaymentpostRetrieve Payment by IDgetRetrieve Payment by Merchant Order IDgetRefund PaymentpostCancel PaymentpostAuthorize PaymentpostCapture Authorizationpost3DS (Direct Workflow)SetuppostPayments with 3DS SplitCreate PaymentpostComplete PaymentpostPayments ExamplesBank TransferBNPLCardsPayment LinkTicketWalletPayment LinksStatusManage Payment LinksThe Payment Link ObjectCreate Payment LinkpostRetrieve Payment LinkgetCancel Payment LinkpostPAYOUTSStatusManage PayoutsThe Payout ObjectCreate PayoutpostRetrieve Payout by IDgetRetrieve Payout by Merchant ReferencegetRelease PayoutpostCancel PayoutpostReportsStatusManage ReportsThe Reports ObjectReports FieldsCreate a ReportpostRetrieve a ReportgetDownload a ReportgetList All ReportsgetJUMP TOOverviewIntroductionAuthenticationHTTP Response CodesReferenceAirline informationCountry referenceECI indicators listIndustry categoryItems categoryPayment typePurposes listTransaction categoryCustomersManage CustomersThe Customer ObjectCreate CustomerpostRetrieve CustomergetRetrieve Customer by External IDgetUpdate CustomerpatchEnrollmentStatusCustomer SessionsThe Customer Session ObjectCreate Customer SessionpostPayment Methods (Checkout)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Payment Method By IDgetRetrieve Payment Method by Customer SessiongetUnenroll Payment MethodpostPayment Methods (Direct Workflow)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Enrolled Payment MethodsgetRetrieve Enrolled Payment Method by IdgetUnenroll Payment MethodpostCheckoutCheckout SessionsThe Checkout Session ObjectCreate Checkout SessionpostRetrieve Payment Methods for CheckoutgetPaymentsStatus and Response CodesPaymentsTransactionsManage PaymentsThe Payment ObjectCreate PaymentpostRetrieve Payment by IDgetRetrieve Payment by Merchant Order IDgetRefund PaymentpostCancel PaymentpostAuthorize PaymentpostCapture Authorizationpost3DS (Direct Workflow)SetuppostPayments with 3DS SplitCreate PaymentpostComplete PaymentpostPayments ExamplesBank TransferBNPLCardsPayment LinkTicketWalletPayment LinksStatusManage Payment LinksThe Payment Link ObjectCreate Payment LinkpostRetrieve Payment LinkgetCancel Payment LinkpostPAYOUTSStatusManage PayoutsThe Payout ObjectCreate PayoutpostRetrieve Payout by IDgetRetrieve Payout by Merchant ReferencegetRelease PayoutpostCancel PayoutpostReportsStatusManage ReportsThe Reports ObjectReports FieldsCreate a ReportpostRetrieve a ReportgetDownload a ReportgetList All ReportsgetPayments with 3DS SplitIn the page Create Payment with Payment Method Split, you can understand how the split workflow actually works and how you can integrate it into your site. In this section, you can also understand how to support 3DS card verification. 
+
+
+
+
+
+
+ Integrate Split payment method solution. (Only available for DIRECT workflow)
+Enable 3DS in your Yuno dashboard and indicate in your CARD routing for which scenarios you want your customers to be able to use it.
+
+
+
+
+
+How does it work?
+
+Create a checkout_session to initiate the payment workflow. 
+Create your payment using the split payment method integration. If 3DS is enabled in your Yuno routing section, you'll get a payment with status PENDING/WAITING_ADDITIONAL_STEP with the corresponding 3DS transactions with a CREATED status. 
+
+Info needed in the request: 
+
+Card data
+Callback_url in case a 3DS challenge is required
+
+
+Response - 3DS transaction: 
+
+sdk_action_required: 3DS
+sdk_token
+sdk_collect_url
+
+
+
+
+With the fields obtained in the previous step (token and collect_url), initialize the Yuno's SDK 3DS() function to capture the sdk_session_id. 
+After initializing the SDK, for each card, consume the complete endpoint to see wether or not your customer needs an additional 3DS challenge. If it doesn't, we'll continue with the payment and notify the final result. 
+
+Info needed in the request
+
+payment and transaction_codes
+sdk_session_id
+
+
+Response: Updated 3DS transaction (with an redirect_url in case a 3DS challenge is required)
+
+
+If the transactions requires a 3DS verification challenge, we will return a required_action set as redirect and an init_url for you to redirect your customers in order to complete the challenge. There will be as many redirect_urls as 3DS challenges required. If both cards require a 3DS challenge, you'll get two different urls to redirect your customer. 
+After the 3DS challenge is finished, the user will be redirected to the callback_url defined in the payment.  
+Finally, by webhooks you'll receive the result of the 3DS challenge and the final payment result.
+
+Transactions
+A 3DS transaction behaves similar to a regular purchase transaction. It has different states that represent how the authorization is going. Once the 3DS transaction is SUCCEEDED, we'll to go to the processor and generate a PURCHASE transaction to charge the client. 
+
+StatusDescriptionCREATEDPayment is created and waiting for Yuno's SDK session id.PENDINGChallenge is required and the init_url is returned by YunoIN_PROCESSChallenge is being completed by the userSUCCEEDEDChallenge is completed correctlyDECLINEDChallenge is completed and declined by the bankERRORAn error occurred while redirecting to the users challengeTable of Contents
+How does it work?
+Transactions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

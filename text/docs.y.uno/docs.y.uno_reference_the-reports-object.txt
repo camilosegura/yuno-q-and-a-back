@@ -1,0 +1,240 @@
+The Reports Object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Jump to ContentHomeGuidesAPI ReferenceDashboardStatus Pagev1.0v2.0Book a DemoBook a Demov1.0HomeGuidesAPI ReferenceDashboardStatus PageSearchJUMP TOOverviewIntroductionAuthenticationHTTP Response CodesReferenceAirline informationCountry referenceECI indicators listIndustry categoryItems categoryPayment typePurposes listTransaction categoryCustomersManage CustomersThe Customer ObjectCreate CustomerpostRetrieve CustomergetRetrieve Customer by External IDgetUpdate CustomerpatchEnrollmentStatusCustomer SessionsThe Customer Session ObjectCreate Customer SessionpostPayment Methods (Checkout)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Payment Method By IDgetRetrieve Payment Method by Customer SessiongetUnenroll Payment MethodpostPayment Methods (Direct Workflow)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Enrolled Payment MethodsgetRetrieve Enrolled Payment Method by IdgetUnenroll Payment MethodpostCheckoutCheckout SessionsThe Checkout Session ObjectCreate Checkout SessionpostRetrieve Payment Methods for CheckoutgetPaymentsStatus and Response CodesPaymentsTransactionsManage PaymentsThe Payment ObjectCreate PaymentpostRetrieve Payment by IDgetRetrieve Payment by Merchant Order IDgetRefund PaymentpostCancel PaymentpostAuthorize PaymentpostCapture Authorizationpost3DS (Direct Workflow)SetuppostPayments with 3DS SplitCreate PaymentpostComplete PaymentpostPayments ExamplesBank TransferBNPLCardsPayment LinkTicketWalletPayment LinksStatusManage Payment LinksThe Payment Link ObjectCreate Payment LinkpostRetrieve Payment LinkgetCancel Payment LinkpostPAYOUTSStatusManage PayoutsThe Payout ObjectCreate PayoutpostRetrieve Payout by IDgetRetrieve Payout by Merchant ReferencegetRelease PayoutpostCancel PayoutpostReportsStatusManage ReportsThe Reports ObjectReports FieldsCreate a ReportpostRetrieve a ReportgetDownload a ReportgetList All ReportsgetJUMP TOOverviewIntroductionAuthenticationHTTP Response CodesReferenceAirline informationCountry referenceECI indicators listIndustry categoryItems categoryPayment typePurposes listTransaction categoryCustomersManage CustomersThe Customer ObjectCreate CustomerpostRetrieve CustomergetRetrieve Customer by External IDgetUpdate CustomerpatchEnrollmentStatusCustomer SessionsThe Customer Session ObjectCreate Customer SessionpostPayment Methods (Checkout)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Payment Method By IDgetRetrieve Payment Method by Customer SessiongetUnenroll Payment MethodpostPayment Methods (Direct Workflow)The Payment Method ObjectRetrieve Payment Methods To EnrollgetEnroll Payment MethodpostRetrieve Enrolled Payment MethodsgetRetrieve Enrolled Payment Method by IdgetUnenroll Payment MethodpostCheckoutCheckout SessionsThe Checkout Session ObjectCreate Checkout SessionpostRetrieve Payment Methods for CheckoutgetPaymentsStatus and Response CodesPaymentsTransactionsManage PaymentsThe Payment ObjectCreate PaymentpostRetrieve Payment by IDgetRetrieve Payment by Merchant Order IDgetRefund PaymentpostCancel PaymentpostAuthorize PaymentpostCapture Authorizationpost3DS (Direct Workflow)SetuppostPayments with 3DS SplitCreate PaymentpostComplete PaymentpostPayments ExamplesBank TransferBNPLCardsPayment LinkTicketWalletPayment LinksStatusManage Payment LinksThe Payment Link ObjectCreate Payment LinkpostRetrieve Payment LinkgetCancel Payment LinkpostPAYOUTSStatusManage PayoutsThe Payout ObjectCreate PayoutpostRetrieve Payout by IDgetRetrieve Payout by Merchant ReferencegetRelease PayoutpostCancel PayoutpostReportsStatusManage ReportsThe Reports ObjectReports FieldsCreate a ReportpostRetrieve a ReportgetDownload a ReportgetList All ReportsgetThe Reports Object
+
+id string
+The unique identifier of the report (MAX 64 ; MIN 36).
+       Example: 5104911d-5df9-229e-8468-bd41abea1. 
+
+
+
+type enum
+The type of the report to run (MAX 255; MIN 3).
+       Possible enum values: PAYMENTS,TRANSACTIONS or SETTLEMENTS. 
+
+
+
+start_date timestamp
+Starting timestamp of data to be included in the report run (MAX 24; MIN 24; ISO 8601).
+       Example: 2022-05-09T20:46:54.786Z. 
+
+
+
+end_date timestamp
+Ending timestamp of data to be included in the report run (MAX 24; MIN 24; ISO 8601).
+       Example: 2022-05-09T20:46:54.786Z. 
+
+
+
+merchant_reference_id string
+The unique identifier of the report at the merchant side (MAX 255; MIN 3).
+       Example: Merchant_report_1234. 
+
+
+
+created_at timestamp
+Report creation date and time (MAX 27; MIN 27; ISO 8601).
+       Example: 2022-05-09T20:46:54.786342Z.  
+
+
+
+updated_at timestamp
+Report the last updated date and time (MAX 27; MIN 27; ISO 8601).
+       Example: 2022-05-09T20:46:54.786342Z.  
+
+
+
+expires_at timestamp
+The time at which the file expires and is no longer available (MAX 27; MIN 27; ISO 8601).
+       Example: 2022-05-09T20:46:54.786342Z.  
+
+
+
+status enum
+Report status (MAX 255; MIN 3).  
+       Possible enum values: IN_PROCESS,SUCCEEDED, DOWNLOADED,EXPIRED, FAILED or ERROR. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
