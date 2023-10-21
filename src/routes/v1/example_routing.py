@@ -13,7 +13,6 @@ tags = ['example']
 diretorio_atual = os.path.dirname(__file__)
 caminho_relativo = os.path.join(diretorio_atual, "index.json")
 docsPath = os.path.join(diretorio_atual, "docs")
-index = GPTSimpleVectorIndex.load_from_disk(caminho_relativo)
 
 def construct_index(directory_path):
     max_input_size = 4096

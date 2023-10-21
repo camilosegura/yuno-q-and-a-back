@@ -13,3 +13,10 @@ starlette==0.27.0
 typing-extensions==4.6.3
 uvicorn==0.22.0
 yunopyutils==1.0.0a2
+openai
+gpt_index==0.4.24
+langchain==0.0.148
+PyPDF2
+PyCryptodome
+fastapi
+uvicorn

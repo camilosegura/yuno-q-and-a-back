@@ -32,16 +32,16 @@ def chatbot(input_text):
     return response.response
 
 
-@healthy_router.get('/', tags=tags, include_in_schema=False)
-async def root():
+@healthy_router.get('/')
+def root():
     return "Hola healthy"
 
-@healthy_router.get('/training', tags=tags, include_in_schema=False)
-async def read_root():
+@healthy_router.get('/training')
+def read_root():
     return construct_index(docsPath)
 
 
-@healthy_router.get('/healthy', tags=tags, include_in_schema=False)
-async def healthy(q: Union[str, None] = None):
+@healthy_router.get('/healthy')
+def healthy(q: Union[str, None] = None):
     return chatbot(q) 
 
