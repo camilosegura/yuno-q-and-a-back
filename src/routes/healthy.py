@@ -1,4 +1,3 @@
-from controllers import healthy_controller
 from fastapi import APIRouter
 from handlers.errors import has_errors
 from typing import Union
