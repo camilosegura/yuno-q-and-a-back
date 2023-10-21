@@ -162,3 +162,5 @@ cython_debug/
 # IDE and Venv
 .vscode/
 .pdm-python
+
+index.json
