@@ -1,0 +1,15 @@
+kind: template
+load: python_test.yaml
+
+data:
+  push_image : true
+  test:
+    vars: 
+  services:
+    redis:
+      active: false
+    psql:
+      active: false
+      password: secret
+      user: dashboard-gpt-assistant
+      database: dashboard-gpt-assistant-db
