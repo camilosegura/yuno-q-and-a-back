@@ -33,12 +33,12 @@ def chatbot(input_text):
     return response.response
 
 
-@example_router.get("/gpt/training")
+@example_router.get("/training")
 def read_root():
     return construct_index(docsPath)
 
 
-@example_router.get("/gpt")
+@example_router.get("/")
 def read_item(q: Union[str, None] = None):
     return chatbot(q) 
 
