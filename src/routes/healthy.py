@@ -11,7 +11,7 @@ tags = ["healthy"]
 diretorio_atual = os.path.dirname(__file__)
 caminho_relativo = os.path.join(diretorio_atual, "index.json")
 docsPath = os.path.join(diretorio_atual, "docs")
-global indexDocs
+indexDocs = ""
 def construct_index(directory_path):
     max_input_size = 4096
     num_outputs = 512
