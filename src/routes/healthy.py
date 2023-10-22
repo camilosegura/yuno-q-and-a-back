@@ -11,8 +11,7 @@ tags = ["healthy"]
 diretorio_atual = os.path.dirname(__file__)
 caminho_relativo = os.path.join(diretorio_atual, "index.json")
 docsPath = os.path.join(diretorio_atual, "docs")
-index = GPTSimpleVectorIndex.load_from_disk(caminho_relativo)
-
+global indexDocs
 def construct_index(directory_path):
     max_input_size = 4096
     num_outputs = 512
@@ -24,6 +23,7 @@ def construct_index(directory_path):
     documents = SimpleDirectoryReader(directory_path).load_data()
     index = GPTSimpleVectorIndex(documents, llm_predictor=llm_predictor, prompt_helper=prompt_helper)
     index.save_to_disk(caminho_relativo)
+    indexDocs = GPTSimpleVectorIndex.load_from_disk(caminho_relativo)
     return "Training finished"
 
 def chatbot(input_text):
