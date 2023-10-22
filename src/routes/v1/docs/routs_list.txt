@@ -1,0 +1,53 @@
+
+dashboard url list
+
+payments: https://dashboard.y.uno/payments/overview
+connections: https://dashboard.y.uno/connections
+routing: https://dashboard.y.uno/routing
+developers: https://dashboard.y.uno/developers
+transactions: https://dashboard.y.uno/payments/transactions
+fraud screening: https://dashboard.y.uno/payments/fraudScreenings
+insights: https://dashboard.y.uno/insights
+reconciliations: https://dashboard.y.uno/reconciliations
+checkout builder: https://dashboard.y.uno/checkout-builder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
