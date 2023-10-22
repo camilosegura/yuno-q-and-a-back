@@ -27,7 +27,7 @@ def construct_index(directory_path):
     return "Training finished"
 
 def chatbot(input_text):
-    response = index.query(input_text, response_mode="compact")
+    response = indexDocs.query(input_text, response_mode="compact")
     return response.response
 
 
