@@ -4,16 +4,17 @@ from handlers.errors import has_errors
 from typing import Union
 from gpt_index import SimpleDirectoryReader, GPTListIndex, GPTSimpleVectorIndex, LLMPredictor, PromptHelper
 from langchain.chat_models import ChatOpenAI
+from os import getenv
 import sys
 import os
 import json
 import openai
 import re
 
+_OPENAI_API_KEY = getenv('OPENAI_API_KEY', '')
 
-openai.api_key = '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'
+openai.api_key = _OPENAI_API_KEY
 
-os.environ["OPENAI_API_KEY"] = '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'
 example_router = APIRouter()
 tags = ['example'] 
 diretorio_atual = os.path.dirname(__file__)
