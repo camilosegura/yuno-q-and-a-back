@@ -1,0 +1,87 @@
+﻿Dashboard 
+
+En payments, ¿qué ustedes pueden ver? Acá ustedes tienen todos los pagos que fueron procesados desde Yuno. Entonces, tienen el payment ID, que es el Payment Referencia de Juno. El Order ID, que es la Referencia de Moned. Y tiene los Status y los Substatus. Este ultimo de acá puedetener conflicto entre uno y otro, por eso dejamos los dos, para que siempre podamos ver en más detalle cuál es el estado del pago. El monto, cuál fue el Provider y cuál fue el método de pago. Porque acá, como pueden ver, en el caso de SaferPay. Tenemos el mismo proveedor para métodos de pago distintos. Por eso mantenemos los dos. Igualmente, tenemos la fecha de creación y el país. Acá, ¿qué pueden hacer? Pueden filtrar, exportar reportes. Y acá pueden decir cuáles son las fechas y los rangos de fechas que quieren traer. Pueden decir si quieren ver de pagos o de transacciones, recordando que un pago puede tener más de una transacción. Ejemplo, si tiene un pago que se fue aceptado, pero por alguna razón se quiere hacer un refund, para este mismo pago se lo va a generar dos transacciones, una de pago exitoso y otra de refund. Entonces, esta es la gran distinción de un reporte de pagos y de un reporte de transacción.
+
+
+¿Está clara hasta ahí? Debo aprovechar para sumarte una cosita a lo que decís. Como dice Debo, desde este Drawer se pueden exportar tanto pagos como transacciones, siempre teniendo en cuenta que lo que van a exportar es lo que ven en la pantalla. ¿Qué quiere decir esto? Que si ustedes descargan Payments, van a descargar tal cual los pagos que se ven ahí atrás. Y si ustedes descargan Transactions, lo que van a estar descargando son todas las Transactions asociadas a esas mismas Payments.
+
+
+
+
+Entonces, cuando ustedes aplican filtros en esta sección, no sé, por ejemplo, quieren ver solo un Provider o solo un Payment Method o lo que sea, y después exportan, van a ver el reporte con los filtros que ustedes aplicaron, ya sea con todos los pagos o con todas las transacciones asociadas a esos pagos. Perfecto. Y se pueden filtrar desde rango de fechas, cuentas, en el caso de que Cuando estén utilizando muchas cuentas, payment status, payment substatus, proveedor y payment methods.
+
+
+0:04:27
+Igual, usted también puede buscar solamente una transacción. Ejemplo, sé que tuve un problema X con x-transacción y quiero buscar solamente esta para ver cuáles son las especificidades de la transacción. Puedo venir acá y buscar por todas esas informaciones que tenemos los trozos en Juno hoy. Order ID, Payment ID, Transaction ID, Provider ID, o por el MEI. Acá tiene todos los PAYMENTS, las transacciones, que es lo que comentamos con ustedes, que tienen varias transacciones por pagos.
+
+
+0:05:03
+Igual tiene toda la parte de fraude, que una vez que estén utilizando un proveedor de antifraude y lo quieren ver apartado de pagos, lo pueden ver en esta subsección. Volviendo a la parte de pagos, ¿qué tenemos más acá? Usted puede ver en detalle una transacción. ¿Cómo hace eso? Tiene el ojo acá a la derecha, le dan click, y acá tienen toda la información. Se puede ver los Payments Retail, quién fue el pagador, cuál es el adres o shipping adres en caso de que tenga?
+
+
+0:05:40
+Browser info, taxes, document, y cualquier otra additional data que sea requerido para este pago. Igual, también tienen la posibilidad en este otro ojito acá de abajo de ver la respuesta que tiene el proveedor. ¿Cómo hago esto? Acá tienen la información general por la cual se pueden buscar el pago. Y acá más abajo, además de la descripción del pago, tiene el Raw Response del proveedor.
+
+
+0:06:08
+¿Qué es el Raw Response? Nosotros de Juno, por una cuestión de que todo esté en el mismo standard, les pasamos una versión que es lo que interpreta Juno de todos los proveedores. ¿Para qué hagamos eso? Para que ustedes tienen claro cuáles son los motivos de rechazo y no tengan que buscar en cada proveedor cuál es el motivo de rechazo, la razón de rechazo. Ejemplo, un declinado por el banco se puede escribir de distintas maneras del proveedor. Y para que no genere duda, nosotros hacemos un mapeo, le pasamos en este mapeo la respuesta del proveedor y si quieren tener más detalle y entender de aquel proveedor qué está diciendo o por qué se rechazó, pueden venir a este ojo, bajar en Trial Provider Response, y acá van a tener toda la respuesta bruta del proveedor.
+
+
+0:06:56
+Ejemplo, en este caso de un pago creado, ¿por qué está creado? ¿Cuál fue el tipo de pago? ¿Cuál fue la URL de redicción? Las instrucciones de pago. Pueden ver toda la respuesta del proveedor. Este de acá lo utilizamos nomás cuando queremos tener más detalles de razones de rechazo. Es lo principal. Perdón, Debo agregó, ese ojito que se abre en el side drawer es para cada una de las transactions.
+
+
+0:07:27
+Esto quiere decir que justo en este payment hay una sola transaction, que es un purchase. Pero si tuviésemos, como dice Debo, un purchase y después un refund, va a haber un drawer por cada una de las transactions. Entonces, ahí lo que ustedes pueden ver en realidad es todo el detalle de la transacción específicamente. La pantalla esta que muestra ahora, debo mostrar el detalle del pago, pero cuando se hace clic en el ojito, lo que se ve es el detalle de la transacción.
+
+
+0:07:57
+Entonces, va a ser distinta la información que hay en este caso de distribuiría es cola del purchase. Porque seguramente sean providers diferentes y tengan data diferente porque son diferentes tipos de transactions. Entonces, eso es importante para que tengan en cuenta que lo que van a ver ahí difiere entre transaction y transaction y es específicamente la información de la transaction. Por eso hablamos de el group provider response, porque en realidad es como la respuesta para ese request, la respuesta que dio el provider para ese request en particular.
+
+
+0:08:29
+¿Se entiende? Sí. ¿Hasta ahora alguna duda? No, todo súper claro. No, súper claro. La única pregunta es, ¿esta información que vamos cada vez más en detalle no sale en el reporte? No, la información hoy no sale en el reporte. Estamos trabajando para incluir ese reporte. ¿Qué información? No, o sea, ahí está en Raw Response. Creo. OK, ahí va.
+
+
+0:08:59
+La que está en Raw Response, como dice, muy pronto va a estar. Hoy sí se exporta un reporte, no. Pero sí estamos trabajando para agregarlo. Está muy bien. Y ahí, no, más que nada, como para comentarlo, ¿no? Si en el Payments, una vez que generamos un reporte, se baja desde, o sea, se genera el archivo para ser descargado. Y se tiene que hacer que nos llegue a la campanita, ¿no? Sí.
+
+
+0:09:29
+Debo, si querés, abrir el export y, estoy en Barcelona, y comento un poquito. Ahí va. Ahí en Export, bueno, se le puede poner un nombre al reporte, el type, si es que quieren ver como la apertura por Payments o por Transactions. Se puede volver a filtrar las fechas. En realidad, si no se cambia el filtro, van a aplicar el mismo filtro que ya estaba aplicado para la sección.
+
+
+0:09:52
+O sea, le digas que vean tal cual lo que tenían ahí. Pero si ahí, no sé, se dan cuenta que lo que quieren son los últimos 7 días, lo pueden cambiar. Por otro lado, lo que permite es parametrizar al reporte. Porque nosotros sugerimos un default, que es este, que tiene 15 columnas, que tiene como los datos básicos del pago de la transacción, el status, el substatus, el país, etcétera. Pero también pueden decir, no, quiero toda la información que existe, que son las 36 columnas. O en caso de que ustedes necesitan un reporte como customizado, porque necesitan, no sé, con cierta data, acá pueden parametrizar su propio reporte eligiendo qué columnas quieren que traiga el reporte.
+
+
+0:10:33
+Entonces, ahí pasan las columnas que quieran de Available o Active. Y si bajas, si quieres volverte al custom, ahí va. Y elegiré 2 columnas nomás para mostrar. Ahí va. Entonces, vamos a decir que ustedes, este es un reporte que suelen usar, se suelen descargar todos los días. Pueden ir abajo del todo y darle en Save Template. Se guarda en el template con un nombre.
+
+
+0:10:59
+Y después para la próxima vella, arriba les va a aparecer el Just Select Template. Y ahí lo reutilizan. Así es que tienen como un estándar de reportes que necesitan descargar. Eso sería, bajo el export, pueden pasar 2 cosas. Si el reporte tiene poca data, simplemente les va a aparecer un loader y va a descargar como medio que instantáneamente va a ser cuestión de segundos y van a ver el reporte descargado en el navegador.
+
+
+0:11:31
+Ahora, si es más pesado y tiene un volumen de data muy grande, les va a salir un, igual ahora podemos hacer también la demostración, pero les va a salir como un carterito que dice que lo estamos procediendo y que les vamos a avisar cuando se termina de descargar. Y ahí sí, como decía Fran, va a aparecer en la campanita una notificación de que el reporte ya está listo. Última cosita antes de salir de Export. Y, bueno, si tienen alguna duda, ahí la revisamos. Si querés, Diego, anda para arriba del todo.
+
+
+0:12:06
+Listo. Ahí vienen 2 tabs. Settings, que es desde donde todo esto que les dio, se parametrizan los reportes, etcétera. Y en Downloads pueden ver todos los reportes que descargaron previamente. Entonces, si descargaron un reporte ayer y hoy lo tienen que volver a revisar o, no sé, les quedó alguna duda, lo que sea, lo pueden volver a descargar. Los reportes van expirando, pero les van quedando los de los últimos 30 días acá por si lo vuelven a necesitar.
+
+
+0:12:35
+Entonces, eso es un buen pique que les van a quedar los reportes guardados que ya descargaron. ¿Tienen alguna duda? ¿Hay algo en particular que necesitan hacer con los reportes o alguna información en particular? Si quieren, como en el momento que lo vayan a usar, lo podemos como ver juntos, pero básicamente serían esas las funcionalidades. Ahí solo para dar un ejemplo de cómo se queda el report cuando una vez que intenten descargar. Y ahí te le va a subir la notificación una vez que esté listo. Esa, perdón, ese es el caso en el cual el reporte no era tan pesado, entonces se descargó instantáneamente.
+
+
+0:13:24
+Ustedes no lo ven porque Debo está compartiendo solo la pestaña, pero Debo lo debe tener en el navegador. Y si no lo llega a dar por algún motivo, ahí le puede dar download de nuevo y se vuelve a descargar. Pero este es un caso en el cual se descarga instantáneamente. Acá tiene como todas las notificaciones de los reportes que se están bajando o ya fueron bajados. Y lo pueden ver. Súper claro. Buenísimo.
+
+
+0:13:53
+Perfecto. Ahí tenemos igual la parte de conexiones. Porque ¿cómo funciona Junoi? Para tener un routing, es necesario que tengan una conexión. Después de tener la conexión, pueden ver el routing. Y después de tener un routing, pueden ver el checkout builder. O sea, las cosas funcionan una dependiendo de la otra. Si no hay una conexión, no hay cómo hacer routing. Si no hay routing, no hay cómo poner el checkout builder.
+
+
+0:14:24
+Entonces, es necesario que todo esté muy bien organizado en las tres fases para que lo tengan prendido. Acá les muestro cómo se crea una conexión. En caso, por ejemplo, de moneda, ustedes tienen Payments. De ahí puede venir a Payments, poner un nombre, cuál es el tipo de país que van a estar utilizando, ejemplo, el CILE, y el Payment Method. Cada proveedor tiene una manera de exigir credenciales y tiene un sistema de negocios.

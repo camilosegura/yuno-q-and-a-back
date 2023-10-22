@@ -1,0 +1,83 @@
+﻿in this video we'll show you how to
+0:06
+connect to one of the connections
+0:07
+provided by you know on the dashboard
+0:09
+you need to select the connections tab
+0:11
+so that all connections available are
+0:13
+displayed you can search by type or by
+0:15
+country of coverage
+0:17
+and you can also search by the name of
+0:18
+the connection
+0:19
+here all available connections are
+0:21
+displayed but you also have the option
+0:23
+to check the connections you already
+0:24
+have in the your connections tab
+0:27
+in this example we will connect to
+0:29
+aquatas which is a payment method to do
+0:32
+this we first look for the connection
+0:34
+and after finding it we click on the
+0:36
+connect button
+0:38
+when we select the connect button the
+0:39
+side panel is displayed it indicates the
+0:42
+required credentials and shows the
+0:43
+fields that need to be filled in here we
+0:45
+Define the name for the connection
+0:49
+and you also need to provide the data
+0:50
+related to your Aqua task account as we
+0:52
+are using a test account the client ID
+0:54
+and the token ID are random numbers
+0:59
+after filling this information we will
+1:01
+click on the connect button
+1:07
+and then verify that the connection has
+1:09
+been successfully completed now we can
+1:11
+click on done to go back to the
+1:12
+connections list
+1:15
+let's clear our search and verify the
+1:17
+Aquatic is still here in the list of
+1:19
+available connections
+1:20
+to check if this connection was
+1:22
+successfully completed we can access
+1:24
+your connections
+1:26
+and here we see that we have
+1:27
+successfully connected to aquatas
+English (auto-generated)
+Summarize with HARPA AI

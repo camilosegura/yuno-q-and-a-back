@@ -1,0 +1,155 @@
+﻿Resportes > Settlement > Campo Updated_at
+
+Pregunta
+Cuando un registro cambia de estado (por la razón que sea) envés de crearse otro registro con este cambio, se realizar el cambio sobre el mismo movimientos actualizando el estado y el campo "updated_at". Esto significa que nosotros debemos trabajar con bases históricas mes a mes para entender los cambios, en poco tiempo mas esto será insostenible. Es por esto que necesitamos tener la opción de descargar reportes por le campo "updated_at"
+
+Respuesta
+Respecto al punto 1. Pueden crear reportes filtrando por el dato updated_at desde nuestra api reports, aún no contamos con esta funcionalidad en el dashboard para ninguno de los reportes, pero si por API.
+Segue la documentacion https://docs.y.uno/reference/create-a-report.
+
+
+Reportes > Transactions > Campo Updated_at
+
+Pregunta
+El casmpo updated_at funciona? 
+
+Respuesta
+Los reportes de la sección settlements no deberían tener problemas para ser consumidos, si encuentran alguna inconsistencia o algo que no se entiende, por favor nos informan y lo revisamos a la brevedad. 
+
+
+Reportes > Acceso
+
+Pregunta
+¿Cómo hago para tener acceso a los reportes?
+
+Respuesta
+Para tener acceso a los reportes necesitan tener el roll de Agent, Admin o Read Only. Se puede cambiar el roll de alguien o invitar a alguien para tu equipo, en el menú derecho, en la aba "teams and rolls".
+
+Reportes > Demora en descargar
+
+Pregunta
+Por que se demora las descargar de los reportes?
+
+Respuesta
+Lo que recomienda el equipo es que, si en una próxima descarga, el reporte demora mas de 10 minutos en estar disponible, por favor nos informes en ese mismo momento y hacemos la revisión en tiempo real con el caso en cuestión. Recomiéndanos que tenga a la mano el nombre del reporte y la hora que se intentó hacer el descargue. 
+
+
+Inconsistencia > Reconciliacion
+
+Pregunta
+Estuvimos trabajando en una conciliación de prueba
+y encontramos que este merchant_order_id "005ace1b-6034-43c7-bc63-1ea83497f926" esta APROBADO en Netsuit y DECLINED en Yuno.
+
+Respuesta
+Recomendamos que intente descargar nuevamente el reporte con dicho pago y revisar la cantidad de transacciones asociadas al mismo. Es común que haya más de una transacción para un mismo pago. Es decir que pueden tener dos status asociados a un mismo merchant_order_id.
+
+
+Registro > Conciliacion
+
+
+Pregunta
+Sobre la base de reconciliations, nosotros entendemos que si un registro tiene en blanco el campo "Reconciliation status" entonces el estado es "Decline", sin embargo nos encontramos con casos que están en blanco en el campo de "Reconciliation status" pero tienen el estado "Pending" en el campo "status", como consideramos estos registros?
+
+
+Respuesta
+Para aclarar conceptualmente, todas las transacciones con status distinto a SUCCEEDED, no se esperan conciliar, por lo cual no se les asignan reconciliation_status ni reconciliation_sub_status. En el caos de los Pending, pueden pasar 2 cosas, que termine por declinarse, o termine siendo un pago exitoso, si sucede que es un pago exitoso, automáticamente le asignamos NOT_RECONCILED/PENDING cuando se actualiza el status de la transacción a SUCCEEDED, en espera de que la transacción llegue en el proceso de liquidación del adquirente.
+
+
+Filtros no funcionan
+
+Pregunta
+Los filtros de payments y reconciliations no funcionan
+
+Respuesta
+Por favor enviar una evidencia del funcionamiento de los filtros para el equipo revisar.
+
+Diferencia reportes
+
+Pregunta
+Cual el la diferencia entre un reporte de payments y transaction?
+Cual es la diferencia entre los reportes de Yuno?
+
+Respuesta
+el de payments te va bajar la data a nivel payment, la de transactions te baja toda la data, en un payment pueden haver mas de una transaction ejemplo: refunds o cuando una trx es declinada por un provider pero aprobada por otro
+
+API Reporte All Transactions
+
+Pregunta
+No puedo acceder a través de la API al reporte de Reconciliations --> "All Transactions"
+
+Respuesta
+En este caso, tiene que solicitar con el siguiente type en la api:
+"type":"TRANSACTION_RECONCILIATION"
+
+
+No puedo acceder a las Keys
+
+Pregunta
+No puedo acceder a estos key's de developers.
+
+Respuesta
+Para acceder a los keys en la aba de developers usted necesita del roll de Developer o Admin. Se puede cambiar el roll de alguien o invitar a alguien para tu equipo, en el menú derecho, en la aba "teams and rolls".
+
+Reporte Tx > Authorization Code
+
+Pregunta
+Tengo una duda con el reporte de transacciones que exportamos desde el dashboard, es posible incluir authorization_code ?
+
+Respuesta
+Hoy no es posible incluir en el dashboard el authorization code. Pero en el export de reportes tenemos 32 campos disponibles. Si hay campos que requieren que no le brindamos, por favor escalar la solicitud al KAM asociado.
+
+Prazos devoluciones
+
+
+Pregunta
+Cuales son los plazos que  contarán con las devoluciones.
+
+Respuestas
+La acreditación de las devoluciones es determinada por el proveedor y el banco emissor en caso de que sea una devolución de una compra hecha con tarjeta. Del lado de Yuno la solicitud de una devolución es inmediata. Así que si tiene dudas del tiempo de devoluciones de su proveedor, recomendamos que entre en contacto con ello. 
+
+
+Refund Mercado Pago
+
+Pregunta
+Como funcionan refund de mercado pago?
+
+Respuesta
+En caso de Mercado Pago, cuando hace un refund, el cliente no verá el reembolso en su tarjeta, pero si en su cuenta de Mercado Pago en que tiene la tarjeta. Para ustedes en el dashboard este refund aparecerá normalmente, como una tx más.
+
+Tiempo de refunds Transbank y Klap
+
+Pregunta
+Cuanto tiempo tenemos por transaccion para realizar el refund? existe algún limite? por ejemplo que la transaccion aun no haya sido abonada en nuestra cuenta. Caso Transbank y Klap.
+
+Respuesta 
+Este es un tema en el que intervienen directamente los procesadores, cada uno con sus reglas, en este caso Klap y Transbank. 
+Klap -  no hay un tiempo maximo para hacer refunds y si puedes hacer devolución (reversas) en débito y todas las tarjetas, el pago se abona en la  misma tarjeta con que pago.
+Transbank - puede hacer reversas de credito hasta 11 meses despues de la fecha de creacion de la transaccion, y una vez hecha la reversion esta tiene que aparecer en su liquidacion despues de 3 horas (solo para credito).
+Nuestra recomendacion siempre es que hagan los refunds mas cercana posible de la fecha de transaccion.
+
+
+Refunds Masivos
+
+Pregunta
+Como hago refunds masivos?
+
+
+Respuesta
+En la aba de payments se puede imputar un archivo hasta 1000 líneas. Allí usted encontrará en la parte superior derecha un botón que se llama "Batch refunds". En este es posible exportar un ejemplo de los campos requeridos.
+Expired at vazio
+
+Pergunta
+Eu estou fazendo uma integração com o endpoint de geração de relatórios, e ao fazer os testes de requisição, percebi que na response, o campo de expires_at está vindo vazio.
+
+
+Resposta
+Mandamos vazio porque os reportes não expiram.
+
+
+Report Test
+
+Pergunta
+Como podemos testar os reportes de conciliação em test?
+
+Resposta
+Infelizmente hoje nao é possivel testar reportes em sdbox, é necessário ter pagamentos em produção para se gerar reportes.

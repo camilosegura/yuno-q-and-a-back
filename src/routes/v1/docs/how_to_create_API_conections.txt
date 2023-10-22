@@ -1,0 +1,51 @@
+﻿In this video, you will learn how to get your API credentials.
+0:08
+All Yuno API requests require API credentials to verify the call is being
+0:12
+made through a valid Yuno account.
+0:14
+You can interact with the Yuno API using the Sandbox and
+0:16
+the Production environments.
+0:18
+Sandbox is a test environment while Production is the live mode.
+0:22
+To access these environments, the authentication process is
+0:25
+the same, but you need different credentials to each one of them.
+0:28
+After creating your Yuno account, you immediatelly have access
+0:31
+to the Sandbox credentials.
+0:33
+The production credentials will be generated after activating your account.
+0:37
+To access your sandbox credentials, first go to the Yuno dashboard.
+0:41
+After that, click on the Developers tab on the left panel to access
+0:44
+your Sandbox API credentials.
+0:47
+On the Developers page, you will find the public-api-key,
+0:50
+private-secret-key and the account-code.
+0:53
+These are used to authenticate your requests to the Yuno API.
+0:56
+Now to access the Production credentials, go to the Yuno dashboard
+1:00
+and turn the test mode off using the toggle switch at the top of the page.
+1:04
+When you do this, your status will change to active status, indicating that you
+1:07
+can access your Production credentials.
+1:11
+Here we are using an account that is not activated but the process to find the
+1:14
+production credentials is the same as described for the sandbox credentials.
+1:18
+The Production credentials are different from the sandbox credentials we accessed
+1:21
+earlier, but they have the same name
+English
+Summarize with HARPA AI

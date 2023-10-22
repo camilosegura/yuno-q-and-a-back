@@ -1,0 +1,337 @@
+﻿Status Verify
+ 
+Question: 
+What does the "status verify" mean?
+ 
+Answer: 
+"Verify" is a specific type of transaction used to check whether a card is valid or not without processing a charge or authorization as such, which means it does not involve an amount when verifying the card's validity.
+
+
+Payment Creation Notification 
+
+
+Question:
+Which status corresponds to the notification of payment creation?
+
+
+Answer: 
+There is no event that notifies the creation of the payment. What is actually notified is when the payment changes its status. For example, when the payment is created and remains in a "pending" status, we notify the final result of it. Similarly, if the payment is refunded, we also provide a notification.
+
+
+Notificación Pending
+
+
+Question:
+What status notifies a transaction that is created and in "pending"?
+
+Answer: 
+In the case that you always use transactions of the "purchase" type, with the option selected, we will notify all events related to "purchases." Currently, when the payment is in the "pending" status, we do not send a webhook; we send it when the payment reaches a final status, whether it's "approved," "rejected," or "expired."
+
+
+ Multiple Order IDs
+ 
+Question:
+ Another thing, I see that there is duplication of our order IDs with different Payment IDs, different transaction provider IDs, and different statuses. Which one should we consider? Is this a bug on your end?
+ 
+Answer:
+Regarding these cases, we have a race condition that is allowing payments to be processed with the same Checkout ID - Order ID but with different Idempotency Keys. To prevent this behavior, it is necessary to ensure that the Idempotency Key is always the same.
+
+
+Support Email
+ 
+Question:
+What is the support email?
+ 
+Answer:
+For support, you can contact support@y.uno.
+ 
+Dashboard Invitation Error
+
+
+Question:
+Why can't I send more than one invite by email for the dashboard?
+ 
+Answer:
+When you invite someone, that invitation has a lifespan of up to 6 days. When the invitation expires without being accepted, it becomes inactive and won't appear on the dashboard. If you wish to re-invite the person (as you attempted to do this time), you can do so.
+ 
+Idempotency
+ 
+Question:
+Does the X-idempotency-key header refer to the account code, or where can I find it?
+
+
+Answer:
+"Our API supports idempotency keys to avoid duplicate request processing in case of multiple repetitions of the same operation. This feature is useful when a request fails due to a communication error and you have not received a conclusive answer. If you receive a connection error on a given call, you can simply reattempt a new request using the same idempotency key. This way, our API can guarantee that the second call will not be processed in duplicity."
+
+
+Production Credentials
+ 
+Question:
+If we want to test in production, what is the process for production API keys? Do you generate them, or what should we do?
+ 
+Answer:
+Once your account is active in production, you can go to the developers section from the dashboard and obtain the production credentials in the same way as you did for sandbox. Just make sure that the "test" button at the top of the screen is deactivated.
+
+
+
+
+
+
+Account Activation
+ 
+Question:
+How do I activate my account?
+ 
+Answer:
+To activate your account, you should log in to the dashboard and on the homepage, you'll find the "activate account" option. We will take care of the activation process internally. If you have any questions, please contact the support team.
+ 
+Payment Expiration
+ 
+Question:
+After a certain period of non-payment by the user, will the payment be canceled?
+ 
+Answer:
+Yes, the time it takes for this to happen depends on each specific payment method or provider.
+ 
+Documentation
+ 
+Question:
+Where can I find Yuno's documentation?
+ 
+Answer:
+The documentation can be found at this link: https://docs.y.uno/.
+ 
+PCI Compliance
+ 
+Question:
+Do we need to be PCI Compliance to integrate with Yuno?
+ 
+Answer:
+There is no PCI Compliance requirement on Yuno's side; we are already PCI certified. The only requirement would be to ensure a secure integration, either through the SDK FULL, Lite, or Secure Fields. More information can be found at: https://docs.y.uno/docs/pci-compliance.
+
+
+Tokenization
+ 
+Question:
+Can I tokenize cards in Yuno?
+
+
+Answer:
+Yes, it is possible to tokenize cards in Yuno. In addition to the tokenization tool, it is also possible to migrate tokens to Yuno. For more information, visit
+https://docs.y.uno/docs/token-migration-process
+
+
+SDK Documentation 
+
+Question:
+Where can I find the SDK documentation?
+How do I implement the Yuno SDK?
+
+
+Answer:
+For recurring payments, we do not have a specific SDK, but it's quite straightforward. You need to create a payment via the API(https://docs.y.uno/reference/create-payment)
+There are integration and tokenization flows for each payment method,
+SDK Full
+SDK Lite
+Secure Fields
+
+
+Enrollment
+
+
+Question:
+Is there any chance we could save Customer's bank card number/token on our side to use it for future purchases?`
+Answer:
+Yes, you can save customer’s card using the vaulted token that Yuno’s system return to your system after the enrollment process. You can use this vaulted token to future purchases.
+
+
+Question:
+If I understand correctly, after payment method has been chosen and enrolled by a user, we must take vaulted_token via webhook and create a payment with that, right? So this is only one way to make a payment with already enrolled method?
+
+
+Answer:
+You can receive the vaulted token via webhook and you can store it, so you can, after that, create purchases via back to back using this vaulted token: https://docs.y.uno/reference/create-payment or you can use always the SDK to get the available payment methods for a customer.
+
+
+Question:
+Is there any examples how checkout process will be look like with enrolled bank card payment method?
+
+
+Answer:
+Give me a little time and I’ll send you some screenshots about how a checkout with enrolled payment methods looks.
+
+
+
+
+Question:
+How to set up a redirect button on the status page after a successful/unsuccessful deposit and style it?
+
+
+Answer:
+Callback_url parameter in Create payment method
+https://docs.y.uno/reference/create-payment
+
+
+Question
+How Yuno will pass the vaulted_token method to our service? From webhook?
+
+
+Answer:
+Create the customer or you can use one previous created customer.
+Generate the customer session, via backend.
+Do the get to GET/checkout/sessions/{{checkout_session}}/payment-methods. This is going to give you the available payments methods for that customer.
+Display the payment methods to your customer.
+Enroll the payment method using the endpoint POST/customers/payment-methods..
+Start enrollment SDK.
+Receive the webhook that includes the vaulted token.
+
+
+Question
+What is the difference between the Full SDK and Lite SDK?
+ 
+Answer
+The Full SDK handles the checkout user interface (excluding payment processing) by displaying all available payment methods, whereas the SDK Lite works similarly but does not display the payment methods. However, if any data is missing, create a form to capture it.
+Question
+What does "Direct flow" in Yuno refer to?
+ 
+Answer
+API integrations that do not use our SDK.
+ 
+Question
+Which payment methods can be enrolled in Yuno?
+ 
+Answer
+Cards and certain APMs that allow it.
+
+
+
+
+
+
+Question
+If, when using Yuno's full checkout, I do not see a payment method for which I created a connection in my dashboard, why could this be?
+ 
+Answer
+I do not have the payment method enabled in the checkout builder. I have not enabled the payment method category when initializing the SDK.
+ 
+Question
+What is the workflow?
+ 
+Answer
+A field that indicates which type of integration will be followed, whether using the SDK or a direct (back-to-back) approach.
+ 
+Question
+What process must a merchant follow to create a payment using the SDK?
+ 
+Answer
+Create a customer
+Create a customer_session
+Display payment methods
+Execute a payment with the token obtained through the SDK.
+ 
+Question
+What is the value of Routing?
+ 
+Answer
+Significantly increase payment approval rates by routing transactions through different providers.
+ 
+Question
+What are APMs?
+ 
+Answer
+They are all payment methods other than cards.
+
+
+Question
+What are the two types of communication for receiving the provider's response?
+ 
+Answer
+Asynchronous/Synchronous
+ 
+Question
+What type of reconciliation does Yuno currently offer?
+ 
+Answer
+Yuno offers a transactional reconciliation process between the transactions processed and stored in Yuno's database and the settlements made available by each acquirer with whom a merchant operates through Yuno.
+ 
+Question
+What are the different key sections that compose the dashboard?
+ 
+Answer
+Payments, Developers, Routing, Checkout builder, and Reconciliations.
+ 
+Question
+What is recommended to do during the initial steps on the dashboard?
+ 
+Answer
+Connect to different providers.
+ 
+Question
+To authenticate the user's integration with Yuno, they must use the credentials listed in the section...
+ 
+Answer
+Connections.
+
+
+1. Para autenticar la integración del usuario con Yuno, este debe utilizar las credenciales listadas en la sección... 
+2. Connections
+
+
+
+
+Por favor chequear esta información
+
+
+
+
+Routing
+ 
+Can I customize routing rules?
+Answer: Yes, our payment orchestrator allows you to create and customize routing rules based on your specific business needs. You can define rules by payment type, amount, currency, or other criteria.
+ 
+What happens if a routing destination is temporarily unavailable?
+ 
+Answer: In the event of unavailability or downtime of a routing destination, our orchestrator will automatically switch to an alternative route based on predefined failover rules, ensuring minimal disruption.
+ 
+How are transactions monitored in real-time?
+Answer: Our payment orchestrator continuously monitors transactions, tracking their progress, and alerting you to any anomalies or issues. Real-time dashboards display transaction statuses and performance metrics.
+ 
+Can I route payments through multiple intermediaries or banks?
+Answer: Yes, you can configure multi-hop routing, allowing payments to pass through multiple intermediaries or banks before reaching their final destination. This can optimize routing for specific use cases.
+ 
+Can I track and analyze payment routing costs?
+Answer: Yes, our dashboard provides detailed cost analysis and reporting, allowing you to monitor routing expenses and optimize routing strategies to reduce costs.
+ 
+What analytics and reporting tools are available for monitoring payment routing performance?
+Answer: The dashboard provides a range of analytics and reporting tools, including transaction volume, success rates, latency, and other performance metrics, to help you assess and optimize your payment routing strategy.
+ 
+How can I get support in case of issues or questions related to payment routing?
+Answer: Our support team is available to assist you 24/7. You can reach out for assistance through the dashboard, email, or phone.
+
+
+Payments
+
+
+How do I initiate a payment?
+ 
+Answer: To initiate a payment, click on the "New Payment" or "Initiate Payment" button on the dashboard. Then, provide the necessary payment details, such as recipient information, amount, and payment method.
+ 
+How can I check the status of a payment?
+Answer: You can track the status of a payment by searching for the transaction ID or recipient name in the dashboard's search bar. The dashboard will display real-time status updates.
+ 
+What is the process for handling failed payments?
+Answer: If a payment fails, our orchestrator will generate an error message with details on why it failed. You can then take appropriate action, such as resubmitting the payment, updating payment information, or contacting customer support.
+ 
+How can I access payment history and transaction details?
+Answer: The dashboard maintains a comprehensive transaction history. You can access this data by searching for specific transactions, filtering by date range, or exporting reports.
+ 
+ 
+Can I customize payment routing for specific transactions?
+Answer: Yes, you can define custom payment routing rules based on transaction criteria such as amount, currency, and recipient. The orchestrator will follow these rules when processing payments.
+ 
+ 
+Are there any fees associated with using the payment orchestrator?
+Answer: Transaction fees may apply, and you can find details about these fees in the dashboard. The dashboard may also provide reports on transaction costs.
+ 
+How can I contact support for payment-related issues or questions?
+Answer: If you encounter payment issues or have questions, you can access the support contact information through the dashboard. This includes email, phone, or live chat support options.

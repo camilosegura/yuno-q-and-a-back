@@ -1,0 +1,27 @@
+﻿In this video, you will learn how to invite people to join your team at Yuno.
+0:08
+First log into the Yuno dashboard.
+0:11
+Then click on your avatar.
+0:13
+And then on Team and Roles.
+0:16
+Now click on Invite Member.
+0:19
+Here you can see the invite members panel.
+0:23
+And here you can insert the email of the people you want to invite.
+0:27
+Here you can select the role you want to assign to them.
+0:31
+You can select people simultaneously if they will be assigned the same role
+0:40
+However if the new users need to be assigned to different roles, you
+0:43
+need to repeat the process for each user group with different roles.
+0:47
+When you're done click on Invite
+0:50
+and finally on Done.
+English
+Summarize with HARPA AI

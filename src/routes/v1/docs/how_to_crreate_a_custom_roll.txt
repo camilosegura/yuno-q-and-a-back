@@ -1,0 +1,39 @@
+﻿In this video, you will learn how to create custom roles on the Yuno dashboard.
+0:09
+You can create rules to define your user's permissions and limit or
+0:13
+expand their access in the platform.
+0:16
+To create a custom role, first go to the Yuno dashboard.
+0:20
+Click on your avatar.
+0:23
+And then go to Team and roles.
+0:27
+It will take you to the screen where you can manage your roles.
+0:31
+Now click on Roles management.
+0:34
+Here you can view the default roles Yuno provides and decide
+0:38
+whether you need to use one of those roles or create a new one.
+0:42
+Note that only admin users can create roles.
+0:46
+So, if you need to create a roleclick on Create role.
+0:51
+First, choose a name and description for this role.
+0:54
+For example, we have created a role for finance assistant.
+1:03
+After that you can set the permissions by clicking on the toggle buttons
+1:12
+When you're finished, click on Create and the system will create
+1:16
+a new role as you configured
+1:19
+Here you can edit the roles you created by clicking on the three dot icon.
+1:25
+And then on edit or delete.
+English
+Summarize with HARPA AI
