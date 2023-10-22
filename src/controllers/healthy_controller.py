@@ -4,7 +4,8 @@ class HealthyController(object):
         _ENV = getenv("PYTHON_ENV", "development")
 
         self._app_status = {
-            "hola mundo"
+            "message": f"{_SVC} OK 👽",
+            "environment": _ENV,
         }
 
     def root(self):
