@@ -42,7 +42,8 @@ def chatbot(input_text):
 
 @example_router.get("/training")
 async def read_root():
-    return construct_index(docsPath)
+    construct_index(docsPath)
+    return "Training..."
 
 
 @example_router.get("/gpt/assistant")
