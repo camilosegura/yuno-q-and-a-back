@@ -20,6 +20,7 @@ diretorio_atual = os.path.dirname(__file__)
 caminho_relativo = os.path.join(diretorio_atual, "index.json")
 docsPath = os.path.join(diretorio_atual, "docs")
 indexDocs = ""
+trained = False
 
 def construct_index(directory_path):
     global indexDocs
@@ -33,6 +34,7 @@ def construct_index(directory_path):
     index = GPTSimpleVectorIndex(documents, llm_predictor=llm_predictor, prompt_helper=prompt_helper)
     index.save_to_disk(caminho_relativo)
     indexDocs = GPTSimpleVectorIndex.load_from_disk(caminho_relativo)
+    trained = True
     return "Training finished"
 
 def chatbot(input_text):
@@ -41,9 +43,13 @@ def chatbot(input_text):
 
 
 @example_router.get("/training")
-async def read_root():
+def read_root():
     construct_index(docsPath)
-    return "Training..."
+    return "Training started"
+
+@example_router.get("/training/status")
+def read_root():
+    return trained
 
 
 @example_router.get("/gpt/assistant")
