@@ -1,5 +1,4 @@
 from fastapi import APIRouter
-from handlers.errors import has_errors
 from typing import Union
 from gpt_index import SimpleDirectoryReader, GPTListIndex, GPTSimpleVectorIndex, LLMPredictor, PromptHelper
 from langchain.chat_models import ChatOpenAI
