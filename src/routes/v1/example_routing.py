@@ -6,6 +6,12 @@ from gpt_index import SimpleDirectoryReader, GPTListIndex, GPTSimpleVectorIndex,
 from langchain.chat_models import ChatOpenAI
 import sys
 import os
+import json
+import openai
+import re
+
+
+openai.api_key = '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'
 
 os.environ["OPENAI_API_KEY"] = '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'
 example_router = APIRouter()
@@ -35,11 +41,73 @@ def chatbot(input_text):
 
 
 @example_router.get("/training")
-def read_root():
+async def read_root():
     return construct_index(docsPath)
 
 
-@example_router.get("/")
-def read_item(q: Union[str, None] = None):
-    return chatbot(q) 
+@example_router.get("/gpt/assistant")
+def read_question(q: Union[str, None] = None):
+    prompt = (
+        "Classify the text into question or request\n"
+        f"text: {q}"
+    )
+    messages = [{"role": "user", "content": prompt}]
+    response = openai.ChatCompletion.create(
+        model="gpt-4",
+        messages=messages,
+        temperature=0,
+        max_tokens=20,
+        top_p=1,
+        frequency_penalty=0,
+        presence_penalty=0,
+    )
+
+    response_message = response["choices"][0]["message"]["content"]
+
+    if response_message == 'question':
+        return json.dumps({
+            "action": "print",
+            "message": chatbot(q)
+        })
+    else:
+        prompt = (
+        "Classify the text into insights, payments, reconciliations, connections, routing, checkout-builder or developers\n"
+        "context: We are a payment orchestration company where every category is a dashboard section\n"
+        f"text: {q}\n"
+        "section:"
+        )
+        messages = [{"role": "user", "content": prompt}]
+        response = openai.ChatCompletion.create(
+            model="gpt-4",
+            messages=messages,
+            temperature=0,
+            max_tokens=20,
+            top_p=1,
+            frequency_penalty=0,
+            presence_penalty=0,
+        )
+
+        response_message = response["choices"][0]["message"]["content"]
+
+        if response_message != 'payments':
+            response = {
+                "action": "redirect",
+                "url": "/{response_message}"
+            }
+            return json.dumps(response)
+        else:
+            # Regular expression pattern for UUID
+            pattern = r"[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}"
+
+            # Find all matches in the text
+            matches = re.findall(pattern, q)
+
+            if len(matches) > 0:
+                response = {
+                    "action": "find",
+                    "payments": matches
+                }
+                return json.dumps(response)
+    
+    return "I don't understand your request"
 
