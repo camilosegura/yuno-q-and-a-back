@@ -22,7 +22,9 @@ docsPath = os.path.join(diretorio_atual, "docs")
 indexDocs = ""
 trained = False
 
-def construct_index(directory_path):
+indexDocs = GPTSimpleVectorIndex.load_from_disk(caminho_relativo)
+
+async def construct_index(directory_path):
     global indexDocs
     max_input_size = 4096
     num_outputs = 512
@@ -48,11 +50,11 @@ def read_root():
     return "Training started"
 
 @example_router.get("/training/status")
-def read_root():
+def read_trained():
     return trained
 
 
-@example_router.get("/gpt/assistant")
+@example_router.get("/")
 def read_question(q: Union[str, None] = None):
     prompt = (
         "Classify the text into question or request\n"
@@ -99,7 +101,7 @@ def read_question(q: Union[str, None] = None):
         if response_message != 'payments':
             response = {
                 "action": "redirect",
-                "url": "/{response_message}"
+                "url": f"/{response_message}"
             }
             return json.dumps(response)
         else:
